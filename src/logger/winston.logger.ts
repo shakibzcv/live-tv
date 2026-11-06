@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import winston from 'winston';
 import { NODE_ENV } from '../env';
 
@@ -39,22 +41,37 @@ const format = winston.format.combine(
   })
 );
 
-// Transports: console + rotating log files
-const transports: winston.transport[] = [
-  new winston.transports.Console(),
-  new winston.transports.File({
-    filename: 'logs/error.log',
-    level: 'error',
-  }),
-  new winston.transports.File({
-    filename: 'logs/info.log',
-    level: 'info',
-  }),
-  new winston.transports.File({
-    filename: 'logs/http.log',
-    level: 'http',
-  }),
-];
+// Transports: console + optional rotating log files in local dev
+const transports: winston.transport[] = [new winston.transports.Console()];
+
+const isServerless = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const isDevelopment = (NODE_ENV ?? 'development') === 'development';
+
+if (!isServerless && isDevelopment) {
+  try {
+    const logsDir = path.resolve(__dirname, '../../logs');
+    if (!fs.existsSync(logsDir)) {
+      fs.mkdirSync(logsDir, { recursive: true });
+    }
+
+    transports.push(
+      new winston.transports.File({
+        filename: path.join(logsDir, 'error.log'),
+        level: 'error',
+      }),
+      new winston.transports.File({
+        filename: path.join(logsDir, 'info.log'),
+        level: 'info',
+      }),
+      new winston.transports.File({
+        filename: path.join(logsDir, 'http.log'),
+        level: 'http',
+      })
+    );
+  } catch (err) {
+    console.warn('Could not initialize local file loggers, falling back to console:', err);
+  }
+}
 
 const logger = winston.createLogger({
   level: level(),

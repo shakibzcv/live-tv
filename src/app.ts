@@ -1,4 +1,4 @@
-import express, { type Application } from 'express';
+import express, { Express, type Request, type Response, type NextFunction } from 'express';
 import compression from 'compression';
 import cors from 'cors';
 import path from 'path';
@@ -7,9 +7,8 @@ import { epgService } from './services/epgService';
 import morganMiddleware from './logger/morgan.logger';
 import { errorHandler } from './middlewares/error.middlewares';
 import apiRouter from './routes/api.routes';
-import type { Request, Response } from 'express';
 
-const app: Application = express();
+const app: Express = express();
 
 // ─── Core Middleware ───────────────────────────────────────────────────────────
 app.use(compression());
@@ -89,7 +88,13 @@ const renderApp = (req: Request, res: Response, initialView = 'overview') => {
 };
 
 // ─── SSR Page Routes ──────────────────────────────────────────────────────────
-const LANG_ROUTE = ':lang(en|bn|es|de|fr|hi|ar)';
+const handleLangView = (view: string) => (req: Request, res: Response, next: NextFunction) => {
+  const lang = typeof req.params.lang === 'string' ? req.params.lang.toLowerCase() : '';
+  if (SUPPORTED_LANGS.includes(lang as any)) {
+    return renderApp(req, res, view);
+  }
+  return next();
+};
 
 // Base routes (default language)
 app.get('/',          (req, res) => renderApp(req, res, 'overview'));
@@ -98,10 +103,10 @@ app.get('/player',    (req, res) => renderApp(req, res, 'player'));
 app.get('/channels',  (req, res) => renderApp(req, res, 'channels'));
 
 // Language-prefixed routes (e.g. /bn, /bn/player, /es/countries, /de/channels)
-app.get(`/${LANG_ROUTE}`,           (req, res) => renderApp(req, res, 'overview'));
-app.get(`/${LANG_ROUTE}/countries`, (req, res) => renderApp(req, res, 'countries'));
-app.get(`/${LANG_ROUTE}/player`,    (req, res) => renderApp(req, res, 'player'));
-app.get(`/${LANG_ROUTE}/channels`,  (req, res) => renderApp(req, res, 'channels'));
+app.get('/:lang',           handleLangView('overview'));
+app.get('/:lang/countries', handleLangView('countries'));
+app.get('/:lang/player',    handleLangView('player'));
+app.get('/:lang/channels',  handleLangView('channels'));
 
 // ─── REST API ─────────────────────────────────────────────────────────────────
 app.use('/api', apiRouter);
