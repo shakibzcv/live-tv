@@ -8,8 +8,6 @@ import logger from '../logger/winston.logger';
 interface CachedCountryFeed {
   timestamp: number;
   programmesByChannel: Map<string, EpgProgramme[]>;
-  rawXml?: string;
-  rawGzip?: Buffer;
 }
 
 const CACHE_TTL_MS = 6 * 60 * 60 * 1000; // 6 hours
@@ -66,8 +64,6 @@ export class EpgService {
       return {
         timestamp: Date.now(),
         programmesByChannel,
-        rawXml: xmlText,
-        rawGzip: gzipBuffer,
       };
     } catch (err) {
       logger.warn(`[EpgService] Tier 1 EPG unavailable for [${code}]: ${(err as Error).message}`);
@@ -155,16 +151,6 @@ export class EpgService {
         stopTimeStr: p.stop.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       })),
     };
-  }
-
-  public async getCountryXml(countryCode: string): Promise<string | null> {
-    const feed = await this.loadCountryFeed(countryCode);
-    return feed ? (feed.rawXml || null) : null;
-  }
-
-  public async getCountryGzip(countryCode: string): Promise<Buffer | null> {
-    const feed = await this.loadCountryFeed(countryCode);
-    return feed ? (feed.rawGzip || null) : null;
   }
 
   private _downloadBuffer(urlStr: string): Promise<Buffer> {

@@ -202,32 +202,6 @@ export class DataService {
     return this.channelsById.get(id);
   }
 
-  public getTvFeed(limitPerCountry = 50, maxCountries = 50) {
-    const sortedCountries = this.getCountries('count').slice(0, maxCountries);
-    return sortedCountries
-      .map((c) => {
-        let pool = this.channelsByCountry.get(c.code) || [];
-        if (c.code === 'UK' && pool.length === 0) pool = this.channelsByCountry.get('GB') || [];
-        else if (c.code === 'GB' && pool.length === 0) pool = this.channelsByCountry.get('UK') || [];
-
-        const channels = pool
-          .filter((ch) => ch.isWorking !== false)
-          .slice(0, limitPerCountry)
-          .map((ch) => ({
-            id: ch.id,
-            name: ch.name,
-            streamUrl: ch.streamUrl,
-            logoUrl: ch.logoUrl,
-            resolution: ch.resolution || 'HD',
-            country: ch.country,
-            category: ch.category || 'General',
-          }));
-
-        return { code: c.code, name: c.name, flag: c.flag, channelCount: c.channelCount, channels };
-      })
-      .filter((c) => c.channels.length > 0);
-  }
-
   public getCategories(): string[] {
     const set = new Set<string>();
     for (const ch of this.channels) {
