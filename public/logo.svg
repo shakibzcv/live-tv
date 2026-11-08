@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 34" width="92" height="34" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700;800;900&amp;family=IBM+Plex+Serif:wght@700&amp;display=swap');
+      .brand-text-live {
+        font-family: 'IBM Plex Serif', Georgia, serif;
+        font-weight: 700;
+        font-size: 22px;
+        fill: #f4f4f5;
+        letter-spacing: -0.02em;
+      }
+      @media (prefers-color-scheme: light) {
+        .brand-text-live {
+          fill: #111215;
+        }
+      }
+      .brand-text-tv {
+        font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 800;
+        font-size: 12px;
+        fill: #ffffff;
+        letter-spacing: 0.05em;
+      }
+    </style>
+    <!-- Brand Ruby Gradient matching #e11d48 -->
+    <linearGradient id="logo-ruby-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3366" />
+      <stop offset="60%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+
+    <!-- Ruby Broadcast Glow -->
+    <filter id="logo-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#e11d48" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- "Live" Typography in Serif -->
+  <text x="2" y="24" class="brand-text-live">Live</text>
+
+  <!-- Glowing Ruby Pill Badge with "TV" -->
+  <rect x="52" y="7" width="36" height="20" rx="5" fill="url(#logo-ruby-grad)" filter="url(#logo-glow)"/>
+  <text x="70" y="21.5" text-anchor="middle" class="brand-text-tv">TV</text>
+</svg>

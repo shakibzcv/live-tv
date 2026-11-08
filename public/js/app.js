@@ -180,8 +180,37 @@
     }
   }
 
+  // Setup Theme Toggle (Light / Dark mode)
+  function setupThemeToggle() {
+    const themeBtn = document.getElementById('btn-theme-toggle');
+    if (!themeBtn) return;
+
+    function getCurrentTheme() {
+      return document.documentElement.getAttribute('data-theme') || 'dark';
+    }
+
+    function applyTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      try {
+        localStorage.setItem('livetv_theme', theme);
+      } catch (e) {}
+      const isDark = theme === 'dark';
+      themeBtn.setAttribute('title', isDark ? 'Switch to Light mode' : 'Switch to Dark mode');
+      themeBtn.setAttribute('aria-label', isDark ? 'Switch to Light mode' : 'Switch to Dark mode');
+    }
+
+    // Initialize button state
+    applyTheme(getCurrentTheme());
+
+    themeBtn.addEventListener('click', () => {
+      const nextTheme = getCurrentTheme() === 'dark' ? 'light' : 'dark';
+      applyTheme(nextTheme);
+    });
+  }
+
   function init() {
     setupLanguageSelector();
+    setupThemeToggle();
     setupNavigation();
     setupModals();
     setupSearchFilters();
@@ -363,6 +392,19 @@
       if (window.location.pathname + window.location.search !== newPath) {
         window.history.pushState({ view: viewName, lang: state.currentLang }, '', newPath);
       }
+    }
+
+    // Dynamic document title for client-side navigation
+    if (viewName === 'overview') {
+      document.title = 'LiveTV — Worldwide Live TV Streams & EPG Guide';
+    } else if (viewName === 'countries') {
+      document.title = 'Explore 200+ Countries Live TV Catalog — LiveTV';
+    } else if (viewName === 'channels') {
+      document.title = 'Channels Directory — 18,400+ Live Television Feeds | LiveTV';
+    } else if (viewName === 'player') {
+      document.title = state.currentChannel
+        ? `${state.currentChannel.name} — LiveTV Player`
+        : 'Live TV Player — Watch Live TV Online | LiveTV';
     }
 
     // If switched to TV player and no channel selected yet, populate metadata without auto-playing
@@ -549,6 +591,9 @@
     };
 
     state.currentChannel = channelData;
+    if (state.currentView === 'player' && channelData.name) {
+      document.title = `${channelData.name} — LiveTV Player`;
+    }
 
     // Sync URL to reflect the now-selected channel
     try { syncPlayerUrl(); } catch (e) { console.warn('[syncPlayerUrl] error:', e); }
@@ -1316,6 +1361,8 @@
       const chDirCountrySelect = document.getElementById('channels-dir-country');
       const chDirCategorySelect = document.getElementById('channels-dir-category');
       const chDirCountEl = document.getElementById('ch-dir-count');
+      const chDirEmptyEl = document.getElementById('channels-dir-empty');
+      const resetChFiltersBtn = document.getElementById('btn-reset-ch-filters');
 
       function applyChannelDirFilters() {
         const query = channelsDirSearch.value.toLowerCase().trim();
@@ -1337,11 +1384,24 @@
         if (chDirCountEl) {
           chDirCountEl.textContent = visible + ' channel' + (visible !== 1 ? 's' : '');
         }
+        if (chDirEmptyEl) {
+          chDirEmptyEl.style.display = visible === 0 ? 'flex' : 'none';
+        }
       }
 
       channelsDirSearch.addEventListener('input', applyChannelDirFilters);
       if (chDirCountrySelect) chDirCountrySelect.addEventListener('change', applyChannelDirFilters);
       if (chDirCategorySelect) chDirCategorySelect.addEventListener('change', applyChannelDirFilters);
+
+      if (resetChFiltersBtn) {
+        resetChFiltersBtn.addEventListener('click', () => {
+          channelsDirSearch.value = '';
+          if (chDirCountrySelect) chDirCountrySelect.value = '';
+          if (chDirCategorySelect) chDirCategorySelect.value = '';
+          applyChannelDirFilters();
+          channelsDirSearch.focus();
+        });
+      }
     }
   }
 

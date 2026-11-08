@@ -3,9 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LiveTV — Worldwide TV Streams & EPG</title>
-  <meta name="description" content="Watch 18,000+ live TV channels from 200+ countries directly in your browser. Free, open-source live television streaming with integrated EPG guide.">
-  <link rel="stylesheet" href="/css/style.css?v=1.1.8">
+  <%
+    let pageTitle = "LiveTV — Worldwide Live TV Streams & EPG Guide";
+    let pageDesc = "Watch 18,400+ free live TV channels from 200+ countries directly in your browser. Fast HLS streaming with integrated real-time EPG program schedules.";
+    if (typeof initialView !== 'undefined') {
+      if (initialView === 'player' && typeof defaultCountry !== 'undefined' && defaultCountry.name) {
+        pageTitle = `Live TV Player — Watch ${defaultCountry.name} TV Channels Online | LiveTV`;
+        pageDesc = `Stream live television channels from ${defaultCountry.name} free online with real-time EPG guide and high-definition video playback on LiveTV.`;
+      } else if (initialView === 'countries') {
+        pageTitle = "Explore 200+ Countries Live TV Catalog — LiveTV";
+        pageDesc = "Browse live television broadcasts from over 200 countries worldwide. Filter by region, language, and stream count.";
+      } else if (initialView === 'channels') {
+        pageTitle = "Channels Directory — 18,400+ Live Television Feeds | LiveTV";
+        pageDesc = "Search and filter over 18,400+ live television channels by country, genre, news, sports, movies, and broadcast resolution.";
+      }
+    }
+  %>
+  <title><%= pageTitle %></title>
+  <meta name="description" content="<%= pageDesc %>">
+  <meta name="keywords" content="live tv, free live tv, watch live tv online, iptv streaming, tv streams, epg guide, world live tv, news channels, sports live tv, free television, hls player">
+  <meta name="author" content="LiveTV">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+
+  <!-- Color Scheme & Theme Color for Mobile Browsers -->
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0e0f11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+  <!-- Mobile & PWA App Metas -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="LiveTV">
+  <meta name="application-name" content="LiveTV">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/favicon.svg">
+
+  <!-- Open Graph / Social Previews (Discord, Facebook, WhatsApp, Telegram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LiveTV">
+  <meta property="og:title" content="<%= pageTitle %>">
+  <meta property="og:description" content="<%= pageDesc %>">
+  <meta property="og:image" content="/app_demo/dark.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  <meta property="og:image:alt" content="LiveTV - Free Live TV Streaming & EPG Guide Platform">
+  <meta property="og:locale" content="<%= (typeof currentLang !== 'undefined' && currentLang) ? currentLang : 'en' %>">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= pageTitle %>">
+  <meta name="twitter:description" content="<%= pageDesc %>">
+  <meta name="twitter:image" content="/app_demo/dark.png">
+  <meta name="twitter:image:alt" content="LiveTV - Free Live TV Streaming & EPG Guide Platform">
+
+  <!-- Schema.org JSON-LD Structured Data for Google Rich Results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "LiveTV",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript. Requires HTML5 Video / HLS support.",
+    "description": "Free, open-source live television streaming platform covering 18,400+ channels from 200+ countries with integrated real-time EPG program schedules.",
+    "screenshot": "/app_demo/dark.png",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "18,400+ Free Live TV Channels",
+      "200+ Countries Worldwide",
+      "In-Browser HLS Streaming Player",
+      "Real-time EPG Program Guide",
+      "Dark and Light Themes",
+      "Multi-Language Support (8+ Languages & RTL)"
+    ]
+  }
+  </script>
+
+  <!-- Prevent Theme Flash -->
+  <script>
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('livetv_theme');
+        var theme = savedTheme ? savedTheme : 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="/css/style.css?v=1.2.0">
   <!-- HLS.js for in-browser live streaming -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
@@ -22,9 +114,24 @@
   <header class="site-header">
     <div class="page-shell">
       <div class="header-brand-nav">
-        <a class="brand-wrap" href="/" data-nav="overview">
-          <span class="brand-dot"></span>
-          <span>LiveTV</span>
+        <a class="brand-wrap" href="/" data-nav="overview" aria-label="LiveTV Home">
+          <svg class="brand-logo" width="92" height="34" viewBox="0 0 92 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="nav-ruby-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ff3366" />
+                <stop offset="60%" stop-color="#e11d48" />
+                <stop offset="100%" stop-color="#b91c1c" />
+              </linearGradient>
+              <filter id="nav-live-glow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#e11d48" flood-opacity="0.6"/>
+              </filter>
+            </defs>
+            <!-- "Live" Typography in Serif (adapts to Light/Dark) -->
+            <text x="2" y="24" font-family="'IBM Plex Serif', Georgia, serif" font-weight="700" font-size="22" fill="currentColor" letter-spacing="-0.02em">Live</text>
+            <!-- Glowing Ruby Pill Badge with "TV" -->
+            <rect x="52" y="7" width="36" height="20" rx="5" fill="url(#nav-ruby-grad)" filter="url(#nav-live-glow)"/>
+            <text x="70" y="21.5" font-family="'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="12" fill="#ffffff" text-anchor="middle" letter-spacing="0.05em">TV</text>
+          </svg>
         </a>
 
         <!-- Main Navigation Links -->
@@ -96,6 +203,24 @@
             </button>
           </div>
         </div>
+
+        <!-- Theme Toggle Button (Light/Dark) -->
+        <button type="button" class="icon-btn theme-toggle-btn" id="btn-theme-toggle" title="Switch to Light mode" aria-label="Toggle theme">
+          <svg class="theme-icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
 
         <button type="button" class="icon-btn" id="btn-quick-player" title="Launch TV Player" data-nav="player">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -548,6 +673,14 @@
             </article>
           <% }); %>
         </div>
+
+        <!-- Channels Empty State -->
+        <div id="channels-dir-empty" class="ch-dir-empty" style="display: none;">
+          <div class="ch-dir-empty-icon">📺</div>
+          <h3 class="ch-dir-empty-title" data-i18n="ch_empty_title">No channels found</h3>
+          <p class="ch-dir-empty-desc" data-i18n="ch_empty_desc">No channels match your search and filter criteria. Try adjusting your query or resetting filters.</p>
+          <button type="button" id="btn-reset-ch-filters" class="btn-secondary" style="margin-top: 1rem;">Reset filters</button>
+        </div>
       </div>
     </div>
   </main>
@@ -570,15 +703,15 @@
           <li><a class="footer-link" href="#" data-nav="overview">Overview</a></li>
           <li><a class="footer-link" href="#" data-nav="countries">Countries</a></li>
           <li><a class="footer-link" href="#" data-nav="player">TV Player</a></li>
-          <li><a class="footer-link" href="/api/stats">API Stats</a></li>
+          <li><a class="footer-link" href="#" data-nav="channels">Channels</a></li>
         </ul>
       </div>
 
       <div>
         <p class="footer-col-title" data-i18n="footer_col_project">Project</p>
         <ul class="footer-links">
-          <li><a class="footer-link" href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">iptv-org</a></li>
-          <li><a class="footer-link" href="/api/stats" target="_blank">Live Stats</a></li>
+          <li><a class="footer-link" href="https://github.com/shakibzcv/live-tv" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a class="footer-link" href="https://github.com/shakibzcv/live-tv/blob/main/LICENSE" target="_blank" rel="noopener">License</a></li>
         </ul>
       </div>
     </div>

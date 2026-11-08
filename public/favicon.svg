@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <defs>
+    <!-- Same rich ruby gradient as the badge -->
+    <linearGradient id="fav-ruby-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3366" />
+      <stop offset="60%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square badge in ruby color -->
+  <rect width="32" height="32" rx="7" fill="url(#fav-ruby-grad)"/>
+
+  <!-- Subtle glossy inner border -->
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+
+  <!-- "TV" bold white typography centered -->
+  <text x="16" y="21.5" font-family="'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="15" fill="#ffffff" text-anchor="middle" letter-spacing="0.04em">TV</text>
+</svg>

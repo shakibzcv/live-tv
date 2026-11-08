@@ -40,6 +40,90 @@
   --max-width: 1200px;
 }
 
+/* ==========================================================================
+   Light Mode Theme Overrides
+   ========================================================================== */
+[data-theme="light"] {
+  --background: #f7f8fa;
+  --foreground: #111215;
+  --surface: #ffffff;
+  --surface-card: #ffffff;
+  --surface-muted: #eef0f4;
+  --surface-hover: #e5e8ed;
+  
+  --border: rgba(0, 0, 0, 0.09);
+  --border-hover: rgba(0, 0, 0, 0.22);
+  --border-focus: #111215;
+
+  --muted-foreground: #5a606d;
+  --dim-foreground: #8a919f;
+  
+  --accent: #e11d48;
+  --accent-glow: rgba(225, 29, 72, 0.18);
+  --success: #16a34a;
+  --success-muted: rgba(22, 163, 74, 0.12);
+  --error: #dc2626;
+  --error-muted: rgba(220, 38, 38, 0.12);
+
+  --primary: #111215;
+  --primary-foreground: #ffffff;
+}
+
+[data-theme="light"] .site-header {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="light"] .support-banner {
+  background-color: rgba(238, 240, 244, 0.7);
+}
+
+[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.18);
+}
+[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="light"] .channel-card,
+[data-theme="light"] .channel-dir-card,
+[data-theme="light"] .country-card,
+[data-theme="light"] .metric-box,
+[data-theme="light"] .stat-card,
+[data-theme="light"] .modal-dialog,
+[data-theme="light"] .lang-dropdown-menu {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* Theme Toggle Icons */
+.theme-icon-sun,
+.theme-icon-moon {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+:root:not([data-theme="light"]) .theme-icon-moon {
+  display: none !important;
+}
+:root:not([data-theme="light"]) .theme-icon-sun {
+  display: block !important;
+}
+
+[data-theme="light"] .theme-icon-sun {
+  display: none !important;
+}
+[data-theme="light"] .theme-icon-moon {
+  display: block !important;
+}
+
+body,
+.site-header,
+.channel-card,
+.country-card,
+.metric-box,
+.stat-card,
+.modal-dialog {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
 /* Base Reset */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -163,6 +247,13 @@ input, select {
 }
 .brand-wrap:hover {
   opacity: 0.85;
+}
+.brand-logo {
+  display: block;
+  height: 34px;
+  width: auto;
+  max-width: 155px;
+  flex-shrink: 0;
 }
 .brand-dot {
   width: 8px;
@@ -1544,29 +1635,42 @@ main {
    CHANNELS DIRECTORY
    ========================================================================== */
 
-/* Filter bar */
+/* Filter bar — full responsive layout across mobile, tablet, and desktop */
 .ch-dir-filter-bar {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.65rem;
-  margin: 1.5rem 0 0.75rem 0;
+  margin: 1.5rem 0 0.85rem 0;
+  width: 100%;
 }
 
-@media (min-width: 480px) {
+/* 520px+: search full width on top, country + category in 2 equal columns */
+@media (min-width: 520px) {
   .ch-dir-filter-bar {
     grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
   }
   .ch-dir-search-wrap {
     grid-column: 1 / -1;
   }
 }
 
-@media (min-width: 768px) {
+/* 800px+: single clean row across tablet landscape / desktop */
+@media (min-width: 800px) {
   .ch-dir-filter-bar {
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr minmax(170px, 240px) minmax(150px, 220px);
+    gap: 0.75rem;
   }
   .ch-dir-search-wrap {
     grid-column: auto;
+  }
+}
+
+/* 1140px+: wider select controls */
+@media (min-width: 1140px) {
+  .ch-dir-filter-bar {
+    grid-template-columns: 1fr minmax(200px, 280px) minmax(170px, 240px);
+    gap: 0.85rem;
   }
 }
 
@@ -1574,6 +1678,8 @@ main {
   position: relative;
   display: flex;
   align-items: center;
+  width: 100%;
+  min-width: 0;
 }
 
 .ch-dir-search-icon {
@@ -1595,31 +1701,38 @@ main {
   font-family: var(--font-sans);
   color: var(--foreground);
   outline: none;
-  transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 .ch-dir-search-input:focus {
   border-color: var(--border-focus);
+  box-shadow: 0 0 0 2px var(--focus-ring);
 }
 .ch-dir-search-input::placeholder {
   color: var(--dim-foreground);
 }
 
 .ch-dir-select {
+  width: 100%;
+  max-width: 100%;
   height: 40px;
   background-color: var(--surface-card);
   border: 1px solid var(--border);
   border-radius: 4px;
-  padding: 0 0.75rem;
+  padding: 0 0.85rem;
   font-size: 0.8125rem;
   font-family: var(--font-sans);
   color: var(--foreground);
   outline: none;
   cursor: pointer;
   min-width: 0;
-  transition: border-color 0.15s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 .ch-dir-select:focus {
   border-color: var(--border-focus);
+  box-shadow: 0 0 0 2px var(--focus-ring);
 }
 .ch-dir-select option {
   background-color: var(--surface);
@@ -1634,6 +1747,116 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: 1.25rem;
+}
+
+/* Channel dir grid — responsive column layout */
+.ch-dir-grid {
+  display: grid;
+  /* Mobile first: 1 column so cards are wide, readable, and touch-friendly */
+  grid-template-columns: 1fr !important;
+  gap: 0.85rem;
+}
+
+/* 600px+: 2 columns on small tablets and wide phones in landscape */
+@media (min-width: 600px) {
+  .ch-dir-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem;
+  }
+}
+
+/* 900px+: 3 columns on standard tablets and small laptops */
+@media (min-width: 900px) {
+  .ch-dir-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1.15rem;
+  }
+}
+
+/* 1240px+: 4 columns on desktop monitors */
+@media (min-width: 1240px) {
+  .ch-dir-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 1.25rem;
+  }
+}
+
+/* 1680px+: 5 columns on ultra-wide screens */
+@media (min-width: 1680px) {
+  .ch-dir-grid {
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 1.35rem;
+  }
+}
+
+/* Channel directory card */
+.channel-dir-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 154px;
+  padding: 1rem;
+  background-color: var(--surface-card);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  gap: 0.65rem;
+  position: relative;
+  min-width: 0;
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+}
+.channel-dir-card:hover {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+[data-theme="light"] .channel-dir-card:hover {
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.channel-dir-card .card-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.65rem;
+  min-width: 0;
+}
+
+.channel-dir-card .card-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.channel-dir-card .card-titles {
+  flex: 1;
+  min-width: 0;
+}
+
+.channel-dir-card .card-name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--foreground);
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.channel-dir-card .card-meta {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--muted-foreground);
+  margin-top: 0.15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.channel-dir-card .epg-badge {
+  flex-shrink: 0;
+  align-self: flex-start;
 }
 
 /* Channel card logo box */
@@ -1656,40 +1879,6 @@ main {
   object-fit: contain;
 }
 
-/* Channel directory card action buttons */
-.ch-dir-actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  margin-top: auto;
-  padding-top: 0.75rem;
-}
-.ch-dir-actions .btn-primary,
-.ch-dir-actions .btn-secondary {
-  height: 34px;
-  font-size: 0.8rem;
-  padding: 0 0.75rem;
-  width: 100%;
-  justify-content: center;
-}
-
-/* Channel dir grid — use slightly denser gap */
-.ch-dir-grid {
-  gap: 0.85rem;
-}
-@media (min-width: 480px) {
-  .ch-dir-grid {
-    gap: 1rem;
-  }
-}
-
-/* Channel dir card — ensure uniform height */
-.channel-dir-card {
-  display: flex;
-  flex-direction: column;
-  min-height: 152px;
-}
-
 /* Country badge row */
 .channel-dir-country {
   display: flex;
@@ -1700,7 +1889,7 @@ main {
   color: var(--muted-foreground);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  margin-top: 0.25rem;
+  min-width: 0;
 }
 .channel-dir-country img {
   width: 16px;
@@ -1709,15 +1898,67 @@ main {
   border-radius: 1px;
   flex-shrink: 0;
 }
+.channel-dir-country span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
 
-/* On small phones — stack cards 1 column */
-@media (max-width: 479px) {
-  .ch-dir-grid {
-    grid-template-columns: 1fr !important;
-  }
-  .ch-dir-actions {
-    grid-template-columns: 1fr 1fr;
-  }
+/* Channel directory card action buttons */
+.ch-dir-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  min-width: 0;
+}
+.ch-dir-actions .btn-primary,
+.ch-dir-actions .btn-secondary {
+  height: 35px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0 0.5rem;
+  width: 100%;
+  min-width: 0;
+  justify-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4px;
+}
+
+/* Empty state when no channels match filters */
+.ch-dir-empty {
+  text-align: center;
+  padding: 3.5rem 1.5rem;
+  background-color: var(--surface-card);
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ch-dir-empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+  opacity: 0.75;
+}
+.ch-dir-empty-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 0.35rem;
+}
+.ch-dir-empty-desc {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  max-width: 28rem;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 /* Country card — inactive (no channels) */
@@ -1732,18 +1973,6 @@ main {
 .epg-badge--none {
   background-color: var(--surface-muted);
   color: var(--dim-foreground);
-}
-
-/* Channel directory card country row */
-.channel-dir-country {
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  color: var(--muted-foreground);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
 }
 
 /* ==========================================================================
@@ -1965,6 +2194,18 @@ main {
     min-width: 100%;
   }
 
+  .view-header {
+    padding: 1.5rem 0 1.25rem 0;
+  }
+
+  .view-title {
+    font-size: 1.75rem;
+  }
+
+  .view-subhead {
+    font-size: 0.875rem;
+  }
+
   .modal-overlay {
     padding: 0.75rem;
   }
@@ -1991,9 +2232,27 @@ main {
     padding-right: 0.75rem;
   }
 
+  .view-header {
+    padding: 1.15rem 0 0.85rem 0;
+  }
+
+  .view-title {
+    font-size: 1.45rem;
+  }
+
+  .view-subhead {
+    font-size: 0.8125rem;
+    line-height: 1.45;
+  }
+
   .brand-wrap {
     font-size: 1.125rem;
     gap: 0.45rem;
+  }
+
+  .brand-logo {
+    height: 28px;
+    max-width: 130px;
   }
 
   .nav-link {
