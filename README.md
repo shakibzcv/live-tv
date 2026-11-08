@@ -56,7 +56,38 @@ Featuring a native HLS streaming player, custom audio and display controls, coun
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Architecture & How It Works
+
+```mermaid
+flowchart LR
+    subgraph Client ["🖥️ Web Client (Browser)"]
+        UI["Modern Responsive UI<br/>(EJS · Dark/Light · i18n)"]
+        Player["HLS.js Video Engine<br/>(Controls & Fullscreen)"]
+    end
+
+    subgraph Server ["⚡ LiveTV Server (Express 5 & TS)"]
+        Router["Page & API Routing<br/>(/channels · /epg · /playlist)"]
+        DataService["Catalog & EPG Service<br/>(In-Memory Cache)"]
+    end
+
+    subgraph Data ["📁 Local Catalogs"]
+        ChannelsDB["channels.json<br/>(18,400+ Channels)"]
+        Playlists["streams/*.m3u<br/>(200+ Country Feeds)"]
+    end
+
+    subgraph Upstream ["📡 Live Broadcast Sources"]
+        LiveCDNs["Official Stream CDNs<br/>(Direct HLS .m3u8 Feeds)"]
+    end
+
+    UI --> Router
+    Router --> DataService
+    DataService --> ChannelsDB
+    DataService --> Playlists
+    UI --> Player
+    Player -. "Direct HLS Stream Playback" .-> LiveCDNs
+```
+
+### Tech Stack Breakdown
 
 - **Backend**: [Node.js](https://nodejs.org/), [Express 5](https://expressjs.com/), [TypeScript](https://www.typescriptlang.org/)
 - **Templating**: [EJS](https://ejs.co/) (Embedded JavaScript templates)
