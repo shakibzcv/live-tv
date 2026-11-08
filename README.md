@@ -5,7 +5,8 @@
 </p>
 
 <p align="center">
-  <strong>Worldwide Live TV Directory, Web Player & EPG Guide Platform</strong>
+  <strong>Worldwide Live TV Directory, Web Player & EPG Guide Platform</strong><br>
+  Watch 18,400+ free live TV channels from 200+ countries directly in your browser with fast HLS streaming, M3U playlists, and TV guide schedules.
 </p>
 
 <p align="center">
@@ -22,7 +23,7 @@
 
 ## 📖 Overview
 
-**LiveTV** is a modern, high-performance live television directory, browser-based web player, and Electronic Program Guide (EPG) platform. It provides instant access to **18,400+ free-to-air live television streams from 200+ countries**, fully categorized by country, genre, and broadcast resolution.
+**LiveTV** is a modern, high-performance live television directory, browser-based web player, and Electronic Program Guide (EPG) platform. Watch 18,400+ free live TV channels from 200+ countries directly in your browser with fast HLS streaming, M3U playlists, and TV guide schedules. It provides instant access to **18,400+ free-to-air live television streams from 200+ countries**, fully categorized by country, genre, and broadcast resolution.
 
 Featuring a native HLS streaming player, custom audio and display controls, country-specific M3U playlists, XMLTV/Rytec feeds, multi-language internationalization (i18n) with RTL support, and a dual-theme dark/light UI, LiveTV is designed for desktop, tablet, and mobile viewing.
 

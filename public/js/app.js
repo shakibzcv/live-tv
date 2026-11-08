@@ -211,6 +211,7 @@
   function init() {
     setupLanguageSelector();
     setupThemeToggle();
+    setupMobileMenu();
     setupNavigation();
     setupModals();
     setupSearchFilters();
@@ -321,6 +322,70 @@
     }
   }
 
+  // --- MOBILE MENU CONTROLLER ---
+  let closeMobileMenu = function() {};
+
+  function setupMobileMenu() {
+    const menuBtn = document.getElementById('btn-mobile-menu');
+    const navDrawer = document.getElementById('mobile-nav-drawer');
+    const header = document.getElementById('site-header');
+    if (!menuBtn || !navDrawer) return;
+
+    closeMobileMenu = function() {
+      if (navDrawer.classList.contains('open')) {
+        navDrawer.classList.remove('open');
+        if (header) header.classList.remove('mobile-open');
+        navDrawer.setAttribute('aria-hidden', 'true');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        const hamburger = menuBtn.querySelector('.hamburger-icon');
+        const closeIcon = menuBtn.querySelector('.close-icon');
+        if (hamburger) hamburger.style.display = 'block';
+        if (closeIcon) closeIcon.style.display = 'none';
+      }
+    };
+
+    function openMobileMenu() {
+      navDrawer.classList.add('open');
+      if (header) header.classList.add('mobile-open');
+      navDrawer.setAttribute('aria-hidden', 'false');
+      menuBtn.setAttribute('aria-expanded', 'true');
+      const hamburger = menuBtn.querySelector('.hamburger-icon');
+      const closeIcon = menuBtn.querySelector('.close-icon');
+      if (hamburger) hamburger.style.display = 'none';
+      if (closeIcon) closeIcon.style.display = 'block';
+    }
+
+    menuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (navDrawer.classList.contains('open')) {
+        closeMobileMenu();
+      } else {
+        openMobileMenu();
+      }
+    });
+
+    // Close on click outside header
+    document.addEventListener('click', (e) => {
+      if (header && !header.contains(e.target)) {
+        closeMobileMenu();
+      }
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeMobileMenu();
+      }
+    });
+
+    // Close when resized to desktop (>= 768px)
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 768) {
+        closeMobileMenu();
+      }
+    });
+  }
+
   // --- NAVIGATION CONTROLLER ---
   function setupNavigation() {
     document.querySelectorAll('[data-nav]').forEach(el => {
@@ -367,14 +432,19 @@
       activePane.classList.add('active');
     }
 
-    // Toggle nav active classes
-    document.querySelectorAll('.main-nav .nav-link').forEach(link => {
+    // Toggle nav active classes across desktop and mobile
+    document.querySelectorAll('.main-nav .nav-link, .mobile-nav-link').forEach(link => {
       if (link.dataset.nav === viewName) {
         link.classList.add('active');
       } else {
         link.classList.remove('active');
       }
     });
+
+    // Auto-close mobile drawer when navigating
+    if (typeof closeMobileMenu === 'function') {
+      closeMobileMenu();
+    }
 
     // Update browser URL (preserving /:lang prefix)
     if (pushState) {
