@@ -1,41 +1,62 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="DegaTV.us@SD",Dega TV (720p) [Not 24/7]
+#EXTM3U url-tvg="https://epg.kanya.io/ht/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="DegaTV.us@SD" tvg-name="Dega TV (720p) [Not 24/7]" tvg-logo="https://i.ibb.co/ZTYvHyR/DEGA-TV-TELEPACK.jpg" tvg-country="HT" group-title="Music",Dega TV (720p) [Not 24/7]
 https://59d39900ebfb8.streamlock.net/saintlouisltv/saintlouisltv/playlist.m3u8
-#EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD",Haiti News Channel (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD" tvg-name="Haiti News Channel (1080p) [Not 24/7]" tvg-logo="https://m.media-amazon.com/images/I/51bJg+c7vRL.png" tvg-country="HT" group-title="News",Haiti News Channel (1080p) [Not 24/7]
 https://cdn.haititivi.com/website/haitinews/index.m3u8
-#EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD",Haiti News Channel (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD_2" tvg-name="Haiti News Channel (720p) [Not 24/7]" tvg-logo="https://m.media-amazon.com/images/I/51bJg+c7vRL.png" tvg-country="HT" group-title="News",Haiti News Channel (720p) [Not 24/7]
 https://haititivi.com/website/haitinews/index.m3u8
-#EXTINF:-1 tvg-id="NetalkoleTV.ht@SD",NETALKOLE TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="NetalkoleTV.ht@SD" tvg-name="NETALKOLE TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/SdVrpzY.png" tvg-country="HT" group-title="General",NETALKOLE TV (720p) [Not 24/7]
 https://watch.haitilive.net/naktvhd/index.m3u8
-#EXTINF:-1 tvg-id="RadioTele4VEH.ht@SD",Radio Télé 4VEH (720p)
+
+#EXTINF:-1 tvg-id="RadioTele4VEH.ht@SD" tvg-name="Radio Télé 4VEH" tvg-logo="https://i.imgur.com/AnOjqaS.png" tvg-country="HT" group-title="Religious",Radio Télé 4VEH
 https://uni01rtmp.tulix.tv/4vehtv/4vehtv-firetv/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTeleAmenFM.ht@SD",Radio Télé Amen FM (360p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RadioTeleAmenFM.ht@SD" tvg-name="Radio Télé Amen FM (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/MTaFdHE.png" tvg-country="HT" group-title="Religious",Radio Télé Amen FM (360p) [Not 24/7]
 http://184.173.179.163:1935/daniel/daniel/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTeleFullGospel.ht@SD",Radio Tele Full Gospel
+
+#EXTINF:-1 tvg-id="RadioTeleFullGospel.ht@SD" tvg-name="Radio Tele Full Gospel" tvg-logo="https://i.imgur.com/WbwIp9y.jpeg" tvg-country="HT" group-title="Religious",Radio Tele Full Gospel
 https://f-tx-edge-87.christianworldmedia.com/EJCFG/mp4:EJCFG/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTeleGinen.ht@SD",Radio Tele Ginen
+
+#EXTINF:-1 tvg-id="RadioTeleGinen.ht@SD" tvg-name="Radio Tele Ginen" tvg-logo="https://i.imgur.com/ESlt16G.png" tvg-country="HT" group-title="General",Radio Tele Ginen
 http://teleginen.srfms.com:1935/teleginen/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTeleHit.ht@SD",Radio Télé Hit (480p)
+
+#EXTINF:-1 tvg-id="RadioTeleHit.ht@SD" tvg-name="Radio Télé Hit" tvg-logo="https://i.ibb.co/Gt2QDgf/cropped-transparent2-103x70.png" tvg-country="HT" group-title="Music",Radio Télé Hit
 https://59d39900ebfb8.streamlock.net/RadioTelehit/RadioTelehit/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTeleKajou.us@SD",Radio Télé Kajou (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RadioTeleKajou.us@SD" tvg-name="Radio Télé Kajou (480p) [Not 24/7]" tvg-logo="https://i.ibb.co/1MhvJ3B/logork.png" tvg-country="HT" group-title="Music",Radio Télé Kajou (480p) [Not 24/7]
 https://59d39900ebfb8.streamlock.net/RadioTelekAJOU/RadioTelekAJOU/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTelePlanetCompas.ht@SD",Radio Tele Planet Compas (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RadioTelePlanetCompas.ht@SD" tvg-name="Radio Tele Planet Compas (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/ddb4lsa.png" tvg-country="HT" group-title="General",Radio Tele Planet Compas (720p) [Not 24/7]
 https://5dcab9aed5331.streamlock.net/mrcompas1/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTeleWisdom.us@SD",Radio Télé Wisdom (360p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RadioTeleWisdom.us@SD" tvg-name="Radio Télé Wisdom (360p) [Not 24/7]" tvg-logo="https://i.ibb.co/DQksC23/unnamed-1.jpg" tvg-country="HT" group-title="Religious",Radio Télé Wisdom (360p) [Not 24/7]
 https://59d39900ebfb8.streamlock.net/daniel/daniel/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTelevisionShilo.ht@SD",Radio Télévision Shilo (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RadioTelevisionShilo.ht@SD" tvg-name="Radio Télévision Shilo (720p) [Not 24/7]" tvg-logo="https://cdn.onlineradiobox.com/img/l/0/98960.v3.png" tvg-country="HT" group-title="General",Radio Télévision Shilo (720p) [Not 24/7]
 https://watch.haitilive.net/freehb/rtvs/index.m3u8
-#EXTINF:-1 tvg-id="RTHTV1.us@SD",RTH-TV1 (1080p)
+
+#EXTINF:-1 tvg-id="RTHTV1.us@SD" tvg-name="RTH-TV1" tvg-logo="https://i.imgur.com/4z0FiEA.png" tvg-country="HT" group-title="General",RTH-TV1
 https://2-fss-2.streamhoster.com/pl_120/amlst:206708-4203440/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleHaiti.ht@SD",Tele Haiti (1088p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TeleHaiti.ht@SD" tvg-name="Tele Haiti (1088p) [Not 24/7]" tvg-logo="https://i.imgur.com/Hso9j58.png" tvg-country="HT" group-title="General",Tele Haiti (1088p) [Not 24/7]
 http://66.175.238.147:1935/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleLouange.ht@SD",Tele Louange (1080p)
+
+#EXTINF:-1 tvg-id="TeleLouange.ht@SD" tvg-name="Tele Louange" tvg-logo="https://i.imgur.com/DjnMUuL.png" tvg-country="HT" group-title="Religious",Tele Louange
 https://5790d294af2dc.streamlock.net/8124/8124/playlist.m3u8
-#EXTINF:-1 tvg-id="TelePam.us@SD",Tele Pam (1080p)
+
+#EXTINF:-1 tvg-id="TelePam.us@SD" tvg-name="Tele Pam" tvg-logo="https://i.ibb.co/xMYMyHh/telepammmm.png" tvg-country="HT" group-title="General",Tele Pam
 https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="TeleMIX.us@SD",TeleMIX (720p)
+
+#EXTINF:-1 tvg-id="TeleMIX.us@SD" tvg-name="TeleMIX" tvg-logo="https://i.ibb.co/HpX99Ks/unnamed.jpg" tvg-country="HT" group-title="Entertainment",TeleMIX
 https://haititivi.com/haiti/telemix1/index.m3u8
-#EXTINF:-1 tvg-id="TNH.ht@SD",TNH (720p)
+
+#EXTINF:-1 tvg-id="TNH.ht@SD" tvg-name="TNH" tvg-logo="https://i.imgur.com/8nvCXzt.png" tvg-country="HT" group-title="General",TNH
 https://bozztv.com/dvrfl03/hdirect/hdirect-telecaraibes/index.m3u8
-#EXTINF:-1 tvg-id="TVPanou.ht@SD",TV Panou (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TVPanou.ht@SD" tvg-name="TV Panou (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/zee6sWn.png" tvg-country="HT" group-title="General",TV Panou (720p) [Not 24/7]
 http://tvpanoucom.srfms.com:1935/tvpanoucom/livestream/playlist.m3u8
+

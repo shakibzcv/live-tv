@@ -1,41 +1,62 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="5Plus.mm@SD",5 Plus (720p)
+#EXTM3U url-tvg="https://epg.kanya.io/mm/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="5Plus.mm@SD" tvg-name="5 Plus" tvg-logo="https://i.imgur.com/4EHL2mH.png" tvg-country="MM" group-title="Entertainment",5 Plus
 https://mmtvs.exliatycl.online/5plus/stream.m3u8
-#EXTINF:-1 tvg-id="Channel9.mm@SD",Channel 9 (720p)
+
+#EXTINF:-1 tvg-id="Channel9.mm@SD" tvg-name="Channel 9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/Channel_9_Myanmar_Logo.jpg" tvg-country="MM" group-title="General",Channel 9
 https://mmtvs.exliatycl.online/channel9/stream.m3u8
-#EXTINF:-1 tvg-id="ChannelK.mm@SD",Channel K (720p)
+
+#EXTINF:-1 tvg-id="ChannelK.mm@SD" tvg-name="Channel K" tvg-logo="https://i.imgur.com/6PqxuhF.png" tvg-country="MM" group-title="Entertainment",Channel K
 https://mmtvs.exliatycl.online/channelk/stream.m3u8
-#EXTINF:-1 tvg-id="DVBTV.mm@SD",DVB TV (720p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="DVBTV.mm@SD" tvg-name="DVB TV (720p) [Geo-blocked]" tvg-logo="https://i.imgur.com/VdezHOv.png" tvg-country="MM" group-title="News",DVB TV (720p) [Geo-blocked]
 https://live-stream.dvb.no/hls/stream_src/index.m3u8
-#EXTINF:-1 tvg-id="FortuneTV.mm@SD",FORTUNE TV (720p)
+
+#EXTINF:-1 tvg-id="FortuneTV.mm@SD" tvg-name="FORTUNE TV" tvg-logo="https://i.imgur.com/MM5evnD.png" tvg-country="MM" group-title="Entertainment",FORTUNE TV
 http://103.215.194.93:8282/hls/fortunetv/vmix.m3u8
-#EXTINF:-1 tvg-id="HluttawSD.mm@SD",Hluttaw S & D
+
+#EXTINF:-1 tvg-id="HluttawSD.mm@SD" tvg-name="Hluttaw S & D" tvg-logo="https://i.imgur.com/Gffq8ks.png" tvg-country="MM" group-title="Legislative",Hluttaw S & D
 https://mrtvott.com/cache/MRTV-HLUTTAW/master.m3u8
-#EXTINF:-1 tvg-id="MEntertainmentChannel.mm@SD",M Entertainment Channel (720p)
+
+#EXTINF:-1 tvg-id="MEntertainmentChannel.mm@SD" tvg-name="M Entertainment Channel" tvg-logo="https://i.imgur.com/6PcdTZ2.png" tvg-country="MM" group-title="Entertainment",M Entertainment Channel
 https://mmtvs.exliatycl.online/mchannel/stream.m3u8
-#EXTINF:-1 tvg-id="",MCS (720p)
+
+#EXTINF:-1 tvg-id="ch_873" tvg-name="MCS" tvg-country="MM" group-title="General",MCS
 https://l1-xl1.myanmarnet.com/relay2/mcs/ch1/stream.m3u8
-#EXTINF:-1 tvg-id="MRTV.mm@HD",MRTV (720p)
+
+#EXTINF:-1 tvg-id="MRTV.mm@HD" tvg-name="MRTV" tvg-logo="https://i.imgur.com/uyv7oJH.png" tvg-country="MM" group-title="General",MRTV
 https://asia.sipradius.net/cache/SEAGames4/master.m3u8
-#EXTINF:-1 tvg-id="MRTV.mm@SD",MRTV
+
+#EXTINF:-1 tvg-id="MRTV.mm@SD" tvg-name="MRTV" tvg-logo="https://i.imgur.com/uyv7oJH.png" tvg-country="MM" group-title="General",MRTV
 https://mrtvott.com/cache/MRTV-HD/master.m3u8
-#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD",MRTV Entertainment
+
+#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" tvg-name="MRTV Entertainment" tvg-logo="https://i.imgur.com/c9q6oT0.png" tvg-country="MM" group-title="Entertainment",MRTV Entertainment
 https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
-#EXTINF:-1 tvg-id="MRTVFarmer.mm@SD",MRTV Farmer
+
+#EXTINF:-1 tvg-id="MRTVFarmer.mm@SD" tvg-name="MRTV Farmer" tvg-logo="https://i.imgur.com/f4PWvrW.jpg" tvg-country="MM" group-title="Documentary",MRTV Farmer
 https://mrtvott.com/cache/MRTV-FARMER/master.m3u8
-#EXTINF:-1 tvg-id="MRTVNews.mm@SD",MRTV News
+
+#EXTINF:-1 tvg-id="MRTVNews.mm@SD" tvg-name="MRTV News" tvg-logo="https://i.imgur.com/5eK8Bc4.png" tvg-country="MM" group-title="News",MRTV News
 https://mrtvott.com/cache/MRTV-NEWS-HD/master.m3u8
-#EXTINF:-1 tvg-id="MRTVNRC.mm@SD",MRTV NRC
+
+#EXTINF:-1 tvg-id="MRTVNRC.mm@SD" tvg-name="MRTV NRC" tvg-logo="https://i.imgur.com/5aLFslk.jpg" tvg-country="MM" group-title="Culture",MRTV NRC
 https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8
-#EXTINF:-1 tvg-id="MWDDocumentary.mm@SD",MWD Documentary [Geo-blocked]
+
+#EXTINF:-1 tvg-id="MWDDocumentary.mm@SD" tvg-name="MWD Documentary [Geo-blocked]" tvg-logo="https://i.imgur.com/4XV7cjU.png" tvg-country="MM" group-title="Documentary",MWD Documentary [Geo-blocked]
 http://203.81.84.130/hls/mwd_document/index.m3u8
-#EXTINF:-1 tvg-id="MWD.mm@SD",MWD (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="MWD.mm@SD" tvg-name="MWD (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/zyTQG9F.png" tvg-country="MM" group-title="General",MWD (720p) [Not 24/7]
 http://203.81.84.130/hls/mwd/index.m3u8
-#EXTINF:-1 tvg-id="MWDVariety.mm@SD",MWD Variety (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="MWDVariety.mm@SD" tvg-name="MWD Variety (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/wb3Ku8X.png" tvg-country="MM" group-title="Entertainment",MWD Variety (720p) [Not 24/7]
 http://203.81.84.130/hls/mwd_variety/index.m3u8
-#EXTINF:-1 tvg-id="MRTVSports.mm@SD",MRTV Sports [Not 24/7]
+
+#EXTINF:-1 tvg-id="MRTVSports.mm@SD" tvg-name="MRTV Sports [Not 24/7]" tvg-logo="https://i.imgur.com/cFTR4kC.png" tvg-country="MM" group-title="Sports",MRTV Sports [Not 24/7]
 https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
-#EXTINF:-1 tvg-id="MWDMovies.mm@SD",MWD Movies [Not 24/7]
+
+#EXTINF:-1 tvg-id="MWDMovies.mm@SD" tvg-name="MWD Movies [Not 24/7]" tvg-logo="https://i.imgur.com/5KRsqeF.png" tvg-country="MM" group-title="Movies",MWD Movies [Not 24/7]
 http://203.81.84.130/hls/mwd_movie/index.m3u8
-#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD",Myanmar International TV
+
+#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-name="Myanmar International TV" tvg-logo="https://i.imgur.com/ClmWqE5.png" tvg-country="MM" group-title="General",Myanmar International TV
 https://mrtvott.com/cache/MITV/master.m3u8
+

@@ -1,140 +1,212 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="31Kanal.kz@SD",31 Kanal (576p)
+#EXTM3U url-tvg="https://epg.kanya.io/kz/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="31Kanal.kz@SD" tvg-name="31 Kanal" tvg-logo="https://31.kz/noimage.png" tvg-country="KZ" group-title="General",31 Kanal
 http://stream.mcquack.net/388/index.m3u8
-#EXTINF:-1 tvg-id="31Kanal.kz@SD",31 Kanal
-#EXTVLCOPT:http-referrer=https://31.kz/
+
+#EXTINF:-1 tvg-id="31Kanal.kz@SD_2" tvg-name="31 Kanal (Feed 2)" tvg-logo="https://31.kz/noimage.png" tvg-country="KZ" group-title="General",31 Kanal (Feed 2)
 https://streams.adapto.kz/hls/live/31kz/main_stream.m3u8
-#EXTINF:-1 tvg-id="AbaiTV.kz@SD",Abai TV (720p)
+
+#EXTINF:-1 tvg-id="AbaiTV.kz@SD" tvg-name="Abai TV" tvg-logo="https://i.imgur.com/Nw2R7Dq.png" tvg-country="KZ" group-title="Culture",Abai TV
 https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlauTV.kz@SD",Alau TV (576p)
+
+#EXTINF:-1 tvg-id="AlauTV.kz@SD" tvg-name="Alau TV" tvg-logo="https://i.imgur.com/gK6ZRzp.png" tvg-country="KZ" group-title="General",Alau TV
 https://otv.wotom.net/alau/stream.m3u8
-#EXTINF:-1 tvg-id="Aqjaiyq.kz@SD",Aqjaiyq (576p)
+
+#EXTINF:-1 tvg-id="Aqjaiyq.kz@SD" tvg-name="Aqjaiyq" tvg-logo="https://i.imgur.com/ZqIzzmf.png" tvg-country="KZ" group-title="General",Aqjaiyq
 https://stream.kaztrk.kz/regional/oraltv/index.m3u8
-#EXTINF:-1 tvg-id="Aqtobe.kz@SD",Aqtóbe (576p)
+
+#EXTINF:-1 tvg-id="Aqtobe.kz@SD" tvg-name="Aqtóbe" tvg-logo="https://i.imgur.com/csKl1z6.png" tvg-country="KZ" group-title="General",Aqtóbe
 https://stream.kaztrk.kz/regional/aktobetv/index.m3u8
-#EXTINF:-1 tvg-id="AstanaTV.kz@SD",Astana TV (576p)
+
+#EXTINF:-1 tvg-id="AstanaTV.kz@SD" tvg-name="Astana TV" tvg-logo="https://i.imgur.com/j4HfVK0.png" tvg-country="KZ" group-title="General",Astana TV
 http://stream.mcquack.net/28/index.m3u8
-#EXTINF:-1 tvg-id="Atyray.kz@SD",Atyraý (720p)
+
+#EXTINF:-1 tvg-id="Atyray.kz@SD" tvg-name="Atyraý" tvg-logo="https://i.imgur.com/kva4O3T.png" tvg-country="KZ" group-title="General",Atyraý
 https://stream.kaztrk.kz/regional/atyrautv/index.m3u8
-#EXTINF:-1 tvg-id="Balapan.kz@HD",Balapan HD (1080p)
+
+#EXTINF:-1 tvg-id="Balapan.kz@HD" tvg-name="Balapan HD" tvg-logo="https://vote.rtrk.kz/img/balapan-logo.png" tvg-country="KZ" group-title="Kids",Balapan HD
 https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
-#EXTINF:-1 tvg-id="BalapanInternational.kz@SD",Balapan International (1080p)
+
+#EXTINF:-1 tvg-id="BalapanInternational.kz@SD" tvg-name="Balapan International" tvg-logo="https://otv.server-img.lfstrm.tv/images/channel_logos/logo_638108d82e47243302bc81f1.png" tvg-country="KZ" group-title="Kids",Balapan International
 https://live-3.otcnet.ru/Balapan/index.m3u8
-#EXTINF:-1 tvg-id="Channel7.kz@SD",Channel 7 (576p)
+
+#EXTINF:-1 tvg-id="Channel7.kz@SD" tvg-name="Channel 7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Seven_Channel.png" tvg-country="KZ" group-title="General",Channel 7
 http://stream.mcquack.net/27/index.m3u8
-#EXTINF:-1 tvg-id="Ertis.kz@SD",Ertis (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Ertis.kz@SD" tvg-name="Ertis (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/tghMiwW.png" tvg-country="KZ" group-title="General",Ertis (1080p) [Not 24/7]
 https://stream.kaztrk.kz/regional/pavlodartv/index.m3u8
-#EXTINF:-1 tvg-id="Jambyl.kz@SD",Jambyl (360p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Jambyl.kz@SD" tvg-name="Jambyl (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/X7N3JK4.png" tvg-country="KZ" group-title="General",Jambyl (360p) [Not 24/7]
 https://stream.kaztrk.kz/regional/taraztv/index.m3u8
-#EXTINF:-1 tvg-id="JibekJoly.kz@HD",Jibek Joly HD (1080p)
+
+#EXTINF:-1 tvg-id="JibekJoly.kz@HD" tvg-name="Jibek Joly HD" tvg-logo="https://i.imgur.com/SqyXtgK.png" tvg-country="KZ" group-title="General",Jibek Joly HD
 https://stream.qazcdn.net/ex6r514/jjtv/playlist.m3u8
-#EXTINF:-1 tvg-id="Kokshe.kz@SD",Kókshe (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Kokshe.kz@SD" tvg-name="Kókshe (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/pOR3FSR.png" tvg-country="KZ" group-title="General",Kókshe (720p) [Not 24/7]
 https://stream.kaztrk.kz/regional/kokshetautv/index.m3u8
-#EXTINF:-1 tvg-id="KTK.kz@SD",KTK (576p)
+
+#EXTINF:-1 tvg-id="KTK.kz@SD" tvg-name="KTK" tvg-logo="https://i.imgur.com/BurrNTo.png" tvg-country="KZ" group-title="General",KTK
 http://stream.mcquack.net/26/index.m3u8
-#EXTINF:-1 tvg-id="KTK.kz@HD",KTK HD (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="KTK.kz@HD" tvg-name="KTK HD (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/BurrNTo.png" tvg-country="KZ" group-title="General",KTK HD (720p) [Not 24/7]
 http://89.218.30.37/ktklive/live.hq/playlist.m3u8
-#EXTINF:-1 tvg-id="KTK.kz@HD",KTK HD (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="KTK.kz@HD_2" tvg-name="KTK HD (720p) [Not 24/7] (Feed 2)" tvg-logo="https://i.imgur.com/BurrNTo.png" tvg-country="KZ" group-title="General",KTK HD (720p) [Not 24/7] (Feed 2)
 https://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ManasTV.kg@SD",Manas TV (1080p)
+
+#EXTINF:-1 tvg-id="ManasTV.kg@SD_2" tvg-name="Manas TV" tvg-logo="https://i.ibb.co/2Kvcj5Q/manas.jpg" tvg-country="KZ" group-title="Education",Manas TV
 http://212.42.111.152:8080/hls/manas.m3u8
-#EXTINF:-1 tvg-id="Mangystay.kz@SD",Mańǵystaý (540p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Mangystay.kz@SD" tvg-name="Mańǵystaý (540p) [Not 24/7]" tvg-logo="https://i.imgur.com/9JfLseu.png" tvg-country="KZ" group-title="General",Mańǵystaý (540p) [Not 24/7]
 https://stream.kaztrk.kz/regional/mangystautv/index.m3u8
-#EXTINF:-1 tvg-id="MTRK.kz@SD",MTRK (576p)
+
+#EXTINF:-1 tvg-id="MTRK.kz@SD" tvg-name="MTRK" tvg-logo="https://i.imgur.com/XMyRwDk.png" tvg-country="KZ" group-title="General",MTRK
 https://tvcdn01.esilnet.kz/tv/mtrk/index.m3u8
-#EXTINF:-1 tvg-id="MuzzOne.kz@SD",MuzzOne
-#EXTVLCOPT:http-referrer=https://muzzone.tv/
+
+#EXTINF:-1 tvg-id="MuzzOne.kz@SD" tvg-name="MuzzOne" tvg-logo="https://i.imgur.com/nHVABXh.png" tvg-country="KZ" group-title="Music",MuzzOne
 https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8
-#EXTINF:-1 tvg-id="NickelodeonCIS.kz@SD",Nickelodeon CIS (1080p)
+
+#EXTINF:-1 tvg-id="NickelodeonCIS.kz@SD" tvg-name="Nickelodeon CIS" tvg-logo="https://i.imgur.com/E84jnP8.png" tvg-country="KZ" group-title="Kids",Nickelodeon CIS
 https://stream8.cinerama.uz/1500/playlist.m3u8
-#EXTINF:-1 tvg-id="NTK.kz@SD",NTK (576p)
+
+#EXTINF:-1 tvg-id="NTK.kz@SD" tvg-name="NTK" tvg-logo="https://i.imgur.com/hHSCH4L.png" tvg-country="KZ" group-title="General",NTK
 http://stream.mcquack.net/389/index.m3u8
-#EXTINF:-1 tvg-id="Ontustik.kz@SD",Ontústik (360p)
+
+#EXTINF:-1 tvg-id="Ontustik.kz@SD" tvg-name="Ontústik" tvg-logo="https://i.imgur.com/xqr1hjN.png" tvg-country="KZ" group-title="General",Ontústik
 https://stream.kaztrk.kz/regional/shymkenttv/index.m3u8
-#EXTINF:-1 tvg-id="Qazaqstan.kz",Qazaqstan (1080p)
-#EXTVLCOPT:http-referrer=https://megogo.net/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Qazaqstan.kz" tvg-name="Qazaqstan" tvg-logo="https://i.imgur.com/oI8g396.png" tvg-country="KZ" group-title="General",Qazaqstan
 https://vs137.vcdn.biz/6aa0d03eb8d337c5a12c8275477af53a_megogo/live/hls/b/700_2490_4000/u_sid/0/o/229009131/rsid/15fbd560-a86a-45ca-8058-baf9f5f61c8e/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/45.80.208.174*asn/u_srvc/84416/u_did/web_MjE7M10AtBKsWN3CHzhzNBgiG7LkULPx/type.live/chunklist-sid8840242905769027046-b4000000.m3u8
-#EXTINF:-1 tvg-id="Qazaqstan.kz@HD",Qazaqstan HD (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Qazaqstan.kz@HD" tvg-name="Qazaqstan HD (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/oI8g396.png" tvg-country="KZ" group-title="General",Qazaqstan HD (1080p) [Not 24/7]
 https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8
-#EXTINF:-1 tvg-id="Qazaqstan.kz@HD",Qazaqstan HD (1080p)
+
+#EXTINF:-1 tvg-id="Qazaqstan.kz@HD_2" tvg-name="Qazaqstan HD" tvg-logo="https://i.imgur.com/oI8g396.png" tvg-country="KZ" group-title="General",Qazaqstan HD
 http://stream.mcquack.net/71/index.m3u8
-#EXTINF:-1 tvg-id="QazaqstanInternational.kz@SD",Qazaqstan International
+
+#EXTINF:-1 tvg-id="QazaqstanInternational.kz@SD" tvg-name="Qazaqstan International" tvg-logo="https://cdn.qazaqstan.tv/qazaqstan.png?w=420&h=196&format=png&resize=aspectfill&g=centeralt=" tvg-country="KZ" group-title="General",Qazaqstan International
 https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="QazSport.kz@SD",QazSport (1080p)
+
+#EXTINF:-1 tvg-id="QazSport.kz@SD" tvg-name="QazSport" tvg-logo="https://i.imgur.com/UDJ0P5Q.png" tvg-country="KZ" group-title="Sports",QazSport
 http://stream.mcquack.net/72/index.m3u8
-#EXTINF:-1 tvg-id="QazSport.kz@SD",QazSport (480p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="QazSport.kz@SD_2" tvg-name="QazSport (480p) [Geo-blocked]" tvg-logo="https://i.imgur.com/UDJ0P5Q.png" tvg-country="KZ" group-title="Sports",QazSport (480p) [Geo-blocked]
 https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8
-#EXTINF:-1 tvg-id="QonaevMedia.kz@SD",Qonaev Media
+
+#EXTINF:-1 tvg-id="QonaevMedia.kz@SD" tvg-name="Qonaev Media" tvg-logo="https://i.imgur.com/JLlqgdp.png" tvg-country="KZ" group-title="Entertainment",Qonaev Media
 https://s.qonaevtv.kz/live/qonaev/playlist.m3u8
-#EXTINF:-1 tvg-id="Qostanai.kz@SD",Qostanai (576p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Qostanai.kz@SD" tvg-name="Qostanai (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/eOz4xJ8.png" tvg-country="KZ" group-title="General",Qostanai (576p) [Not 24/7]
 https://stream.kaztrk.kz/regional/kostanaytv/index.m3u8
-#EXTINF:-1 tvg-id="Qyzyljar.kz@SD",Qyzyljar (720p)
+
+#EXTINF:-1 tvg-id="Qyzyljar.kz@SD" tvg-name="Qyzyljar" tvg-logo="https://i.imgur.com/7l1WSDJ.png" tvg-country="KZ" group-title="General",Qyzyljar
 https://stream.kaztrk.kz/regional/petropavltv/index.m3u8
-#EXTINF:-1 tvg-id="Qyzylorda.kz@SD",Qyzylorda (720p)
+
+#EXTINF:-1 tvg-id="Qyzylorda.kz@SD" tvg-name="Qyzylorda" tvg-logo="https://i.imgur.com/r4BFQpE.png" tvg-country="KZ" group-title="General",Qyzylorda
 https://stream.kaztrk.kz/regional/kyzylordatv/index.m3u8
-#EXTINF:-1 tvg-id="RikaTV.kz@SD",Rika TV (480p)
+
+#EXTINF:-1 tvg-id="RikaTV.kz@SD" tvg-name="Rika TV" tvg-logo="https://i.imgur.com/KJHWZ3B.png" tvg-country="KZ" group-title="General",Rika TV
 https://live-rikatv.cdnvideo.ru/rikatv/rikatv_tcode.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="Saryarqa.kz@SD",Saryarqa (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Saryarqa.kz@SD" tvg-name="Saryarqa (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/EIXwi1c.png" tvg-country="KZ" group-title="General",Saryarqa (720p) [Not 24/7]
 https://stream.kaztrk.kz/regional/karagandytv/index.m3u8
-#EXTINF:-1 tvg-id="Semei.kz@SD",Semeı (1080p)
-#EXTVLCOPT:http-referrer=https://qazaqstan.tv/
+
+#EXTINF:-1 tvg-id="Semei.kz@SD" tvg-name="Semeı" tvg-logo="https://i.ibb.co/P9V0532/Captura.png" tvg-country="KZ" group-title="General",Semeı
 https://stream.kaztrk.kz/regional/semeytv/index.m3u8
-#EXTINF:-1 tvg-id="SilkWay.kz@SD",Silk Way (1080p)
+
+#EXTINF:-1 tvg-id="SilkWay.kz@SD" tvg-name="Silk Way" tvg-logo="https://i.imgur.com/SJNDksF.png" tvg-country="KZ" group-title="General",Silk Way
 https://hlspackager.akamaized.net/live/DB/SILKWAY/SILKWAY/SILKWAY.m3u8
-#EXTINF:-1 tvg-id="SilkWayCinema.kz@SD",Silk Way Cinema (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="SilkWayCinema.kz@SD" tvg-name="Silk Way Cinema (1080p) [Geo-blocked]" tvg-logo="https://www.cableman.ru/sites/default/files/Silk-way-CINEMA.png" tvg-country="KZ" group-title="Movies",Silk Way Cinema (1080p) [Geo-blocked]
 https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8
-#EXTINF:-1 tvg-id="MTRK.kz@SD",МТРК (576p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="MTRK.kz@SD_2" tvg-name="МТРК (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/XMyRwDk.png" tvg-country="KZ" group-title="General",МТРК (576p) [Not 24/7]
 https://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8
-#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD",Новое телевидение (576p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD" tvg-name="Новое телевидение (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/mmKWrWs.png" tvg-country="KZ" group-title="General",Новое телевидение (576p) [Not 24/7]
 http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD",Novoe televidenie
+
+#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD_2" tvg-name="Novoe televidenie" tvg-logo="https://i.imgur.com/mmKWrWs.png" tvg-country="KZ" group-title="General",Novoe televidenie
 https://live.zhanafm.kz:8181/memfs/fd715789-382f-4ec6-b4ba-d8e2fde59c7b.m3u8
-#EXTINF:-1 tvg-id="Ulytau.kz@SD",Ulytau
+
+#EXTINF:-1 tvg-id="Ulytau.kz@SD" tvg-name="Ulytau" tvg-logo="https://i.imgur.com/jTL6TvC.png" tvg-country="KZ" group-title="General",Ulytau
 https://ulytau.tv/hls/master.m3u8
-#EXTINF:-1 tvg-id="TDK42.kz@SD",TDK 42
+
+#EXTINF:-1 tvg-id="TDK42.kz@SD" tvg-name="TDK 42" tvg-logo="https://i.imgur.com/iVhdcS7.png" tvg-country="KZ" group-title="General",TDK 42
 https://live-tdk42kz.cdnvideo.ru/tdk42kz/tdk42kz_720.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD",Novoe televidenie (576p)
+
+#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD_3" tvg-name="Novoe televidenie (Feed 3)" tvg-logo="https://i.imgur.com/mmKWrWs.png" tvg-country="KZ" group-title="General",Novoe televidenie (Feed 3)
 https://fs.uplink.kz/novoe_tv/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="QazSport.kz@SD",QazSport (576p)
+
+#EXTINF:-1 tvg-id="QazSport.kz@SD_3" tvg-name="QazSport (Feed 3)" tvg-logo="https://i.imgur.com/UDJ0P5Q.png" tvg-country="KZ" group-title="Sports",QazSport (Feed 3)
 https://fs.uplink.kz/qazsport_hd/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="AstanaTV.kz@SD",Astana TV (576p)
+
+#EXTINF:-1 tvg-id="AstanaTV.kz@SD_2" tvg-name="Astana TV (Feed 2)" tvg-logo="https://i.imgur.com/j4HfVK0.png" tvg-country="KZ" group-title="General",Astana TV (Feed 2)
 https://fs.uplink.kz/astana/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="KTK.kz@SD",KTK (576p)
+
+#EXTINF:-1 tvg-id="KTK.kz@SD_2" tvg-name="KTK (Feed 2)" tvg-logo="https://i.imgur.com/BurrNTo.png" tvg-country="KZ" group-title="General",KTK (Feed 2)
 https://fs.uplink.kz/ktk/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="NTK.kz@SD",NTK (576p)
+
+#EXTINF:-1 tvg-id="NTK.kz@SD_2" tvg-name="NTK (Feed 2)" tvg-logo="https://i.imgur.com/hHSCH4L.png" tvg-country="KZ" group-title="General",NTK (Feed 2)
 https://fs.uplink.kz/ntk/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="AtamekenBusiness.kz@SD",Atameken Business (576p)
+
+#EXTINF:-1 tvg-id="AtamekenBusiness.kz@SD" tvg-name="Atameken Business" tvg-logo="https://i.imgur.com/CfRvm8i.png" tvg-country="KZ" group-title="Business",Atameken Business
 https://fs.uplink.kz/atameken/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="24KZ.kz@SD",24KZ (576p)
+
+#EXTINF:-1 tvg-id="24KZ.kz@SD" tvg-name="24KZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/24KZ_logo.svg/1280px-24KZ_logo.svg.png" tvg-country="KZ" group-title="News",24KZ
 https://fs.uplink.kz/24KZ/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Channel7.kz@SD",Channel 7 (576p)
+
+#EXTINF:-1 tvg-id="Channel7.kz@SD_2" tvg-name="Channel 7 (Feed 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Seven_Channel.png" tvg-country="KZ" group-title="General",Channel 7 (Feed 2)
 https://fs.uplink.kz/7_kanal/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="AbaiTV.kz@SD",Abai TV (576p)
+
+#EXTINF:-1 tvg-id="AbaiTV.kz@SD_2" tvg-name="Abai TV (Feed 2)" tvg-logo="https://i.imgur.com/Nw2R7Dq.png" tvg-country="KZ" group-title="Culture",Abai TV (Feed 2)
 https://fs.uplink.kz/abai_tv/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="AlmatyTV.kz@SD",Almaty TV (576p)
+
+#EXTINF:-1 tvg-id="AlmatyTV.kz@SD" tvg-name="Almaty TV" tvg-logo="https://i.imgur.com/OFobQkI.png" tvg-country="KZ" group-title="General",Almaty TV
 https://fs.uplink.kz/almaty/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Khabar.kz@SD",Khabar (576p)
+
+#EXTINF:-1 tvg-id="Khabar.kz@SD" tvg-name="Khabar" tvg-logo="https://i.imgur.com/upZ0Cuu.png" tvg-country="KZ" group-title="General",Khabar
 https://fs.uplink.kz/habar/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Qazaqstan.kz@SD",Qazaqstan (576p)
+
+#EXTINF:-1 tvg-id="Qazaqstan.kz@SD" tvg-name="Qazaqstan" tvg-logo="https://i.imgur.com/oI8g396.png" tvg-country="KZ" group-title="General",Qazaqstan
 https://fs.uplink.kz/qazaqstan/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Balapan.kz@SD",Balapan (576p)
+
+#EXTINF:-1 tvg-id="Balapan.kz@SD" tvg-name="Balapan" tvg-logo="https://vote.rtrk.kz/img/balapan-logo.png" tvg-country="KZ" group-title="Kids",Balapan
 https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="TuranTV.kz@SD",Turan TV (576p)
+
+#EXTINF:-1 tvg-id="TuranTV.kz@SD" tvg-name="Turan TV" tvg-logo="https://i.imgur.com/VagTPMo.png" tvg-country="KZ" group-title="General",Turan TV
 https://fs.uplink.kz/turan_tv/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="31Kanal.kz@SD",31 Kanal (576p)
+
+#EXTINF:-1 tvg-id="31Kanal.kz@SD_3" tvg-name="31 Kanal (Feed 3)" tvg-logo="https://31.kz/noimage.png" tvg-country="KZ" group-title="General",31 Kanal (Feed 3)
 https://fs.uplink.kz/31kanal/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="ChannelOneEurasia.kz@SD",Channel One Eurasia (576p)
+
+#EXTINF:-1 tvg-id="ChannelOneEurasia.kz@SD" tvg-name="Channel One Eurasia" tvg-logo="https://i.imgur.com/vm5sJHP.png" tvg-country="KZ" group-title="General",Channel One Eurasia
 https://fs.uplink.kz/perviy_kanal_evrasia/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="JibekJoly.kz@SD",Jibek Joly (576p)
+
+#EXTINF:-1 tvg-id="JibekJoly.kz@SD" tvg-name="Jibek Joly" tvg-logo="https://i.imgur.com/SqyXtgK.png" tvg-country="KZ" group-title="General",Jibek Joly
 https://fs.uplink.kz/jibek_joly/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Mirovoekino.kz@SD",Mirovoe kino (1080p)
+
+#EXTINF:-1 tvg-id="Mirovoekino.kz@SD" tvg-name="Mirovoe kino" tvg-logo="https://tele2.server-img.lfstrm.tv/images/channel_logos/logo_65c24031d8bec399a7aa2226.png" tvg-country="KZ" group-title="Movies",Mirovoe kino
 https://fs.uplink.kz/mirovoe_kino/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="KinoBoevik.kz@SD",KinoBoevik (1080p)
+
+#EXTINF:-1 tvg-id="KinoBoevik.kz@SD" tvg-name="KinoBoevik" tvg-logo="https://kt.server-img.lfstrm.tv/images/channel_logos/logo_66b351f01f828dca40d006b3.png" tvg-country="KZ" group-title="Movies",KinoBoevik
 https://fs.uplink.kz/kinoboevik/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="SportPlusQazaqstan.kz@SD",Sport+ Qazaqstan (1080p)
+
+#EXTINF:-1 tvg-id="SportPlusQazaqstan.kz@SD" tvg-name="Sport+ Qazaqstan" tvg-logo="https://i.imgur.com/vIV7x6n.png" tvg-country="KZ" group-title="Sports",Sport+ Qazaqstan
 https://fs.uplink.kz/sport+/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD",Novoe televidenie
+
+#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD_4" tvg-name="Novoe televidenie (Feed 4)" tvg-logo="https://i.imgur.com/mmKWrWs.png" tvg-country="KZ" group-title="General",Novoe televidenie (Feed 4)
 http://120.70.60.179:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-id="Qazaqstan.kz@SD",Qazaqstan
+
+#EXTINF:-1 tvg-id="Qazaqstan.kz@SD_2" tvg-name="Qazaqstan (Feed 2)" tvg-logo="https://i.imgur.com/oI8g396.png" tvg-country="KZ" group-title="General",Qazaqstan (Feed 2)
 http://120.70.60.179:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=0&authid=0
+
+#EXTINF:-1 tvg-id="Novoetelevidenie.kz@SD" tvg-name="Novoe televidenie" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="KZ" group-title="General",Novoe televidenie
+http://120.70.60.179:9901/tsfile/live/1010_1.m3u8?authid=0&key=txiptv&playlive=0
+
+#EXTINF:-1 tvg-id="Qazaqstan.kz@SD" tvg-name="Qazaqstan" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="KZ" group-title="General",Qazaqstan
+http://120.70.60.179:9901/tsfile/live/1011_1.m3u8?authid=0&key=txiptv&playlive=0
+
+#EXTINF:-1 tvg-id="QazaqstanInternational.kz" tvg-name="Qazaqstan" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="KZ" group-title="General",Qazaqstan
+https://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8
+

@@ -1,3 +1,5 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="SVGTV.vc@SD",SVG TV (576p) [Geo-blocked]
+#EXTM3U url-tvg="https://epg.kanya.io/vc/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="SVGTV.vc@SD" tvg-name="SVG TV (576p) [Geo-blocked]" tvg-logo="https://i.imgur.com/fGLz34S.png" tvg-country="VC" group-title="General",SVG TV (576p) [Geo-blocked]
 https://customer-1drvoydzrkhpnbh4.cloudflarestream.com/64f76b07446d5d8801c4b9f6192ac79b/manifest/video.m3u8
+

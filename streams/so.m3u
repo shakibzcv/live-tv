@@ -1,25 +1,83 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="ArlaadiTV.so@SD",Arlaadi TV
+#EXTM3U url-tvg="https://epg.kanya.io/so/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="ArlaadiTV.so@SD" tvg-name="Arlaadi TV" tvg-logo="https://i.imgur.com/2tlFMXF.png" tvg-country="SO" group-title="General",Arlaadi TV
 https://ap02.iqplay.tv:8082/iqb8002/alr114iapp/playlist.m3u8
-#EXTINF:-1 tvg-id="DacwaTV.ke@SD",Dacwa TV (576p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="DacwaTV.ke@SD" tvg-name="Dacwa TV (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/rMqrLzV.png" tvg-country="SO" group-title="Religious",Dacwa TV (576p) [Not 24/7]
 https://ap02.iqplay.tv:8082/iqb8002/d13w1/playlist.m3u8
-#EXTINF:-1 tvg-id="HirshabelleTV.so@SD",Hirshabelle TV (576p)
+
+#EXTINF:-1 tvg-id="HirshabelleTV.so@SD" tvg-name="Hirshabelle TV" tvg-logo="https://i.imgur.com/Kk0A2o7.png" tvg-country="SO" group-title="General",Hirshabelle TV
 http://ap02.iqplay.tv:8081/iqb8002/h1rshbe1iptv/playlist.m3u8
-#EXTINF:-1 tvg-id="PuntlandTV.so@SD",Puntland TV (720p)
+
+#EXTINF:-1 tvg-id="PuntlandTV.so@SD" tvg-name="Puntland TV" tvg-logo="https://i.imgur.com/C8EvQUo.png" tvg-country="SO" group-title="General",Puntland TV
 http://cdn.mediavisionuae.com:1935/live/putlandtv2.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="SaabTV.so@SD",Saab TV (576p)
+
+#EXTINF:-1 tvg-id="SaabTV.so@SD" tvg-name="Saab TV" tvg-logo="https://i.imgur.com/JEC1J89.png" tvg-country="SO" group-title="General",Saab TV
 https://ap02.iqplay.tv:8082/iqb8002/s03btv/playlist.m3u8
-#EXTINF:-1 tvg-id="SaabTV.so@SD",Saab TV (576p)
+
+#EXTINF:-1 tvg-id="SaabTV.so@SD_2" tvg-name="Saab TV (Feed 2)" tvg-logo="https://i.imgur.com/JEC1J89.png" tvg-country="SO" group-title="General",Saab TV (Feed 2)
 https://cd198.anystream.uk:9092/iqapp/s03btv/playlist.m3u8
-#EXTINF:-1 tvg-id="SBCTV.so@SD",SBC TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="SBCTV.so@SD" tvg-name="SBC TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/VLhgTIA.png" tvg-country="SO" group-title="General",SBC TV (720p) [Not 24/7]
 http://cdn.mediavisionuae.com:1935/live/sbctv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="SNTVDaljir.so@SD",SNTV Daljir (576p)
+
+#EXTINF:-1 tvg-id="SNTVDaljir.so@SD" tvg-name="SNTV Daljir" tvg-logo="https://i.imgur.com/zmVKI26.jpg" tvg-country="SO" group-title="General",SNTV Daljir
 https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
-#EXTINF:-1 tvg-id="SomaliNationalTV.so@SD",Somali National TV (576p)
+
+#EXTINF:-1 tvg-id="SomaliNationalTV.so@SD" tvg-name="Somali National TV" tvg-logo="https://i.imgur.com/2y8gv7V.png" tvg-country="SO" group-title="General",Somali National TV
 https://ap02.iqplay.tv:8082/iqb8002/s4ne/playlist.m3u8
-#EXTINF:-1 tvg-id="CrimeandEvidence.za@SD",Crime and Evidence (720p)
+
+#EXTINF:-1 tvg-id="CrimeandEvidence.za@SD" tvg-name="Crime and Evidence" tvg-logo="https://i.imgur.com/xwGquEb.png" tvg-country="SO" group-title="General",Crime and Evidence
 https://afxporigin.telemedia.co.za/afxp/abr_crimeandevidence/playlist.m3u8
-#EXTINF:-1 tvg-id="etvNewsSport.za@SD",ETVN (720p)
+
+#EXTINF:-1 tvg-id="etvNewsSport.za@SD" tvg-name="ETVN" tvg-logo="https://i.imgur.com/lXMzsNM.png" tvg-country="SO" group-title="News",ETVN
 https://origin2.afxp.telemedia.co.za/abr_kapang/enterepreneur/playlist.m3u8
-#EXTINF:-1 tvg-id="Trigger.za@SD",Trigger
+
+#EXTINF:-1 tvg-id="Trigger.za@SD" tvg-name="Trigger" tvg-logo="https://i.imgur.com/TrlrcWf.png" tvg-country="SO" group-title="General",Trigger
 https://origin2.afxp.telemedia.co.za/abr/trigger/playlist.m3u8
+
+#EXTINF:-1 tvg-id="so_banaadir_tv__6233" tvg-name="Banaadir TV Ⓨ" tvg-logo="https://www.lyngsat.com/logo/tv/bb/banaadir-tv-so.png" tvg-country="SO" group-title="General",Banaadir TV Ⓨ
+https://www.youtube.com/channel/UC_IzgGt0bVMXBR_Eu6AcqRw/live
+
+#EXTINF:-1 tvg-id="BulshoTV.so" tvg-name="Bulsho TV Ⓨ" tvg-logo="https://i.imgur.com/7qo4rb7.png" tvg-country="SO" group-title="General",Bulsho TV Ⓨ
+https://www.youtube.com/@Bulshotv/live
+
+#EXTINF:-1 tvg-id="so_galmudug_tv__3214" tvg-name="Galmudug TV Ⓨ" tvg-logo="https://www.lyngsat.com/logo/tv/gg/galmudug-tv-so.png" tvg-country="SO" group-title="General",Galmudug TV Ⓨ
+https://www.youtube.com/channel/UCaEZkCJVKUoQNK42y-bC2Uw/live
+
+#EXTINF:-1 tvg-id="so_hirshabelle_tv_3721" tvg-name="Hirshabelle TV" tvg-logo="https://www.lyngsat.com/logo/tv/hh/hirshabelle-tvjpg-so.png" tvg-country="SO" group-title="General",Hirshabelle TV
+https://cd198.anystream.uk:9092/iqapp/h1rshbe1iptv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="HornCableTV.so" tvg-name="Horn Cable TV Ⓨ" tvg-logo="https://i.imgur.com/qUqQCjP.png" tvg-country="SO" group-title="General",Horn Cable TV Ⓨ
+https://www.youtube.com/@HornCableTV1/live
+
+#EXTINF:-1 tvg-id="JubbalandTV.so" tvg-name="Jubbaland TV Ⓨ" tvg-logo="https://i.imgur.com/SEgEYjV.png" tvg-country="SO" group-title="General",Jubbaland TV Ⓨ
+https://www.youtube.com/@JLTVOfficial1/live
+
+#EXTINF:-1 tvg-id="KGSTV.so" tvg-name="KGS TV Ⓨ" tvg-logo="https://i.imgur.com/MCDFlCk.png" tvg-country="SO" group-title="General",KGS TV Ⓨ
+https://www.youtube.com/channel/UCiaAZAG_vm6cx3znkIqYErQ/live
+
+#EXTINF:-1 tvg-id="MMSomaliTV.uk" tvg-name="MM Somali TV Ⓨ" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mm-somali-tv-so.png" tvg-country="SO" group-title="General",MM Somali TV Ⓨ
+https://www.youtube.com/@mmsomalitv/live
+
+#EXTINF:-1 tvg-id="so_rejo_tv__156" tvg-name="Rejo TV Ⓨ" tvg-logo="https://www.lyngsat.com/logo/tv/rr/rejo-tv-so.png" tvg-country="SO" group-title="General",Rejo TV Ⓨ
+https://www.youtube.com/channel/UCf_ntY4qKz0jFV2dRTWselQ/live
+
+#EXTINF:-1 tvg-id="SahanTV.so" tvg-name="Sahan TV Ⓨ" tvg-logo="https://i.imgur.com/fOvHhX2.png" tvg-country="SO" group-title="General",Sahan TV Ⓨ
+https://www.youtube.com/channel/UCGn3y_geehf1ZgAlwtbNt2w/live
+
+#EXTINF:-1 tvg-id="so_shabelle_tv__1518" tvg-name="Shabelle TV Ⓨ" tvg-logo="https://www.lyngsat.com/logo/tv/ss/shabelle-tv-so.png" tvg-country="SO" group-title="General",Shabelle TV Ⓨ
+https://www.youtube.com/channel/UCXSorfoPFZbMraJP4XCtDQw/live
+
+#EXTINF:-1 tvg-id="SNTVDaljir.so" tvg-name="SNTV Daljir Ⓢ" tvg-logo="https://i.imgur.com/Re3ur88.png" tvg-country="SO" group-title="General",SNTV Daljir Ⓢ
+https://cd198.anystream.uk:9092/iqapp/s2tve/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SomaliCableTV.uk" tvg-name="Somali Cable TV Ⓢ" tvg-logo="https://i.imgur.com/iPkaCts.png" tvg-country="SO" group-title="General",Somali Cable TV Ⓢ
+https://ap02.iqplay.tv:8082/iqb8002/somc131/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SomaliNationalTV.so" tvg-name="Somali National TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/SNTV_REBRANDED_LOGO.png" tvg-country="SO" group-title="General",Somali National TV Ⓢ
+https://cd198.anystream.uk:9092/iqapp/s4ne/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SomalilandNationalTV.so" tvg-name="Somaliland National TV Ⓨ" tvg-logo="https://i.imgur.com/FIuQNWN.png" tvg-country="SO" group-title="General",Somaliland National TV Ⓨ
+https://www.youtube.com/c/SLNTVLIVESTREAM/live
+

@@ -1,51 +1,89 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="BloombergTV.us@Asia",Bloomberg TV Asia (720p)
+#EXTM3U url-tvg="https://epg.kanya.io/hk/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="BloombergTV.us@Asia" tvg-name="Bloomberg TV Asia" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_TV.png" tvg-country="HK" group-title="Business",Bloomberg TV Asia
 https://bloomberg.com/media-manifest/streams/asia.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@AsiaLiveEvent",Bloomberg TV Asia Live Event (720p)
+
+#EXTINF:-1 tvg-id="BloombergTV.us@AsiaLiveEvent" tvg-name="Bloomberg TV Asia Live Event" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_TV.png" tvg-country="HK" group-title="Business",Bloomberg TV Asia Live Event
 https://bloomberg.com/media-manifest/streams/asia-event.m3u8
-#EXTINF:-1 tvg-id="CelestialMovies.hk@SD",Celestial Movies (576i)
+
+#EXTINF:-1 tvg-id="CelestialMovies.hk@SD" tvg-name="Celestial Movies" tvg-logo="https://i.imgur.com/Mb5ssnu.png" tvg-country="HK" group-title="Movies",Celestial Movies
 http://103.58.160.157:8278/720-CELESTIALMOVIES/playlist.m3u8
-#EXTINF:-1 tvg-id="HOYInfotainment.hk@HD",HOY Infotainment (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="HOYInfotainment.hk@HD" tvg-name="HOY Infotainment (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/LNokYLQ.png" tvg-country="HK" group-title="General",HOY Infotainment (1080p) [Geo-blocked]
 https://hoytv-live-stream.hoy.tv/ch78/index.m3u8
-#EXTINF:-1 tvg-id="HongKongInternationalBusinessChannel.hk@SD",HOY International Business Channel (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="HongKongInternationalBusinessChannel.hk@SD" tvg-name="HOY International Business Channel (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/jaIdkbz.png" tvg-country="HK" group-title="Business",HOY International Business Channel (1080p) [Geo-blocked]
 https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
-#EXTINF:-1 tvg-id="HongKongInternationalBusinessChannel.hk@SD",HOY International Business Channel [Geo-blocked]
+
+#EXTINF:-1 tvg-id="HongKongInternationalBusinessChannel.hk@SD_2" tvg-name="HOY International Business Channel [Geo-blocked]" tvg-logo="https://i.imgur.com/jaIdkbz.png" tvg-country="HK" group-title="Business",HOY International Business Channel [Geo-blocked]
 https://hoytv-live-stream.hoy.tv/ch76/va2-index.m3u8
-#EXTINF:-1 tvg-id="HOYTV.hk@SD",HOY TV (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="HOYTV.hk@SD" tvg-name="HOY TV (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/NfVZPTT.png" tvg-country="HK" group-title="General",HOY TV (1080p) [Geo-blocked]
 https://hoytv-live-stream.hoy.tv/ch77/index.m3u8
-#EXTINF:-1 tvg-id="RTHKTV31.hk@SD",RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="RTHKTV31.hk@SD" tvg-name="RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/kf818kM.png" tvg-country="HK" group-title="General",RTHK TV 31 (港台電視31) (1080p) [Geo-blocked]
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV31.hk@SD",RTHK TV 31 (港台電視31) (360p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="RTHKTV31.hk@SD_2" tvg-name="RTHK TV 31 (港台電視31) (360p) [Geo-blocked]" tvg-logo="https://i.imgur.com/kf818kM.png" tvg-country="HK" group-title="General",RTHK TV 31 (港台電視31) (360p) [Geo-blocked]
 https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV32.hk@SD",RTHK TV 32 (港台電視32) (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="RTHKTV32.hk@SD" tvg-name="RTHK TV 32 (港台電視32) (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/MXLuUoU.png" tvg-country="HK" group-title="General",RTHK TV 32 (港台電視32) (1080p) [Geo-blocked]
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV32.hk@SD",RTHK TV 32 (港台電視32) (360p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="RTHKTV32.hk@SD_2" tvg-name="RTHK TV 32 (港台電視32) (360p) [Geo-blocked]" tvg-logo="https://i.imgur.com/MXLuUoU.png" tvg-country="HK" group-title="General",RTHK TV 32 (港台電視32) (360p) [Geo-blocked]
 https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV33.hk@SD",RTHK TV 33 (港台電視33) (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="RTHKTV33.hk@SD" tvg-name="RTHK TV 33 (港台電視33) (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/2MProun.png" tvg-country="HK" group-title="General",RTHK TV 33 (港台電視33) (1080p) [Geo-blocked]
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV34.hk@SD",RTHK TV 34 (港台電視34) (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="RTHKTV34.hk@SD" tvg-name="RTHK TV 34 (港台電視34) (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/Kq5A6Qn.png" tvg-country="HK" group-title="General",RTHK TV 34 (港台電視34) (1080p) [Geo-blocked]
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV35.hk@HD",RTHK TV 35 (港台電視35) (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="RTHKTV35.hk@HD" tvg-name="RTHK TV 35 (港台電視35) (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/FQmNKDS.png" tvg-country="HK" group-title="News",RTHK TV 35 (港台電視35) (1080p) [Geo-blocked]
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
-#EXTINF:-1 tvg-id="",RTHK TV 36 (港台電視36) (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="ch_773" tvg-name="RTHK TV 36 (港台電視36) (1080p) [Geo-blocked]" tvg-country="HK" group-title="General",RTHK TV 36 (港台電視36) (1080p) [Geo-blocked]
 https://rthktv36-live.akamaized.net/hls/live/2112176/RTHKTV36/master.m3u8
-#EXTINF:-1 tvg-id="Thrill.hk@SD",Thrill (540p)
+
+#EXTINF:-1 tvg-id="Thrill.hk@SD" tvg-name="Thrill" tvg-logo="https://i.imgur.com/Y282owj.png" tvg-country="HK" group-title="Movies",Thrill
 https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk@SD",凤凰资讯 (720p)
+
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk@SD_3" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" tvg-country="HK" group-title="News",凤凰资讯
 http://php.17186.eu.org/phtv/fhzx.m3u8
-#EXTINF:-1 tvg-id="BSTV.hk@SD",耀才財經台 (576p)
+
+#EXTINF:-1 tvg-id="BSTV.hk@SD" tvg-name="耀才財經台" tvg-logo="https://i.imgur.com/GVYSSgm.png" tvg-country="HK" group-title="Shop",耀才財經台
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 tvg-id="AsianDrama.hk@SD",Asian Drama (1080p)
+
+#EXTINF:-1 tvg-id="AsianDrama.hk@SD" tvg-name="Asian Drama" tvg-logo="https://i.imgur.com/wqtN7mH.png" tvg-country="HK" group-title="Entertainment",Asian Drama
 http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
-#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD",Mei Ah Movie Channel (1080p)
+
+#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD" tvg-name="Mei Ah Movie Channel" tvg-logo="https://i.imgur.com/laGiFM1.png" tvg-country="HK" group-title="Movies",Mei Ah Movie Channel
 http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
-#EXTINF:-1 tvg-id="Jade.hk@SD",Jade (1080p)
+
+#EXTINF:-1 tvg-id="Jade.hk@SD" tvg-name="Jade" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" tvg-country="HK" group-title="Entertainment",Jade
 http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
-#EXTINF:-1 tvg-id="GoldenJade.hk@SD",Golden Jade (1080p)
+
+#EXTINF:-1 tvg-id="GoldenJade.hk@SD" tvg-name="Golden Jade" tvg-logo="https://i.imgur.com/lPYxsUr.png" tvg-country="HK" group-title="General",Golden Jade
 http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
-#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD",Mei Ah Movie Channel (1080p)
+
+#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD_2" tvg-name="Mei Ah Movie Channel (Feed 2)" tvg-logo="https://i.imgur.com/laGiFM1.png" tvg-country="HK" group-title="Movies",Mei Ah Movie Channel (Feed 2)
 http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8
-#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD",Mei Ah Movie Channel (1080p)
+
+#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD_3" tvg-name="Mei Ah Movie Channel (Feed 3)" tvg-logo="https://i.imgur.com/laGiFM1.png" tvg-country="HK" group-title="Movies",Mei Ah Movie Channel (Feed 3)
 http://103.172.187.30:12000/stream/mytv/null-10/master.m3u8
-#EXTINF:-1 tvg-id="KIX.hk@SD",KIX (1080p)
+
+#EXTINF:-1 tvg-id="KIX.hk@SD" tvg-name="KIX" tvg-logo="https://i.imgur.com/zWcUAdb.png" tvg-country="HK" group-title="Entertainment",KIX
 https://freem3u.xyz/api/live/play.m3u8?vid=9901
+
+#EXTINF:-1 tvg-id="ViuTV.hk@SD" tvg-name="ViuTV (1080i)" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="HK" group-title="General",ViuTV (1080i)
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+
+#EXTINF:-1 tvg-id="HKIBC.hk" tvg-name="HOY TV Ⓖ" tvg-logo="https://i.imgur.com/NfVZPTT.png" tvg-country="HK" group-title="General",HOY TV Ⓖ
+https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
+
+#EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-name="TVB News Channel" tvg-logo="https://i.imgur.com/Gwij0Fj.png" tvg-country="HK" group-title="News",TVB News Channel
+https://tvp22.sky4k.top/index1.php
+
+#EXTINF:-1 tvg-id="TVBFinanceSportsInformationChannel.hk" tvg-name="TVB Finance (Sports & Information Channel)" tvg-logo="https://i.imgur.com/Fkkp7x7.png" tvg-country="HK" group-title="Sports",TVB Finance (Sports & Information Channel)
+https://tvp22.sky4k.top/index2.php
+

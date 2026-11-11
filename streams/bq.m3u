@@ -1,13 +1,20 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="Bonairetv.bq@SD",Bonaire.tv (1080p) [Not 24/7]
+#EXTM3U url-tvg="https://epg.kanya.io/bq/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="Bonairetv.bq@SD" tvg-name="Bonaire.tv (1080p) [Not 24/7]" tvg-logo="https://i.ibb.co/rG8pHh9/bonaire-tv-logo-596x150.png" tvg-country="BQ" group-title="Culture",Bonaire.tv (1080p) [Not 24/7]
 https://media.streambrothers.com:1936/8506/8506/playlist.m3u8
-#EXTINF:-1 tvg-id="EnergiaTV.bq@SD",Energia TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="EnergiaTV.bq@SD" tvg-name="Energia TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/GVKjI5c.jpeg" tvg-country="BQ" group-title="General",Energia TV (720p) [Not 24/7]
 https://sincerecloud.stream/loadbalancer/public/actMdyoE.m3u8
-#EXTINF:-1 tvg-id="Live99FM.bq@SD",Live99FM (1080p)
+
+#EXTINF:-1 tvg-id="Live99FM.bq@SD" tvg-name="Live99FM" tvg-logo="https://i.imgur.com/U43UrQT.png" tvg-country="BQ" group-title="Music",Live99FM
 https://media.streambrothers.com:1936/8014/8014/playlist.m3u8
-#EXTINF:-1 tvg-id="NosTVBonaire.bq@SD",Nos TV Bonaire (1080p)
+
+#EXTINF:-1 tvg-id="NosTVBonaire.bq@SD" tvg-name="Nos TV Bonaire" tvg-logo="https://i.imgur.com/GINI6oP.png" tvg-country="BQ" group-title="General",Nos TV Bonaire
 http://streaming.flamingotv.net/nostv/live.m3u8
-#EXTINF:-1 tvg-id="NosTVBonaire2.bq@SD",NosTV Bonaire 2
+
+#EXTINF:-1 tvg-id="NosTVBonaire2.bq@SD" tvg-name="NosTV Bonaire 2" tvg-logo="https://i.imgur.com/9pQdGw1.png" tvg-country="BQ" group-title="General",NosTV Bonaire 2
 https://stream2.nostvbonaire.com/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="VozDiBonaireTV.bq@SD",Voz Di Bonaire TV (720p)
+
+#EXTINF:-1 tvg-id="VozDiBonaireTV.bq@SD" tvg-name="Voz Di Bonaire TV" tvg-logo="https://i.imgur.com/WOokQmj.png" tvg-country="BQ" group-title="Entertainment",Voz Di Bonaire TV
 https://tv.westream.cloud/VozdiBonaireTV/VozdiBonaireTV.m3u8
+

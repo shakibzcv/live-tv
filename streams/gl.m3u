@@ -1,1 +1,8 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epg.kanya.io/gl/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="KNR1.gl" tvg-name="KNR1 Ⓨ Ⓖ" tvg-logo="https://i.imgur.com/8Pf5SJb.png" tvg-country="GL" group-title="General",KNR1 Ⓨ Ⓖ
+https://www.youtube.com/@KNRgreenland/live
+
+#EXTINF:-1 tvg-id="KNR2.gl" tvg-name="KNR2 Ⓨ" tvg-logo="https://i.imgur.com/8Pf5SJb.png" tvg-country="GL" group-title="General",KNR2 Ⓨ
+https://www.youtube.com/@nutaarsiassat/live
+

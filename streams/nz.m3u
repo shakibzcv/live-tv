@@ -1,169 +1,278 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="Channel200.nz@SD",Channel 200 (540p)
+#EXTM3U url-tvg="https://epg.kanya.io/nz/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="Channel200.nz@SD" tvg-name="Channel 200" tvg-logo="https://i.imgur.com/gAebu4q.png" tvg-country="NZ" group-title="Entertainment",Channel 200
 https://d1jlnqid3sfc6m.cloudfront.net/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
-#EXTINF:-1 tvg-id="Firstlight.nz@SD",Firstlight (576p)
+
+#EXTINF:-1 tvg-id="Firstlight.nz@SD" tvg-name="Firstlight" tvg-logo="https://i.imgur.com/gtDROeT.png" tvg-country="NZ" group-title="Religious",Firstlight
 https://uni01rtmp.tulix.tv/firstlight/firstlight.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="JuiceTV.nz@SD",Juice TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="JuiceTV.nz@SD" tvg-name="Juice TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/WaaaW0w.png" tvg-country="NZ" group-title="Music",Juice TV (1080p) [Not 24/7]
 https://juicex.nz/hls/mystream.m3u8
-#EXTINF:-1 tvg-id="KordiaTV.nz@SD",Kordia TV (1080p)
+
+#EXTINF:-1 tvg-id="KordiaTV.nz@SD" tvg-name="Kordia TV" tvg-logo="https://i.imgur.com/BQ0qWzX.png" tvg-country="NZ" group-title="General",Kordia TV
 https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
-#EXTINF:-1 tvg-id="",Love Stories TV (720p)
+
+#EXTINF:-1 tvg-id="ch_1015" tvg-name="Love Stories TV" tvg-country="NZ" group-title="General",Love Stories TV
 https://84e619480232400a842ce499d053458a.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/ONO_LoveStoriesTV/18a65393-ba3b-4912-90d5-7188c128ac66/3.m3u8
-#EXTINF:-1 tvg-id="ParliamentTV.nz@SD",Parliament TV (1080p)
+
+#EXTINF:-1 tvg-id="ParliamentTV.nz@SD" tvg-name="Parliament TV" tvg-logo="https://i.imgur.com/2aHW4q7.png" tvg-country="NZ" group-title="Legislative",Parliament TV
 https://ptvlive.kordia.net.nz/out/v1/daf20b9a9ec5449dadd734e50ce52b74/index.m3u8
-#EXTINF:-1 tvg-id="TeReo.nz@SD",Te Reo (1080p)
+
+#EXTINF:-1 tvg-id="TeReo.nz@SD" tvg-name="Te Reo" tvg-logo="https://i.imgur.com/3CNvYUN.png" tvg-country="NZ" group-title="General",Te Reo
 https://i.mjh.nz/.r/te-reo.m3u8
-#EXTINF:-1 tvg-id="TVNZ1.nz@SD",TVNZ 1 [Geo-blocked]
+
+#EXTINF:-1 tvg-id="TVNZ1.nz@SD" tvg-name="TVNZ 1 [Geo-blocked]" tvg-logo="https://i.imgur.com/Nx76HUE.png" tvg-country="NZ" group-title="General",TVNZ 1 [Geo-blocked]
 https://d2ce82tpc3p734.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_1/master.m3u8
-#EXTINF:-1 tvg-id="TVNZ2.nz@SD",TVNZ 2 [Geo-blocked]
+
+#EXTINF:-1 tvg-id="TVNZ2.nz@SD" tvg-name="TVNZ 2 [Geo-blocked]" tvg-logo="https://i.imgur.com/9sV4dbH.png" tvg-country="NZ" group-title="General",TVNZ 2 [Geo-blocked]
 https://duoak7vltfob0.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_2/master.m3u8
-#EXTINF:-1 tvg-id="TVNZDUKE.nz@SD",TVNZ Duke [Geo-blocked]
+
+#EXTINF:-1 tvg-id="TVNZDUKE.nz@SD" tvg-name="TVNZ Duke [Geo-blocked]" tvg-logo="https://i.imgur.com/tJf9DEI.png" tvg-country="NZ" group-title="General",TVNZ Duke [Geo-blocked]
 https://dayqb844napyo.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_Duke/master.m3u8
-#EXTINF:-1 tvg-id="WairarapaTV.nz@SD",Wairarapa TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="WairarapaTV.nz@SD" tvg-name="Wairarapa TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/xm4KBwE.png" tvg-country="NZ" group-title="General",Wairarapa TV (1080p) [Not 24/7]
 https://stream1.np.co.nz/WAITVABR/WAITVABR/playlist.m3u8
-#EXTINF:-1 tvg-id="WairarapaTV.nz@SD",Wairarapa TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="WairarapaTV.nz@SD_2" tvg-name="Wairarapa TV (1080p) [Not 24/7] (Feed 2)" tvg-logo="https://i.imgur.com/xm4KBwE.png" tvg-country="NZ" group-title="General",Wairarapa TV (1080p) [Not 24/7] (Feed 2)
 https://stream.wairarapatv.co.nz/Broadband_High/playlist.m3u8
-#EXTINF:-1 tvg-id="WairarapaTV.nz@SD",Wairarapa TV (360p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="WairarapaTV.nz@SD_3" tvg-name="Wairarapa TV (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/xm4KBwE.png" tvg-country="NZ" group-title="General",Wairarapa TV (360p) [Not 24/7]
 https://stream.wairarapatv.co.nz/Cellular_High/playlist.m3u8
-#EXTINF:-1 tvg-id="WhakaataMaori.nz@SD",Whakaata Maori (1080p)
+
+#EXTINF:-1 tvg-id="WhakaataMaori.nz@SD" tvg-name="Whakaata Maori" tvg-logo="https://i.imgur.com/oT3PrHZ.png" tvg-country="NZ" group-title="General",Whakaata Maori
 https://i.mjh.nz/.r/maori-tv.m3u8
-#EXTINF:-1 tvg-id="",8 Out of 10 Cats (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="ch_1016" tvg-name="8 Out of 10 Cats (1080p) [Geo-blocked]" tvg-country="NZ" group-title="General",8 Out of 10 Cats (1080p) [Geo-blocked]
 https://amg00627-amg00627c37-samsung-nz-4295.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",Action Hollywood Movies (1080p)
+
+#EXTINF:-1 tvg-id="ch_1017" tvg-name="Action Hollywood Movies" tvg-country="NZ" group-title="General",Action Hollywood Movies
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Baywatch.us@US",Baywatch (1080p)
+
+#EXTINF:-1 tvg-id="Baywatch.us@US_3" tvg-name="Baywatch" tvg-logo="https://i.imgur.com/c2esKHg.png" tvg-country="NZ" group-title="Series",Baywatch
 https://amg00145-fremantlemedian-baywatch-samsungnz-5bfqe.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",Bondi Vet (720p)
+
+#EXTINF:-1 tvg-id="ch_1018" tvg-name="Bondi Vet" tvg-country="NZ" group-title="General",Bondi Vet
 https://wtfn-bondivet-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",Breaking News by LeadStory (1080p)
+
+#EXTINF:-1 tvg-id="ch_1019" tvg-name="Breaking News by LeadStory" tvg-country="NZ" group-title="General",Breaking News by LeadStory
 https://amg02703-leadstory-leadstory-samsungnz-vc7nn.amagi.tv/playlist/amg02703-leadstory-leadstory-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="DealorNoDeal.us@SD",Deal or No Deal (1080p)
+
+#EXTINF:-1 tvg-id="DealorNoDeal.us@SD_3" tvg-name="Deal or No Deal" tvg-logo="https://i.imgur.com/lZvNXA1.png" tvg-country="NZ" group-title="Series",Deal or No Deal
 https://amg00627-amg00627c21-samsung-nz-3876.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="DealorNoDeal.us@SD",Deal or No Deal (1080p)
+
+#EXTINF:-1 tvg-id="DealorNoDeal.us@SD_4" tvg-name="Deal or No Deal (Feed 4)" tvg-logo="https://i.imgur.com/lZvNXA1.png" tvg-country="NZ" group-title="Series",Deal or No Deal (Feed 4)
 https://amg00627-banijaygroup-dealornodeal-samsungnz-swf41.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="DontTellTheBride.uk@SD",Don't Tell The Bride (1080p)
+
+#EXTINF:-1 tvg-id="DontTellTheBride.uk@SD_3" tvg-name="Don't Tell The Bride" tvg-logo="https://i.imgur.com/h0bc3Fa.png" tvg-country="NZ" group-title="Series",Don't Tell The Bride
 https://amg00426-lds-amg00426c15-samsung-nz-3685.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="DryBarComedyPlus.us@SD",Drybar Comedy
+
+#EXTINF:-1 tvg-id="DryBarComedyPlus.us@SD_3" tvg-name="Drybar Comedy" tvg-logo="https://i.imgur.com/3N2C60N.png" tvg-country="NZ" group-title="Comedy",Drybar Comedy
 https://drybar-drybarcomedy-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FearFactor.us@US",Fear Factor (1080p)
+
+#EXTINF:-1 tvg-id="FearFactor.us@US_2" tvg-name="Fear Factor" tvg-logo="https://i.imgur.com/CIYnLWz.png" tvg-country="NZ" group-title="Series",Fear Factor
 https://amg00627-banijaygroup-fearfactor-samsungnz-zhrro.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",Four in a Bed (720p)
+
+#EXTINF:-1 tvg-id="ch_1020" tvg-name="Four in a Bed" tvg-country="NZ" group-title="General",Four in a Bed
 https://all3media-four-in-a-bed-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="France24.fr@English",France 24 (1080p)
+
+#EXTINF:-1 tvg-id="France24.fr@English_12" tvg-name="France 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Estrella_TV_Logo_2020.png/500px-Estrella_TV_Logo_2020.png" tvg-country="NZ" group-title="News",France 24
 https://amg00106-amg00106c1-samsung-nz-4151.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FUELTV.pt@AU",Fuel TV (1080p)
+
+#EXTINF:-1 tvg-id="FUELTV.pt@AU_2" tvg-name="Fuel TV" tvg-logo="https://i.imgur.com/I8mviBy.png" tvg-country="NZ" group-title="Sports",Fuel TV
 https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="GBNews.uk@SD",GB News (1080p)
+
+#EXTINF:-1 tvg-id="GBNews.uk@SD_2" tvg-name="GB News" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" tvg-country="NZ" group-title="News",GB News
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="GhostHunters.us@UK",Ghost Hunters (1080p)
+
+#EXTINF:-1 tvg-id="GhostHunters.us@UK_3" tvg-name="Ghost Hunters" tvg-logo="https://i.imgur.com/KdBr6rG.png" tvg-country="NZ" group-title="Series",Ghost Hunters
 https://amg00353-amg00353c30-samsung-nz-3439.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="GustoTV.ca@SD",Gusto TV (1080p)
+
+#EXTINF:-1 tvg-id="GustoTV.ca@SD_2" tvg-name="Gusto TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/66698936bac4421ebc533684/images/logo_20231219_202519_56.png" tvg-country="NZ" group-title="Cooking",Gusto TV
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",Hardcore Pawn (1080p)
+
+#EXTINF:-1 tvg-id="ch_1021" tvg-name="Hardcore Pawn" tvg-country="NZ" group-title="General",Hardcore Pawn
 https://amg00627-banijay-amg00627c8-samsung-nz-1828.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="HauntTV.ca@SD",Haunt TV (1080p)
+
+#EXTINF:-1 tvg-id="HauntTV.ca@SD_3" tvg-name="Haunt TV" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kFORSMlXKT0V9fBpkp5TS7VbpwlNC6XbfZxrSSWUt1UA=s512-c-k-c0x00ffffff-no-rj" tvg-country="NZ" group-title="Series",Haunt TV
 https://amg01446-blueantmediacan-haunttvaus-samsungnz-xo5xf.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaus-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",Highway Thru Hell (1080p)
+
+#EXTINF:-1 tvg-id="ch_1022" tvg-name="Highway Thru Hell" tvg-country="NZ" group-title="General",Highway Thru Hell
 https://amg00627-amg00627c15-samsung-nz-2900.playouts.now.amagi.tv/playlist/amg00627-banijayfast-highwaythruhell-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",History and Warfare Now (1080p)
+
+#EXTINF:-1 tvg-id="ch_1023" tvg-name="History and Warfare Now" tvg-country="NZ" group-title="General",History and Warfare Now
 https://amg00376-magellan-amg00376c19-samsung-nz-1735.playouts.now.amagi.tv/playlist/amg00376-magellantv-historyandwarfarenowaunzin-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="HistoryHit.uk@SD",History Hit (720p)
+
+#EXTINF:-1 tvg-id="HistoryHit.uk@SD_2" tvg-name="History Hit" tvg-logo="https://i.imgur.com/ulHoqlP.png" tvg-country="NZ" group-title="Documentary",History Hit
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timelinenz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Homeful.ca@US",Homeful (1080p)
+
+#EXTINF:-1 tvg-id="Homeful.ca@US_6" tvg-name="Homeful" tvg-logo="https://www.homefultv.com/wp-content/uploads/2023/03/Homeful_Logo_MintWhite.png" tvg-country="NZ" group-title="General",Homeful
 https://amg00090-blueantcanada-amg00090c4-samsung-nz-820.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="HomesUnderHammer.us@UK",Homes Under The Hammer (720p)
+
+#EXTINF:-1 tvg-id="HomesUnderHammer.us@UK_6" tvg-name="Homes Under The Hammer" tvg-logo="https://i.imgur.com/P5Haaln.png" tvg-country="NZ" group-title="Series",Homes Under The Hammer
 https://all3media-homes-under-the-hammer-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="HorseCountryTV.uk@SD",Horse and Country Free (720p)
+
+#EXTINF:-1 tvg-id="HorseCountryTV.uk@SD_2" tvg-name="Horse and Country Free" tvg-logo="https://i.imgur.com/1x6zYZr.png" tvg-country="NZ" group-title="Outdoor",Horse and Country Free
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="INFAST.nl@SD",INFAST (1080p)
+
+#EXTINF:-1 tvg-id="INFAST.nl@SD_6" tvg-name="INFAST" tvg-logo="https://i.imgur.com/VwAMqA7.png" tvg-country="NZ" group-title="Lifestyle",INFAST
 https://amg00861-terninternation-lifestyle-samsungnz-e3zqy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",Inside Outside (720p)
+
+#EXTINF:-1 tvg-id="ch_1024" tvg-name="Inside Outside" tvg-country="NZ" group-title="General",Inside Outside
 https://all3media-international-insideoutside-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="KartoonChannel.us@SD",Kartoon Channel (1080p)
+
+#EXTINF:-1 tvg-id="KartoonChannel.us@SD_2" tvg-name="Kartoon Channel" tvg-logo="https://i.imgur.com/1luzP3T.png" tvg-country="NZ" group-title="Kids",Kartoon Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",Life Downunder (720p)
+
+#EXTINF:-1 tvg-id="ch_1025" tvg-name="Life Downunder" tvg-country="NZ" group-title="General",Life Downunder
 https://wtfn-lifedownunder-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MadeInHollywood.us@SD",Made in Hollywood
+
+#EXTINF:-1 tvg-id="MadeInHollywood.us@SD" tvg-name="Made in Hollywood" tvg-logo="https://i.imgur.com/p16HNIM.png" tvg-country="NZ" group-title="Movies",Made in Hollywood
 https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MagellanTVNow.us@SD",MagellanTV Now (1080p)
+
+#EXTINF:-1 tvg-id="MagellanTVNow.us@SD_2" tvg-name="MagellanTV Now" tvg-logo="https://i.imgur.com/gEraSp5.png" tvg-country="NZ" group-title="Documentary",MagellanTV Now
 https://amg00376-magellan-amg00376c5-samsung-nz-1714.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="McLeodsDaughters.us@UK",Mcleod's Daughters (1080p)
+
+#EXTINF:-1 tvg-id="McLeodsDaughters.us@UK" tvg-name="Mcleod's Daughters" tvg-logo="https://i.imgur.com/q4BBDzw.png" tvg-country="NZ" group-title="Series",Mcleod's Daughters
 https://amg00627-amg00627c5-samsung-nz-2807.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mcleodsdaughters-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Motorvision.de@SD",Motorvision.TV
+
+#EXTINF:-1 tvg-id="Motorvision.de@SD_5" tvg-name="Motorvision.TV" tvg-logo="https://i.imgur.com/v4kj8pI.png" tvg-country="NZ" group-title="Auto",Motorvision.TV
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="MovieSphere.us@AU",MovieSphere AU (1080p)
+
+#EXTINF:-1 tvg-id="MovieSphere.us@AU_2" tvg-name="MovieSphere AU" tvg-logo="https://i.imgur.com/PHBgi3h.png" tvg-country="NZ" group-title="Movies",MovieSphere AU
 https://amg00353-amg00353c32-samsung-nz-3588.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",MTRSPT 1 (1080p)
+
+#EXTINF:-1 tvg-id="ch_1026" tvg-name="MTRSPT 1" tvg-country="NZ" group-title="General",MTRSPT 1
 https://amg02873-kravemedia-mtrspt1-samsungnz-k70ln.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Mythbusters.us@UK",Mythbusters (1080p)
+
+#EXTINF:-1 tvg-id="Mythbusters.us@UK_2" tvg-name="Mythbusters" tvg-logo="https://i.imgur.com/wzzjvcH.png" tvg-country="NZ" group-title="Series",Mythbusters
 https://amg00627-banijay-amg00627c14-samsung-nz-2342.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mythbusters-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="NatureTime.ca@AU",NatureTime (1080p)
+
+#EXTINF:-1 tvg-id="NatureTime.ca@AU_2" tvg-name="NatureTime" tvg-logo="https://naturetimetv.com/wp-content/uploads/2023/05/NatureTime_white_Primary.png" tvg-country="NZ" group-title="Documentary",NatureTime
 https://amg00090-blueantllc-lovenatureau-samsungnz-r3iaz.amagi.tv/playlist/amg00090-blueantllc-lovenatureau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Nosey.us@US",Nosey (1080p)
+
+#EXTINF:-1 tvg-id="Nosey.us@US_6" tvg-name="Nosey" tvg-logo="https://images.crunchbase.com/image/upload/ekrujg3jauqksps6clsq" tvg-country="NZ" group-title="Series",Nosey
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00514-noseybaxterllc-noseyintlnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Now70s.uk@SD",Now 70's (720p)
+
+#EXTINF:-1 tvg-id="Now70s.uk@SD_2" tvg-name="Now 70's" tvg-logo="https://i.imgur.com/qiCCX5X.png" tvg-country="NZ" group-title="Music",Now 70's
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Now80s.uk@SD",Now 80's (1080p)
+
+#EXTINF:-1 tvg-id="Now80s.uk@SD_2" tvg-name="Now 80's" tvg-logo="https://i.imgur.com/YyPnMeB.png" tvg-country="NZ" group-title="Music",Now 80's
 https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NOWRock.uk@SD",NOW Rock (1080p)
+
+#EXTINF:-1 tvg-id="NOWRock.uk@SD_2" tvg-name="NOW Rock" tvg-logo="https://i.imgur.com/GuM4GnX.png" tvg-country="NZ" group-title="Music",NOW Rock
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="OutdoorChannel.us@SD",Outdoor Channel (1080p)
+
+#EXTINF:-1 tvg-id="OutdoorChannel.us@SD_3" tvg-name="Outdoor Channel" tvg-logo="https://i.imgur.com/Kh4MWaY.png" tvg-country="NZ" group-title="Outdoor",Outdoor Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="AntiquesRoadTrip.us@SD",PBS Antiques Road Trip (1080p)
+
+#EXTINF:-1 tvg-id="AntiquesRoadTrip.us@SD_2" tvg-name="PBS Antiques Road Trip" tvg-logo="https://i.imgur.com/kkm7VqV.png" tvg-country="NZ" group-title="Lifestyle",PBS Antiques Road Trip
 https://amg02333-pbs-amg02333c5-samsung-nz-2440.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8
-#EXTINF:-1 tvg-id="",PBS History (1080p)
+
+#EXTINF:-1 tvg-id="ch_1027" tvg-name="PBS History" tvg-country="NZ" group-title="General",PBS History
 https://amg02333-pbs-amg02333c1-samsung-nz-1254.playouts.now.amagi.tv/playlist/amg02333-pbsdistributionfast-pbshistory-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="PetClubTV.hk@SD",Pet Club TV (1080p)
+
+#EXTINF:-1 tvg-id="PetClubTV.hk@SD_2" tvg-name="Pet Club TV" tvg-logo="https://i.imgur.com/ykPNNwQ.png" tvg-country="NZ" group-title="Entertainment",Pet Club TV
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerNationTV.us@SD",PowerNation (1080p)
+
+#EXTINF:-1 tvg-id="PowerNationTV.us@SD_2" tvg-name="PowerNation" tvg-logo="https://i.imgur.com/jguTO8E.png" tvg-country="NZ" group-title="Auto",PowerNation
 https://amg01258-raycomsports-powernationnz-samsungnz-q92ks.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",Pulse TV (1080p)
+
+#EXTINF:-1 tvg-id="ch_1028" tvg-name="Pulse TV" tvg-country="NZ" group-title="General",Pulse TV
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-pulse-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="RacerNetwork.us@SD",Racer Network (1080p)
+
+#EXTINF:-1 tvg-id="RacerNetwork.us@SD_2" tvg-name="Racer Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/74/Racer_Network.jpg" tvg-country="NZ" group-title="Sports",Racer Network
 https://amg00378-mavtv-amg00378c2-samsung-nz-1791.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",RCM (1080p)
+
+#EXTINF:-1 tvg-id="ch_1029" tvg-name="RCM" tvg-country="NZ" group-title="General",RCM
 https://amg01076-lightningintern-rialto-samsungnz-03h40.amagi.tv/playlist/amg01076-lightningintern-rialto-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",Real Crime
+
+#EXTINF:-1 tvg-id="ch_1030" tvg-name="Real Crime" tvg-country="NZ" group-title="General",Real Crime
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realcrimebetanz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="RealWild.uk@SD",Real Wild (1080p)
+
+#EXTINF:-1 tvg-id="RealWild.uk@SD_2" tvg-name="Real Wild" tvg-logo="https://i.imgur.com/T9HHmAO.png" tvg-country="NZ" group-title="General",Real Wild
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwildnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="RyanandFriends.us@SD",Ryan and Friends (1080p)
+
+#EXTINF:-1 tvg-id="RyanandFriends.us@SD_2" tvg-name="Ryan and Friends" tvg-logo="https://i.imgur.com/jcIprmt.png" tvg-country="NZ" group-title="Kids",Ryan and Friends
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00286-pocketwatch-ryanandfriends-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="",Surf Cinema (1080p)
+
+#EXTINF:-1 tvg-id="ch_1031" tvg-name="Surf Cinema" tvg-country="NZ" group-title="General",Surf Cinema
 https://amg13231-actve-amg13231c4-samsung-nz-3093.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Survivor.us@SD",Survivor (1080p)
+
+#EXTINF:-1 tvg-id="Survivor.us@SD_2" tvg-name="Survivor" tvg-logo="https://i.imgur.com/Zz9SgY8.png" tvg-country="NZ" group-title="Series",Survivor
 https://amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv/playlist/amg00627-banijayfast-survivor-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="TheChatShowChannel.uk@SD",The Chat Show Channel (1080p)
+
+#EXTINF:-1 tvg-id="TheChatShowChannel.uk@SD" tvg-name="The Chat Show Channel" tvg-logo="https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj" tvg-country="NZ" group-title="Comedy",The Chat Show Channel
 https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceSportStars.fr@HD",Trace Sports Stars (1080p)
+
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD_5" tvg-name="Trace Sports Stars" tvg-logo="https://i.imgur.com/FabFP5A.png" tvg-country="NZ" group-title="Sports",Trace Sports Stars
 https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr@SD",Trace Urban (1080p)
+
+#EXTINF:-1 tvg-id="TraceUrban.fr@SD_4" tvg-name="Trace Urban" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/6669893cbac4421ebc53368b/images/logo_20231219_223537_68.png" tvg-country="NZ" group-title="Music",Trace Urban
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="TrueCrimeNow.us@SD",True Crime Now (1080p)
+
+#EXTINF:-1 tvg-id="TrueCrimeNow.us@SD_4" tvg-name="True Crime Now" tvg-logo="https://i.imgur.com/Y6Hix17.png" tvg-country="NZ" group-title="General",True Crime Now
 https://amg00376-magellan-amg00376c12-samsung-nz-1727.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowaunzin-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="UndercoverBossGlobal.us@UK",Undercover Boss (720p)
+
+#EXTINF:-1 tvg-id="UndercoverBossGlobal.us@UK_2" tvg-name="Undercover Boss" tvg-logo="https://i.imgur.com/O9lwu23.png" tvg-country="NZ" group-title="Entertainment",Undercover Boss
 https://all3media-international-undercoverboss-1-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Vevo2K.us@SD",Vevo 2K (1080p)
+
+#EXTINF:-1 tvg-id="Vevo2K.us@SD_2" tvg-name="Vevo 2K" tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg" tvg-country="NZ" group-title="Music",Vevo 2K
 https://amg00056-vevotv-vevo2kau-samsungnz-tamaq.amagi.tv/playlist/amg00056-vevotv-vevo2kau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Vevo70s.us@SD",Vevo 70s (1080p)
+
+#EXTINF:-1 tvg-id="Vevo70s.us@SD_2" tvg-name="Vevo 70s" tvg-logo="https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/featuredImage.jpg" tvg-country="NZ" group-title="Music",Vevo 70s
 https://amg00056-vevotv-vevo70saunz-samsungnz-lmeak.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Vevo80s.us@SD",Vevo 80s (1080p)
+
+#EXTINF:-1 tvg-id="Vevo80s.us@SD_2" tvg-name="Vevo 80s" tvg-logo="https://images.pluto.tv/channels/5fd7b8bf927e090007685853/featuredImage.jpg" tvg-country="NZ" group-title="Music",Vevo 80s
 https://amg00056-vevotv-vevo80saunz-samsungnz-96vhe.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Vevo90s.us@SD",Vevo 90s (1080p)
+
+#EXTINF:-1 tvg-id="Vevo90s.us@SD_2" tvg-name="Vevo 90s" tvg-logo="https://images.pluto.tv/channels/5fd7bb1f86d94a000796e2c2/featuredImage.jpg" tvg-country="NZ" group-title="Music",Vevo 90s
 https://amg00056-vevotv-vevo90saunz-samsungnz-mpus0.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="VevoCountry.us@SD",Vevo Country (1080p)
+
+#EXTINF:-1 tvg-id="VevoCountry.us@SD_2" tvg-name="Vevo Country" tvg-logo="https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/featuredImage.jpg" tvg-country="NZ" group-title="Music",Vevo Country
 https://amg00056-vevotv-vevocountryau-samsungnz-kcm6r.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="VevoPop.us@SD",Vevo Pop (1080p)
+
+#EXTINF:-1 tvg-id="VevoPop.us@SD_3" tvg-name="Vevo Pop" tvg-logo="https://i.imgur.com/dZHktKR.png" tvg-country="NZ" group-title="Music",Vevo Pop
 https://amg00056-vevotv-vevopopau-samsungnz-wa3bw.amagi.tv/playlist/amg00056-vevotv-vevopopau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="VevoRetroRock.us@SD",Vevo Retro Rock (1080p)
+
+#EXTINF:-1 tvg-id="VevoRetroRock.us@SD_2" tvg-name="Vevo Retro Rock" tvg-logo="https://i.imgur.com/H1Aap4E.png" tvg-country="NZ" group-title="Music",Vevo Retro Rock
 https://amg00056-vevotv-vevoretrorockau-samsungnz-nog2o.amagi.tv/playlist/amg00056-vevotv-vevoretrorockau-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="WipeoutXtra.us@SD",Wipeout Xtra (1080p)
+
+#EXTINF:-1 tvg-id="WipeoutXtra.us@SD_2" tvg-name="Wipeout Xtra" tvg-logo="https://i.imgur.com/UDeCRW1.png" tvg-country="NZ" group-title="Entertainment",Wipeout Xtra
 https://amg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtranz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Wonder.uk@SD",Wonder (720p)
+
+#EXTINF:-1 tvg-id="Wonder.uk@SD_3" tvg-name="Wonder" tvg-logo="https://i.imgur.com/LquGNbh.png" tvg-country="NZ" group-title="Science",Wonder
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ZooMoo.sg@SD",Zoo Moo (1080p)
+
+#EXTINF:-1 tvg-id="ZooMoo.sg@SD_2" tvg-name="Zoo Moo" tvg-logo="https://i.imgur.com/ciTJrnl.png" tvg-country="NZ" group-title="Kids",Zoo Moo
 https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="ZooMoo.sg@SD",Zoo Moo (1080p)
+
+#EXTINF:-1 tvg-id="ZooMoo.sg@SD_3" tvg-name="Zoo Moo (Feed 3)" tvg-logo="https://i.imgur.com/ciTJrnl.png" tvg-country="NZ" group-title="Kids",Zoo Moo (Feed 3)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="HGTV.nz@SD",HGTV (1080p)
+
+#EXTINF:-1 tvg-id="HGTV.nz@SD" tvg-name="HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" tvg-country="NZ" group-title="Lifestyle",HGTV
 https://mediapackage-sky-hgtv-source.fullscreen.nz/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySport1.nz@SD" tvg-name="Sky Sport 1" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NZ" group-title="General",Sky Sport 1
+http://37.49.224.5/stream/44/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySport2.nz@SD" tvg-name="Sky Sport 2" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NZ" group-title="General",Sky Sport 2
+http://37.49.224.5/stream/45/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySport3.nz@SD" tvg-name="Sky Sport 3" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NZ" group-title="General",Sky Sport 3
+http://37.49.224.5/stream/46/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySport4.nz@SD" tvg-name="Sky Sport 4" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NZ" group-title="General",Sky Sport 4
+http://37.49.224.5/stream/51/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySport7.nz@SD" tvg-name="Sky Sport 7" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NZ" group-title="General",Sky Sport 7
+http://37.49.224.5/stream/50/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySport8.nz@SD" tvg-name="Sky Sport 8" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NZ" group-title="General",Sky Sport 8
+http://37.49.224.5/stream/70/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySport9.nz@SD" tvg-name="Sky Sport 9" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NZ" group-title="General",Sky Sport 9
+http://37.49.224.5/stream/52/index.m3u8
+
+#EXTINF:-1 tvg-id="SkySportSelect.nz@SD" tvg-name="Sky Sport Select" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NZ" group-title="General",Sky Sport Select
+http://37.49.224.5/stream/53/index.m3u8
+

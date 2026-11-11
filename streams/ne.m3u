@@ -1,9 +1,14 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="DouniaTV.ne@SD",Dounia TV
+#EXTM3U url-tvg="https://epg.kanya.io/ne/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="DouniaTV.ne@SD" tvg-name="Dounia TV" tvg-logo="https://i.imgur.com/ENBCDaQ.png" tvg-country="NE" group-title="General",Dounia TV
 https://live20.bozztv.com/dvrfl06/astv/astv-douniatv/index.m3u8
-#EXTINF:-1 tvg-id="SaraouniaTV.ne@SD",Saraounia TV
+
+#EXTINF:-1 tvg-id="SaraouniaTV.ne@SD" tvg-name="Saraounia TV" tvg-logo="https://i.imgur.com/O8XIcpH.png" tvg-country="NE" group-title="General",Saraounia TV
 https://live20.bozztv.com/dvrfl06/astv/astv-saraouna/index.m3u8
-#EXTINF:-1 tvg-id="TalTV.ne@SD",Tal TV (1080p)
+
+#EXTINF:-1 tvg-id="TalTV.ne@SD" tvg-name="Tal TV" tvg-logo="https://i.imgur.com/KWMP0t1.png" tvg-country="NE" group-title="Entertainment",Tal TV
 https://mediaserver1.castpin.com/hls/taltv/index.m3u8
-#EXTINF:-1 tvg-id="TeleSahel.ne@SD",Tele Sahel (1080p)
+
+#EXTINF:-1 tvg-id="TeleSahel.ne@SD" tvg-name="Tele Sahel" tvg-logo="https://i.imgur.com/vboq428.png" tvg-country="NE" group-title="General",Tele Sahel
 https://mediaserver1.castpin.com/hls/telesahel/index.m3u8
+

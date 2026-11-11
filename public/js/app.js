@@ -216,6 +216,7 @@
     setupModals();
     setupSearchFilters();
     setupPlayerControls();
+    setupCountersObserver();
 
     // Detect language from URL route prefix or localStorage or body attribute
     const pathParts = window.location.pathname.split('/').filter(Boolean);
@@ -241,28 +242,15 @@
     if (paramCountry && playerCountrySelect) {
       playerCountrySelect.value = paramCountry.toUpperCase();
       state.currentCountry = paramCountry.toUpperCase();
-      const flagImg = document.getElementById('player-country-flag-img');
-      if (flagImg) {
-        flagImg.src = `https://flagcdn.com/w40/${state.currentCountry.toLowerCase()}.png`;
-      }
     } else if (playerCountrySelect) {
       state.currentCountry = playerCountrySelect.value;
     }
+    updatePlayerCountryUI(state.currentCountry);
 
     if (paramCat) {
       state.currentCategory = paramCat;
-      const targetBtn = document.querySelector(`.cat-tag-btn[data-category="${paramCat}"]`);
-      if (targetBtn) {
-        document.querySelectorAll('.cat-tag-btn').forEach(b => b.classList.remove('active'));
-        targetBtn.classList.add('active');
-        const categoriesActiveBadge = document.getElementById('categories-active-badge');
-        if (categoriesActiveBadge) {
-          categoriesActiveBadge.textContent = targetBtn.textContent.trim();
-          const catI18n = targetBtn.getAttribute('data-i18n');
-          if (catI18n) categoriesActiveBadge.setAttribute('data-i18n', catI18n);
-        }
-      }
     }
+    updateCategoriesForCountry(state.currentCountry, state.currentCategory);
 
     // Restore search query from URL
     const paramQ = urlParams.get('q');
@@ -416,6 +404,70 @@
     });
   }
 
+  let activeCounterRfs = [];
+
+  function animateCounters() {
+    const counters = document.querySelectorAll('.count-up-val');
+    if (!counters.length) return;
+
+    // Cancel any in-flight animation frames
+    activeCounterRfs.forEach(id => cancelAnimationFrame(id));
+    activeCounterRfs = [];
+
+    counters.forEach(counter => {
+      const rawTarget = counter.getAttribute('data-target');
+      if (!rawTarget) return;
+      const target = parseInt(rawTarget.replace(/[^0-9]/g, ''), 10);
+      if (isNaN(target) || target <= 0) return;
+
+      // Start visibly from 0
+      counter.textContent = '0';
+
+      // Duration: 2400ms (smooth, comfortably readable count-up pace)
+      const duration = 2400;
+      const startTime = performance.now();
+
+      function step(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        // Smooth ease-out deceleration
+        const easeOut = 1 - Math.pow(1 - progress, 2.5);
+        const current = Math.floor(easeOut * target);
+        counter.textContent = current.toLocaleString();
+
+        if (progress < 1) {
+          const rafId = requestAnimationFrame(step);
+          activeCounterRfs.push(rafId);
+        } else {
+          counter.textContent = target.toLocaleString();
+        }
+      }
+
+      const rafId = requestAnimationFrame(step);
+      activeCounterRfs.push(rafId);
+    });
+  }
+
+  function setupCountersObserver() {
+    const statsContainer = document.querySelector('.stats-dl-row');
+    if (!statsContainer) return;
+
+    if ('IntersectionObserver' in window) {
+      let hasAnimated = false;
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !hasAnimated) {
+            hasAnimated = true;
+            animateCounters();
+          }
+        });
+      }, { threshold: 0.1 });
+      observer.observe(statsContainer);
+    } else {
+      animateCounters();
+    }
+  }
+
   function switchView(viewName, pushState = true) {
     // Pause video when leaving the TV Player view
     if (viewName !== 'player' && video && !video.paused) {
@@ -430,6 +482,10 @@
     const activePane = document.getElementById(`view-${viewName}`);
     if (activePane) {
       activePane.classList.add('active');
+    }
+
+    if (viewName === 'overview') {
+      animateCounters();
     }
 
     // Toggle nav active classes across desktop and mobile
@@ -466,11 +522,11 @@
 
     // Dynamic document title for client-side navigation
     if (viewName === 'overview') {
-      document.title = 'LiveTV — Worldwide Live TV Streams & EPG Guide';
+      document.title = 'LiveTV — Worldwide Live TV Streaming Platform';
     } else if (viewName === 'countries') {
-      document.title = 'Explore 200+ Countries Live TV Catalog — LiveTV';
+      document.title = 'Explore 250 Countries & Territories Live TV Catalog — LiveTV';
     } else if (viewName === 'channels') {
-      document.title = 'Channels Directory — 18,400+ Live Television Feeds | LiveTV';
+      document.title = 'Channels Directory — 20,500+ Live Television Feeds | LiveTV';
     } else if (viewName === 'player') {
       document.title = state.currentChannel
         ? `${state.currentChannel.name} — LiveTV Player`
@@ -623,21 +679,40 @@
     if (playerCountrySelect && playerCountrySelect.value !== countryCode) {
       playerCountrySelect.value = countryCode;
     }
+    const norm = countryCode.toUpperCase().trim();
+    const isAll = norm === 'ALL' || norm === 'WORLD' || norm === 'GLOBAL';
     const option = playerCountrySelect ? playerCountrySelect.querySelector(`option[value="${countryCode}"]`) : null;
-    const flagCode = option?.dataset.flagCode || (countryCode.toUpperCase() === 'UK' ? 'gb' : countryCode.toLowerCase());
     const flagImg = document.getElementById('player-country-flag-img');
     const flagFallback = document.getElementById('player-country-flag-fallback');
-    if (flagImg) {
-      flagImg.src = `https://flagcdn.com/w40/${flagCode}.png`;
-      flagImg.style.display = 'block';
+
+    if (isAll) {
+      if (flagImg) {
+        flagImg.src = '/globe.svg';
+        flagImg.alt = 'All Countries';
+        flagImg.style.display = 'block';
+      }
       if (flagFallback) flagFallback.style.display = 'none';
-    }
-    if (currentChCountry) {
-      const countryName = option ? (option.dataset.name || option.textContent.split('(')[0].trim()) : countryCode;
-      currentChCountry.innerHTML = `
-        <img src="https://flagcdn.com/w40/${flagCode}.png" alt="" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:cover;">
-        <span>${escapeHtml(countryName)}</span>
-      `;
+      if (currentChCountry) {
+        currentChCountry.innerHTML = `
+          <img src="/globe.svg" alt="All Countries" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:contain;">
+          <span>All Countries</span>
+        `;
+      }
+    } else {
+      const flagCode = option?.dataset.flagCode || (norm === 'UK' ? 'gb' : norm.toLowerCase());
+      if (flagImg) {
+        flagImg.src = `https://flagcdn.com/w40/${flagCode}.png`;
+        flagImg.alt = option ? (option.dataset.name || option.textContent) : countryCode;
+        flagImg.style.display = 'block';
+        if (flagFallback) flagFallback.style.display = 'none';
+      }
+      if (currentChCountry) {
+        const countryName = option ? (option.dataset.name || option.textContent.split('(')[0].trim()) : countryCode;
+        currentChCountry.innerHTML = `
+          <img src="https://flagcdn.com/w40/${flagCode}.png" alt="" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:cover;">
+          <span>${escapeHtml(countryName)}</span>
+        `;
+      }
     }
   }
 
@@ -671,6 +746,21 @@
     // Update Header Bar
     if (currentChName) currentChName.textContent = channelData.name;
     if (currentChQuality) currentChQuality.textContent = channelData.quality;
+
+    // Always show the channel's own country in the now-playing bar
+    if (currentChCountry && channelData.country) {
+      const chCode = channelData.country.toUpperCase().trim();
+      const isAll = chCode === 'ALL' || chCode === 'WORLD' || chCode === 'GLOBAL' || chCode === '';
+      if (!isAll) {
+        const chFlagCode = chCode === 'UK' ? 'gb' : chCode.toLowerCase();
+        const chOption = playerCountrySelect ? playerCountrySelect.querySelector(`option[value="${chCode}"]`) : null;
+        const chCountryName = chOption ? (chOption.dataset.name || chOption.textContent.split('(')[0].trim()) : chCode;
+        currentChCountry.innerHTML = `
+          <img src="https://flagcdn.com/w40/${chFlagCode}.png" alt="${escapeHtml(chCountryName)}" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:cover;" onerror="this.style.display='none';">
+          <span>${escapeHtml(chCountryName)}</span>
+        `;
+      }
+    }
 
     if (autoPlay && channelData.url) {
       playStream(channelData.url);
@@ -889,22 +979,108 @@
     // Update Flag image and country text on player interface
     function updatePlayerCountryUI(countryCode) {
       if (!countryCode) return;
+      const norm = countryCode.toUpperCase().trim();
+      const isAll = norm === 'ALL' || norm === 'WORLD' || norm === 'GLOBAL';
       const option = playerCountrySelect ? playerCountrySelect.querySelector(`option[value="${countryCode}"]`) : null;
-      const flagCode = option?.dataset.flagCode || (countryCode.toUpperCase() === 'UK' ? 'gb' : countryCode.toLowerCase());
       const flagImg = document.getElementById('player-country-flag-img');
       const flagFallback = document.getElementById('player-country-flag-fallback');
-      if (flagImg) {
-        flagImg.src = `https://flagcdn.com/w40/${flagCode}.png`;
-        flagImg.style.display = 'block';
-        if (flagFallback) flagFallback.style.display = 'none';
+
+      if (isAll) {
+        if (flagImg) {
+          flagImg.src = '/globe.svg';
+          flagImg.alt = 'All Countries';
+          flagImg.style.display = 'block';
+        }
+        if (flagFallback) {
+          flagFallback.style.display = 'none';
+        }
+      } else {
+        const flagCode = option?.dataset.flagCode || (norm === 'UK' ? 'gb' : norm.toLowerCase());
+        if (flagImg) {
+          flagImg.src = `https://flagcdn.com/w40/${flagCode}.png`;
+          flagImg.alt = option ? (option.dataset.name || option.textContent) : countryCode;
+          flagImg.style.display = 'block';
+          if (flagFallback) flagFallback.style.display = 'none';
+        }
       }
       if (currentChCountry) {
-        const countryName = option ? (option.dataset.name || option.textContent.split('(')[0].trim()) : countryCode;
-        currentChCountry.innerHTML = `
-          <img src="https://flagcdn.com/w40/${flagCode}.png" alt="" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:cover;">
-          <span>${countryName}</span>
-        `;
+        if (isAll) {
+          currentChCountry.innerHTML = `
+            <img src="/globe.svg" alt="All Countries" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:contain;">
+            <span>All Countries</span>
+          `;
+        } else {
+          const flagCode = option?.dataset.flagCode || (norm === 'UK' ? 'gb' : norm.toLowerCase());
+          const countryName = option ? (option.dataset.name || option.textContent.split('(')[0].trim()) : countryCode;
+          currentChCountry.innerHTML = `
+            <img src="https://flagcdn.com/w40/${flagCode}.png" alt="" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:cover;">
+            <span>${escapeHtml(countryName)}</span>
+          `;
+        }
       }
+    }
+
+    // Dynamic Categories fetch & render per Country
+    function updateCategoriesForCountry(countryCode, targetCategory) {
+      const catContainer = document.getElementById('category-tags-container');
+      if (!catContainer) return;
+
+      const safeCountry = (countryCode || state.currentCountry || 'ALL').trim().toUpperCase();
+      const url = `/api/categories?country=${encodeURIComponent(safeCountry)}`;
+
+      fetch(url)
+        .then(res => res.json())
+        .then(json => {
+          const resData = json?.data || json;
+          const cats = resData?.categories || [];
+          const validCats = cats.filter(c => c && c.toLowerCase() !== 'undefined' && c.toLowerCase() !== 'null');
+
+          // Check if target category is valid for this country; if not, reset to 'all'
+          let desiredCat = targetCategory || state.currentCategory || 'all';
+          const catExists = desiredCat === 'all' || validCats.some(c => c.toLowerCase() === desiredCat.toLowerCase());
+          if (!catExists) {
+            desiredCat = 'all';
+            state.currentCategory = 'all';
+          }
+
+          catContainer.innerHTML = '';
+
+          // Add 'All' button
+          const allBtn = document.createElement('button');
+          allBtn.type = 'button';
+          allBtn.className = `cat-tag-btn ${desiredCat === 'all' ? 'active' : ''}`;
+          allBtn.dataset.category = 'all';
+          allBtn.setAttribute('data-i18n', 'cat_all');
+          allBtn.textContent = t('cat_all', 'All');
+          catContainer.appendChild(allBtn);
+
+          // Add dynamic category buttons for this country
+          validCats.forEach(catName => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = `cat-tag-btn ${catName.toLowerCase() === desiredCat.toLowerCase() ? 'active' : ''}`;
+            btn.dataset.category = catName;
+            const catKey = 'cat_' + catName.toLowerCase().replace(/[^a-z0-9]/g, '');
+            btn.setAttribute('data-i18n', catKey);
+            btn.textContent = t(catKey, catName);
+            catContainer.appendChild(btn);
+          });
+
+          // Update active category badge in header
+          const badge = document.getElementById('categories-active-badge');
+          if (badge) {
+            if (desiredCat === 'all') {
+              badge.textContent = t('cat_all', 'All');
+              badge.setAttribute('data-i18n', 'cat_all');
+            } else {
+              const activeBtn = catContainer.querySelector(`.cat-tag-btn[data-category="${desiredCat}"]`);
+              badge.textContent = activeBtn ? activeBtn.textContent : desiredCat;
+            }
+          }
+        })
+        .catch(err => {
+          console.error('[updateCategoriesForCountry] Error fetching categories:', err);
+        });
     }
 
     // Country select change in TV Player
@@ -914,38 +1090,28 @@
         state.currentCountry = countryCode;
         state.currentCategory = 'all';
 
-        // Reset category UI chips to 'all'
-        document.querySelectorAll('.cat-tag-btn').forEach(b => {
-          if (b.dataset.category === 'all') {
-            b.classList.add('active');
-          } else {
-            b.classList.remove('active');
-          }
-        });
-
         // Reset channel search input
         if (playerChannelSearch) playerChannelSearch.value = '';
         const playerSearchClear = document.getElementById('player-search-clear');
         if (playerSearchClear) playerSearchClear.style.display = 'none';
-        const categoriesActiveBadge = document.getElementById('categories-active-badge');
-        if (categoriesActiveBadge) {
-          categoriesActiveBadge.textContent = t('cat_all', 'All');
-          categoriesActiveBadge.setAttribute('data-i18n', 'cat_all');
-        }
 
         updatePlayerCountryUI(countryCode);
+        updateCategoriesForCountry(countryCode, 'all');
         updatePlayerUrl(countryCode, 'all', null, '');
 
-        // Load new country channels without automatically playing — shows "Click to play"
+        // Load new country channels without automatically playing
         loadPlayerChannels(countryCode, 'all', false);
       });
     }
 
-    // Category tags in TV Player (Structured in-place grid, no horizontal scroll)
+    // Category tags in TV Player (Delegated click on #category-tags-container)
+    const catContainer = document.getElementById('category-tags-container');
     const categoriesActiveBadge = document.getElementById('categories-active-badge');
-    document.querySelectorAll('.cat-tag-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.cat-tag-btn').forEach(b => b.classList.remove('active'));
+    if (catContainer) {
+      catContainer.addEventListener('click', (e) => {
+        const btn = e.target.closest('.cat-tag-btn');
+        if (!btn) return;
+        catContainer.querySelectorAll('.cat-tag-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         state.currentCategory = btn.dataset.category || 'all';
         if (categoriesActiveBadge) {
@@ -954,14 +1120,14 @@
           if (catI18n) categoriesActiveBadge.setAttribute('data-i18n', catI18n);
           else categoriesActiveBadge.removeAttribute('data-i18n');
         }
-        const countryCode = playerCountrySelect ? playerCountrySelect.value : 'US';
+        const countryCode = playerCountrySelect ? playerCountrySelect.value : (state.currentCountry || 'ALL');
         if (playerChannelSearch) playerChannelSearch.value = '';
         const _clearBtn = document.getElementById('player-search-clear');
         if (_clearBtn) _clearBtn.style.display = 'none';
         updatePlayerUrl(countryCode, state.currentCategory, null, '');
         loadPlayerChannels(countryCode, state.currentCategory, false);
       });
-    });
+    }
 
     // Delegated click listener for all channel items in player channels list
     if (playerChannelsList) {
@@ -1194,9 +1360,10 @@
             item.dataset.url = ch.streamUrl || ch.url || '';
             item.dataset.name = ch.name || 'Channel';
             item.dataset.logo = ch.logoUrl || ch.logo || '';
+            const cleanCat = (!ch.category || ch.category.toLowerCase() === 'undefined') ? 'General' : ch.category;
             item.dataset.quality = ch.resolution || ch.quality || 'HD';
             item.dataset.country = ch.country || safeCountry;
-            item.dataset.category = ch.category || (ch.categories && ch.categories[0]) || 'General';
+            item.dataset.category = cleanCat;
 
             const name = ch.name || 'Channel';
             const initials = name.substring(0, 2).toUpperCase();
@@ -1205,11 +1372,19 @@
               ? `<img src="${logo}" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"><span style="display:none;">${initials}</span>`
               : `<span>${initials}</span>`;
 
+            // Show country flag + code only when "All Countries" is selected
+            const isAllCountry = safeCountry === 'ALL';
+            const chCode = (ch.country || '').toUpperCase();
+            const chFlagCode = chCode === 'UK' ? 'gb' : chCode.toLowerCase();
+            const countryPrefix = (isAllCountry && chCode && chCode !== 'ALL')
+              ? `<img src="https://flagcdn.com/w20/${chFlagCode}.png" alt="${chCode}" style="width:13px;height:9px;vertical-align:middle;margin-right:3px;border-radius:1px;object-fit:cover;" onerror="this.style.display='none';">${chCode} &middot; `
+              : '';
+
             item.innerHTML = `
               <div class="ch-logo-mini">${logoHtml}</div>
               <div class="ch-meta-mini">
                 <div class="ch-title-mini">${name}</div>
-                <div class="ch-sub-mini">${item.dataset.quality} &middot; ${item.dataset.category}</div>
+                <div class="ch-sub-mini">${countryPrefix}${item.dataset.quality} &middot; ${cleanCat}</div>
               </div>
             `;
 

@@ -1,88 +1,125 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="Channel9.il@SD",Channel 9 (1080p)
+#EXTM3U url-tvg="https://epg.kanya.io/il/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="Channel9.il@SD" tvg-name="Channel 9" tvg-logo="https://i.imgur.com/pttM3KQ.png" tvg-country="IL" group-title="News",Channel 9
 https://contact.gostreaming.tv/Con-11/index.m3u8
-#EXTINF:-1 tvg-id="Channel13.il@SD",Channel 13 (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Channel13.il@SD" tvg-name="Channel 13" tvg-logo="https://i.imgur.com/eFM3bTq.png" tvg-country="IL" group-title="General",Channel 13
 http://stream.mcquack.net/295/index.m3u8
-#EXTINF:-1 tvg-id="Channel24.il@SD",Channel 24 (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Channel24.il@SD" tvg-name="Channel 24" tvg-logo="https://i.imgur.com/WLs67QI.png" tvg-country="IL" group-title="General",Channel 24
 http://stream.mcquack.net/42/index.m3u8
-#EXTINF:-1 tvg-id="GoodLife.il@SD",Good Life (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="GoodLife.il@SD" tvg-name="Good Life" tvg-logo="https://cdn.epg.one/img2/2686.png" tvg-country="IL" group-title="Lifestyle",Good Life
 http://stream.mcquack.net/47/index.m3u8
-#EXTINF:-1 tvg-id="HalaTV.il@SD",Hala TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="HalaTV.il@SD" tvg-name="Hala TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/028M4Ew.png" tvg-country="IL" group-title="General",Hala TV (1080p) [Not 24/7]
 https://stream.panet.com/edge/halaTV/playlist.m3u8
-#EXTINF:-1 tvg-id="Hidabroot.il@SD",Hidabroot (1080p)
+
+#EXTINF:-1 tvg-id="Hidabroot.il@SD" tvg-name="Hidabroot" tvg-logo="https://i.imgur.com/CTH4Hu2.png" tvg-country="IL" group-title="Religious",Hidabroot
 https://cdn.cybercdn.live/HidabrootIL/Live97/playlist.m3u8
-#EXTINF:-1 tvg-id="Hop.il@SD",Hop! (1080p)
+
+#EXTINF:-1 tvg-id="Hop.il@SD" tvg-name="Hop!" tvg-logo="https://i.imgur.com/bScuilD.png" tvg-country="IL" group-title="Kids",Hop!
 http://stream.mcquack.net/44/index.m3u8
-#EXTINF:-1 tvg-id="HOTDrama.il@SD",HOT Drama (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="HOTDrama.il@SD" tvg-name="HOT Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png" tvg-country="IL" group-title="Series",HOT Drama
 http://stream.mcquack.net/381/index.m3u8
-#EXTINF:-1 tvg-id="HOTZone.il@SD",HOT Zone (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="HOTZone.il@SD" tvg-name="HOT Zone" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/0/00/HOT_Zone.svg/250px-HOT_Zone.svg.png" tvg-country="IL" group-title="General",HOT Zone
 http://stream.mcquack.net/379/index.m3u8
-#EXTINF:-1 tvg-id="i24NEWSArabic.il@SD",i24NEWS Arabic (1080p)
+
+#EXTINF:-1 tvg-id="i24NEWSArabic.il@SD" tvg-name="i24NEWS Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" tvg-country="IL" group-title="News",i24NEWS Arabic
 https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8
-#EXTINF:-1 tvg-id="i24NEWSEnglishWorld.il@SD",i24NEWS English World (1080p)
+
+#EXTINF:-1 tvg-id="i24NEWSEnglishWorld.il@SD" tvg-name="i24NEWS English World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" tvg-country="IL" group-title="News",i24NEWS English World
 https://i24newsenglish-cdn.encoders.immergo.tv/master.m3u8
-#EXTINF:-1 tvg-id="i24NEWSFrench.il@SD",i24NEWS French (1080p)
+
+#EXTINF:-1 tvg-id="i24NEWSFrench.il@SD" tvg-name="i24NEWS French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" tvg-country="IL" group-title="News",i24NEWS French
 https://i24newsfrench-cdn.encoders.immergo.tv/master.m3u8
-#EXTINF:-1 tvg-id="i24NEWSFrench.il@SD",I24 News French (720p)
+
+#EXTINF:-1 tvg-id="i24NEWSFrench.il@SD_2" tvg-name="I24 News French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" tvg-country="IL" group-title="News",I24 News French
 https://bcovlive-a.akamaihd.net/41814196d97e433fb401c5e632d985e9/eu-central-1/5377161796001/playlist.m3u8
-#EXTINF:-1 tvg-id="i24NEWSHebrew.il@SD",I24 News Hebrew (1080p)
+
+#EXTINF:-1 tvg-id="i24NEWSHebrew.il@SD" tvg-name="I24 News Hebrew" tvg-logo="https://www.i24news.tv/images/favicon.png" tvg-country="IL" group-title="News",I24 News Hebrew
 https://i24newshebrew-cdn.encoders.immergo.tv/master.m3u8
-#EXTINF:-1 tvg-id="KabbalahforthePeopleIsrael.il@SD",Kabbalah for the People (Israel) (504p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="KabbalahforthePeopleIsrael.il@SD" tvg-name="Kabbalah for the People (Israel) (504p) [Not 24/7]" tvg-logo="https://i.imgur.com/VxAHOgr.png" tvg-country="IL" group-title="Religious",Kabbalah for the People (Israel) (504p) [Not 24/7]
 https://edge3.uk.kab.tv/live/tv66-heb-high/playlist.m3u8
-#EXTINF:-1 tvg-id="Kan11.il@SD",Kan 11 (1080p)
+
+#EXTINF:-1 tvg-id="Kan11.il@SD" tvg-name="Kan 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/960px-Kan11Logo.svg.png" tvg-country="IL" group-title="General",Kan 11
 https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="KanEducational.il@SD",Kan Educational (720p)
+
+#EXTINF:-1 tvg-id="KanEducational.il@SD" tvg-name="Kan Educational" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KanHinuchit.svg/960px-KanHinuchit.svg.png" tvg-country="IL" group-title="Education",Kan Educational
 http://stream.mcquack.net/378/index.m3u8
-#EXTINF:-1 tvg-id="Keshet12.il@SD",Keshet 12 (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Keshet12.il@SD" tvg-name="Keshet 12" tvg-logo="https://i.imgur.com/fY3eakc.png" tvg-country="IL" group-title="General",Keshet 12
 http://stream.mcquack.net/294/index.m3u8
-#EXTINF:-1 tvg-id="KnessetChannel.il@SD",Knesset Channel (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="KnessetChannel.il@SD" tvg-name="Knesset Channel" tvg-logo="https://i.imgur.com/QXB1jv8.png" tvg-country="IL" group-title="Legislative",Knesset Channel
 http://stream.mcquack.net/48/index.m3u8
-#EXTINF:-1 tvg-id="KnessetChannel.il@SD",Knesset Channel (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="KnessetChannel.il@SD_2" tvg-name="Knesset Channel (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/QXB1jv8.png" tvg-country="IL" group-title="Legislative",Knesset Channel (480p) [Not 24/7]
 https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="Makan33.il@SD",Makan 33 (1080p)
+
+#EXTINF:-1 tvg-id="Makan33.il@SD" tvg-name="Makan 33" tvg-logo="https://i.imgur.com/RVtQTed.png" tvg-country="IL" group-title="News",Makan 33
 https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="",Musayof (Israel) (240p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="ch_778" tvg-name="Musayof (Israel) (240p) [Not 24/7]" tvg-country="IL" group-title="General",Musayof (Israel) (240p) [Not 24/7]
 http://wowza.media-line.co.il/Musayof-Live/livestream.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="Now14.il@SD",Now 14 (1080p)
+
+#EXTINF:-1 tvg-id="Now14.il@SD" tvg-name="Now 14" tvg-logo="https://i.imgur.com/Iq2Kb69.png" tvg-country="IL" group-title="General",Now 14
 https://r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="Channel13.il@SD",Reshet 13 (720p)
+
+#EXTINF:-1 tvg-id="Channel13.il@SD_2" tvg-name="Reshet 13" tvg-logo="https://i.imgur.com/eFM3bTq.png" tvg-country="IL" group-title="General",Reshet 13
 https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
-#EXTINF:-1 tvg-id="ShelanuTV.il@SD",Shelanu TV (720p)
+
+#EXTINF:-1 tvg-id="ShelanuTV.il@SD" tvg-name="Shelanu TV" tvg-logo="https://i.imgur.com/UVz2Ojq.png" tvg-country="IL" group-title="Religious",Shelanu TV
 https://1247634592.rsc.cdn77.org/1247634592/playlist.m3u8
-#EXTINF:-1 tvg-id="YamTichoni.il@SD",Yam Tichoni (1080p)
+
+#EXTINF:-1 tvg-id="YamTichoni.il@SD" tvg-name="Yam Tichoni" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/5/58/YamTichoniChannel.svg/1280px-YamTichoniChannel.svg.png" tvg-country="IL" group-title="Series",Yam Tichoni
 http://stream.mcquack.net/46/index.m3u8
-#EXTINF:-1 tvg-id="YesMoviesAction.il@SD",Yes Movies Action (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="YesMoviesAction.il@SD" tvg-name="Yes Movies Action" tvg-logo="https://i.imgur.com/Bgz7p5F.png" tvg-country="IL" group-title="Movies",Yes Movies Action
 http://stream.mcquack.net/380/index.m3u8
-#EXTINF:-1 tvg-id="Zoom.il@SD",Zoom (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Zoom.il@SD" tvg-name="Zoom" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/f/fb/%D7%A1%D7%9E%D7%9C%D7%99%D7%9C_%D7%A2%D7%A8%D7%95%D7%A5_ZOOM_2022.svg/1920px-%D7%A1%D7%9E%D7%9C%D7%99%D7%9C_%D7%A2%D7%A8%D7%95%D7%A5_ZOOM_2022.svg.png" tvg-country="IL" group-title="Kids",Zoom
 http://stream.mcquack.net/377/index.m3u8
-#EXTINF:-1 tvg-id="i24NEWSArabic.il@SD",i24NEWS Arabic (1080p)
+
+#EXTINF:-1 tvg-id="i24NEWSArabic.il@SD_2" tvg-name="i24NEWS Arabic (Feed 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" tvg-country="IL" group-title="News",i24NEWS Arabic (Feed 2)
 https://hlspackager.akamaized.net/live/DB/i24_ARABIC/HLS/i24_ARABIC.m3u8
-#EXTINF:-1 tvg-id="i24NEWSEnglishWorld.il@SD",i24NEWS English World (1080p)
+
+#EXTINF:-1 tvg-id="i24NEWSEnglishWorld.il@SD_2" tvg-name="i24NEWS English World (Feed 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" tvg-country="IL" group-title="News",i24NEWS English World (Feed 2)
 https://hlspackager.akamaized.net/live/DB/i24_ENGLISH/HLS/i24_ENGLISH.m3u8
-#EXTINF:-1 tvg-id="VivaPremium.il@SD",Viva Premium (1080p)
+
+#EXTINF:-1 tvg-id="VivaPremium.il@SD" tvg-name="Viva Premium" tvg-logo="https://cdn.epg.one/img2/9055.png" tvg-country="IL" group-title="General",Viva Premium
 http://stream.mcquack.net/43/index.m3u8
-#EXTINF:-1 tvg-id="RealityChannel.il@SD",Reality Channel
+
+#EXTINF:-1 tvg-id="RealityChannel.il@SD" tvg-name="Reality Channel" tvg-logo="https://static.g-cdn.app/streams/yes-reality-channel-il-hd.png" tvg-country="IL" group-title="Entertainment",Reality Channel
 https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/index_1.m3u8
-#EXTINF:-1 tvg-id="VacationChannel.il@SD",Vacation Channel
+
+#EXTINF:-1 tvg-id="VacationChannel.il@SD" tvg-name="Vacation Channel" tvg-logo="https://static.g-cdn.app/streams/vacation-channel-il-hd.png" tvg-country="IL" group-title="Entertainment",Vacation Channel
 https://d1yd8hohnldm33.cloudfront.net/out/v1/19dee23c2cc24f689bd4e1288661ee0c/index_2.m3u8
-#EXTINF:-1 tvg-id="HealthChannel.il@SD",Health Channel (1080p)
+
+#EXTINF:-1 tvg-id="HealthChannel.il@SD" tvg-name="Health Channel" tvg-logo="https://cdn.epg.one/img2/2709.png" tvg-country="IL" group-title="Lifestyle",Health Channel
 http://89.33.29.115:8080/Health/index.m3u8
-#EXTINF:-1 tvg-id="TeenNick.il@SD",TeenNick (406p)
+
+#EXTINF:-1 tvg-id="TeenNick.il@SD" tvg-name="TeenNick" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TeenNick_logo_2023_%28outline%29.svg/1280px-TeenNick_logo_2023_%28outline%29.svg.png" tvg-country="IL" group-title="Kids",TeenNick
 http://89.33.29.115:8080/TeenNick/index.m3u8
-#EXTINF:-1 tvg-id="5Plus.il@SD",5Plus (1080p)
+
+#EXTINF:-1 tvg-id="5Plus.il@SD" tvg-name="5Plus" tvg-logo="https://i.imgur.com/L3RA9Lv.png" tvg-country="IL" group-title="Sports",5Plus
 http://89.33.29.115:8080/sportplus/index.m3u8
-#EXTINF:-1 tvg-id="5Stars.il@SD",5Stars (1080p)
+
+#EXTINF:-1 tvg-id="5Stars.il@SD" tvg-name="5Stars" tvg-logo="https://i.imgur.com/IQtAKIa.png" tvg-country="IL" group-title="Sports",5Stars
 http://89.33.29.115:8080/IL_5Stars/index.m3u8
-#EXTINF:-1 tvg-id="ComedyChannel.il@SD",Comedy Channel (1080p)
+
+#EXTINF:-1 tvg-id="ComedyChannel.il@SD" tvg-name="Comedy Channel" tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/fc0d8109a18a4db3b585f154d32bd5b1/version/93/width/288/height/153/" tvg-country="IL" group-title="General",Comedy Channel
 https://d15ds134q59udk.cloudfront.net/out/v1/fbba879221d045598540ee783b140fe2/index.m3u8
-#EXTINF:-1 tvg-id="Channel16.il@SD",Channel 16
+
+#EXTINF:-1 tvg-id="Channel16.il@SD" tvg-name="Channel 16" tvg-logo="https://ch16israel.vod.immergo.tv/ch16israel/uploaded/bfbd4781-67a7-437e-8f7e-898a5cbc4ab4.png" tvg-country="IL" group-title="General",Channel 16
 https://ch16israel-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8
+
+#EXTINF:-1 tvg-id="Channel9.il" tvg-name="9 канал Ⓨ" tvg-logo="https://i.imgur.com/pttM3KQ.png" tvg-country="IL" group-title="General",9 канал Ⓨ
+https://www.youtube.com/@israel9tv/live
+
+#EXTINF:-1 tvg-id="TheShoppingChannel.il" tvg-name="The Shopping Channel" tvg-logo="https://i.imgur.com/PEdXHSE.png" tvg-country="IL" group-title="Shop",The Shopping Channel
+https://shoppingil-rewriter.vidnt.com/index.m3u8
+

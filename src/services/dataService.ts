@@ -14,6 +14,7 @@ export class DataService {
   private channelsById = new Map<string, Channel>();
   private channelsByCountry = new Map<string, Channel[]>();
   private countries = new Map<string, Country>();
+  private countryNames = new Set<string>();
   private isLoaded = false;
 
   public init(): void {
@@ -43,6 +44,7 @@ export class DataService {
     this.channelsById.clear();
     this.channelsByCountry.clear();
     this.countries.clear();
+    this.countryNames.clear();
     this.isLoaded = false;
     this.init();
   }
@@ -58,6 +60,8 @@ export class DataService {
       const list = JSON.parse(raw) as { name: string; code: string; flag: string }[];
       for (const entry of list) {
         const code = entry.code.toUpperCase();
+        this.countryNames.add(code.toLowerCase());
+        this.countryNames.add(entry.name.toLowerCase().trim());
         this.countries.set(code, {
           code,
           name: entry.name,
@@ -69,6 +73,7 @@ export class DataService {
           m3uUrl: `/api/playlist/${code}.m3u`,
         });
       }
+      ['uk', 'usa', 'united states of america', 'korea', 'south korea', 'north korea', 'turkey', 'türkiye', 'japan', 'trinidad'].forEach(k => this.countryNames.add(k));
       logger.debug(`[DataService] Loaded ${this.countries.size} countries.`);
     } catch (err) {
       logger.error(`[DataService] Error parsing countries.json: ${(err as Error).message}`);
@@ -150,6 +155,18 @@ export class DataService {
 
   public getCountry(code: string): Country | undefined {
     let norm = (code || '').toUpperCase().trim();
+    if (norm === 'ALL' || norm === 'WORLD' || norm === 'GLOBAL') {
+      return {
+        code: 'ALL',
+        name: 'All Countries',
+        flag: '',
+        flagCode: 'globe',
+        channelCount: this.channels.length,
+        workingCount: this.channels.filter((c) => c.isWorking !== false).length,
+        epgUrl: 'https://epg.kanya.io/us.xml.gz',
+        m3uUrl: '/api/playlist/all.m3u',
+      };
+    }
     if (norm === 'GB' && !this.countries.has('GB') && this.countries.has('UK')) norm = 'UK';
     else if (norm === 'UK' && !this.countries.has('UK') && this.countries.has('GB')) norm = 'GB';
     return this.countries.get(norm);
@@ -166,12 +183,15 @@ export class DataService {
     const { country, category, search, page = 1, limit = 50, onlyWorking = true } = params;
 
     let normCountry = country ? country.toUpperCase().trim() : '';
-    if (normCountry === 'GB' && !this.channelsByCountry.has('GB') && this.channelsByCountry.has('UK')) normCountry = 'UK';
-    else if (normCountry === 'UK' && !this.channelsByCountry.has('UK') && this.channelsByCountry.has('GB')) normCountry = 'GB';
+    const isAll = !normCountry || normCountry === 'ALL' || normCountry === 'WORLD' || normCountry === 'GLOBAL';
+    if (!isAll) {
+      if (normCountry === 'GB' && !this.channelsByCountry.has('GB') && this.channelsByCountry.has('UK')) normCountry = 'UK';
+      else if (normCountry === 'UK' && !this.channelsByCountry.has('UK') && this.channelsByCountry.has('GB')) normCountry = 'GB';
+    }
 
-    let pool = normCountry
-      ? (this.channelsByCountry.get(normCountry) || [])
-      : this.channels;
+    let pool = isAll
+      ? this.channels
+      : (this.channelsByCountry.get(normCountry) || []);
 
     if (onlyWorking) pool = pool.filter((c) => c.isWorking !== false);
 
@@ -202,23 +222,40 @@ export class DataService {
     return this.channelsById.get(id);
   }
 
-  public getCategories(): string[] {
+  public getCategories(countryCode?: string): string[] {
+    let pool = this.channels;
+    if (countryCode) {
+      let norm = countryCode.toUpperCase().trim();
+      const isAll = !norm || norm === 'ALL' || norm === 'WORLD' || norm === 'GLOBAL';
+      if (!isAll) {
+        if (norm === 'GB' && !this.channelsByCountry.has('GB') && this.channelsByCountry.has('UK')) norm = 'UK';
+        else if (norm === 'UK' && !this.channelsByCountry.has('UK') && this.channelsByCountry.has('GB')) norm = 'GB';
+        pool = this.channelsByCountry.get(norm) || [];
+      }
+    }
+
     const set = new Set<string>();
-    for (const ch of this.channels) {
+    for (const ch of pool) {
       if (ch.category) {
         const parts = ch.category.split(/[;,]/).map((s) => s.trim()).filter(Boolean);
-        for (const p of parts) set.add(p);
+        for (const p of parts) {
+          const lower = p.toLowerCase();
+          if (lower !== 'undefined' && lower !== 'null' && !this.countryNames.has(lower) && !this.countries.has(p.toUpperCase())) {
+            set.add(p);
+          }
+        }
       }
     }
     return Array.from(set).sort((a, b) => a.localeCompare(b));
   }
 
   public generateM3U(countryCode?: string, onlyWorking = false): string {
-    const code = countryCode ? countryCode.toUpperCase() : undefined;
-    let list = code ? (this.channelsByCountry.get(code) || []) : this.channels;
+    const code = countryCode ? countryCode.toUpperCase().trim() : undefined;
+    const isAll = !code || code === 'ALL' || code === 'WORLD' || code === 'GLOBAL';
+    let list = isAll ? this.channels : (this.channelsByCountry.get(code) || []);
     if (onlyWorking) list = list.filter((c) => c.isWorking !== false);
 
-    const epgUrl = code ? epgService.getTier1Url(code) : 'https://epg.kanya.io/us.xml.gz';
+    const epgUrl = (code && !isAll) ? epgService.getTier1Url(code) : 'https://epg.kanya.io/us.xml.gz';
     let m3u = `#EXTM3U url-tvg="${epgUrl}"\n\n`;
 
     for (const ch of list) {

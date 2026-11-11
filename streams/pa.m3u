@@ -1,47 +1,77 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="ARCanal.pa@SD",A&R Canal Adventista (720p)
+#EXTM3U url-tvg="https://epg.kanya.io/pa/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="ARCanal.pa@SD" tvg-name="A&R Canal Adventista" tvg-logo="https://i.imgur.com/ejRJqSI.png" tvg-country="PA" group-title="Religious",A&R Canal Adventista
 http://51.222.9.192:3589/stream/play.m3u8
-#EXTINF:-1 tvg-id="BTVPanama.pa@SD",BTV Panamá (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="BTVPanama.pa@SD" tvg-name="BTV Panamá (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/CiYVtgB.png" tvg-country="PA" group-title="General",BTV Panamá (720p) [Not 24/7]
 https://stream.oursnetworktv.com/latin/btvpanama/playlist.m3u8
-#EXTINF:-1 tvg-id="CorazonTV.pa@SD",Corazon TV
+
+#EXTINF:-1 tvg-id="CorazonTV.pa@SD" tvg-name="Corazon TV" tvg-logo="https://i.imgur.com/HVdbXku.png" tvg-country="PA" group-title="Music",Corazon TV
 https://sistemastr.tropicalmoonmedia.com/live/7FFCFEC3978B68D1A2ED0A38DE96AF76/12.m3u8
-#EXTINF:-1 tvg-id="FabulosaEstereo1005FM.pa@SD",Fabulosa Estéreo 100.5 FM (720p)
+
+#EXTINF:-1 tvg-id="FabulosaEstereo1005FM.pa@SD" tvg-name="Fabulosa Estéreo 100.5 FM" tvg-logo="https://i.imgur.com/YFmzkOp.png" tvg-country="PA" group-title="Music",Fabulosa Estéreo 100.5 FM
 https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8
-#EXTINF:-1 tvg-id="HosannaVision.pa@SD",Hosanna Vision (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="HosannaVision.pa@SD" tvg-name="Hosanna Vision (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/Vpvvznz.png" tvg-country="PA" group-title="Religious",Hosanna Vision (720p) [Not 24/7]
 https://1206618505.rsc.cdn77.org/LS-ATL-59020-1/playlist.m3u8
-#EXTINF:-1 tvg-id="LaXitosaPanama.pa@SD",LaXitosa Panamá (360p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="LaXitosaPanama.pa@SD" tvg-name="LaXitosa Panamá (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/Pt4F9Xz.png" tvg-country="PA" group-title="Music",LaXitosa Panamá (360p) [Not 24/7]
 https://stmvideo2.livecastv.com/lax953/lax953/playlist.m3u8
-#EXTINF:-1 tvg-id="Mas23TV.pa@SD",Mas23 TV
+
+#EXTINF:-1 tvg-id="Mas23TV.pa@SD" tvg-name="Mas23 TV" tvg-logo="https://i.imgur.com/y0h8dlX.png" tvg-country="PA" group-title="Music",Mas23 TV
 https://movil.ejeserver.com/live/mas23tv.m3u8
-#EXTINF:-1 tvg-id="MINFAVTV.pa@SD",MINFAV TV
+
+#EXTINF:-1 tvg-id="MINFAVTV.pa@SD" tvg-name="MINFAV TV" tvg-logo="https://i.ibb.co/Vj5nNbF/FAV-TV-LOGO-BLANCO.png" tvg-country="PA" group-title="Religious",MINFAV TV
 https://mp.panelchs.com:1936/8044/8044/playlist.m3u8
-#EXTINF:-1 tvg-id="NexTVCanal21.pa@SD",Nex TV Canal 21
+
+#EXTINF:-1 tvg-id="NexTVCanal21.pa@SD" tvg-name="Nex TV Canal 21" tvg-logo="https://i.imgur.com/QQBd052.png" tvg-country="PA" group-title="General",Nex TV Canal 21
 https://movil.ejeserver.com/live/nextv.m3u8
-#EXTINF:-1 tvg-id="PindinTV.pa@SD",Pindin TV
+
+#EXTINF:-1 tvg-id="PindinTV.pa@SD" tvg-name="Pindin TV" tvg-logo="https://i.imgur.com/UaQC0l8.jpeg" tvg-country="PA" group-title="Music",Pindin TV
 https://sistemastr.tropicalmoonmedia.com/live/7C452409423F57ADC960F6405635267F/7.m3u8
-#EXTINF:-1 tvg-id="Planet1009FM.pa@SD",Planet 100.9 FM (1080p)
+
+#EXTINF:-1 tvg-id="Planet1009FM.pa@SD" tvg-name="Planet 100.9 FM" tvg-logo="https://i.imgur.com/8ZIBs8l.png" tvg-country="PA" group-title="Music",Planet 100.9 FM
 https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8
-#EXTINF:-1 tvg-id="PlusTV.pa@SD",Plus TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="PlusTV.pa@SD" tvg-name="Plus TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/MmpwhAG.png" tvg-country="PA" group-title="News",Plus TV (720p) [Not 24/7]
 https://vcp4.myplaytv.com:1936/plustv/plustv/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioAncon.pa@SD",Radio Ancón (720p)
+
+#EXTINF:-1 tvg-id="RadioAncon.pa@SD" tvg-name="Radio Ancón" tvg-logo="https://i.imgur.com/xum8PNe.jpg" tvg-country="PA" group-title="News",Radio Ancón
 https://www.streaming507.net:19360/anconvideo/anconvideo.m3u8
-#EXTINF:-1 tvg-id="RadioHogar.pa@SD",Radio Hogar (720p)
+
+#EXTINF:-1 tvg-id="RadioHogar.pa@SD" tvg-name="Radio Hogar" tvg-logo="https://i.imgur.com/P4A1Zwl.jpg" tvg-country="PA" group-title="Religious",Radio Hogar
 https://www.streaming507.net:19360/videoradiohogar/videoradiohogar.m3u8
-#EXTINF:-1 tvg-id="SuperQPanama.pa@SD",Súper Q Panamá (1080p)
+
+#EXTINF:-1 tvg-id="SuperQPanama.pa@SD" tvg-name="Súper Q Panamá" tvg-logo="https://i.imgur.com/ocTnqi7.png" tvg-country="PA" group-title="Music",Súper Q Panamá
 https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8
-#EXTINF:-1 tvg-id="Telemetro.pa@SD",Telemetro (720p)
+
+#EXTINF:-1 tvg-id="Telemetro.pa@SD" tvg-name="Telemetro" tvg-logo="https://i.imgur.com/vJJrGgV.png" tvg-country="PA" group-title="General",Telemetro
 http://181.78.121.15:8000/play/a001/index.m3u8
-#EXTINF:-1 tvg-id="TropiQ997FM.pa@SD",Tropi Q 99.7 FM (1080p)
+
+#EXTINF:-1 tvg-id="TropiQ997FM.pa@SD" tvg-name="Tropi Q 99.7 FM" tvg-logo="https://i.imgur.com/5rPdHhb.png" tvg-country="PA" group-title="Music",Tropi Q 99.7 FM
 https://www.streaming507.net:19360/videotropiq/videotropiq.m3u8
-#EXTINF:-1 tvg-id="TropicalMoonCumbiaTV.pa@SD",Tropical Moon Cumbia TV (720p)
+
+#EXTINF:-1 tvg-id="TropicalMoonCumbiaTV.pa@SD" tvg-name="Tropical Moon Cumbia TV" tvg-logo="https://i.imgur.com/jL1kLyS.png" tvg-country="PA" group-title="Music",Tropical Moon Cumbia TV
 https://srv2.tropicalmoonmedia.com/cumbiatv/cumbiatv/playlist.m3u8
-#EXTINF:-1 tvg-id="TropicalMoonEventosTV.pa@SD",Tropical Moon Eventos TV (720p)
+
+#EXTINF:-1 tvg-id="TropicalMoonEventosTV.pa@SD" tvg-name="Tropical Moon Eventos TV" tvg-logo="https://i.imgur.com/RklPmml.png" tvg-country="PA" group-title="General",Tropical Moon Eventos TV
 https://srv2.tropicalmoonmedia.com/eventostv/eventostv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMax.pa@SD",TVMAX (720p)
+
+#EXTINF:-1 tvg-id="TVMax.pa@SD" tvg-name="TVMAX" tvg-logo="https://i.imgur.com/XcrkfGh.png" tvg-country="PA" group-title="Entertainment",TVMAX
 https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="TVN.pa@SD",TVN (720p)
+
+#EXTINF:-1 tvg-id="TVN.pa@SD" tvg-name="TVN" tvg-logo="https://i.imgur.com/tGeHwxd.png" tvg-country="PA" group-title="General",TVN
 https://bcovlive-a.akamaihd.net/628aecb4fccb4c52b4f9c8d5cc57fb73/us-west-2/6058004209001/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="VisionLatina.pa@SD",Vision Latina (1080p)
+
+#EXTINF:-1 tvg-id="VisionLatina.pa@SD" tvg-name="Vision Latina" tvg-logo="https://i.imgur.com/TG30lWA.jpg" tvg-country="PA" group-title="Religious",Vision Latina
 https://cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com/live/64917431-2f51-0a46-d4d0-04d111b2393f/master.m3u8
-#EXTINF:-1 tvg-id="TropicalMoonUrbanTV.pa@SD",Tropical Moon Urban TV [Not 24/7]
+
+#EXTINF:-1 tvg-id="TropicalMoonUrbanTV.pa@SD" tvg-name="Tropical Moon Urban TV [Not 24/7]" tvg-logo="https://i.imgur.com/WcM7BP5.png" tvg-country="PA" group-title="Music",Tropical Moon Urban TV [Not 24/7]
 https://sistemastr.tropicalmoonmedia.com:443/live/D8E123ACA054EF85B153C354A481A406/4.m3u8
+
+#EXTINF:-1 tvg-id="TropicalMoonUrbanTV.pa@SD" tvg-name="Tropical Moon Urban TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="PA" group-title="General",Tropical Moon Urban TV
+https://sistemastr.tropicalmoonmedia.com/live/D8E123ACA054EF85B153C354A481A406/4.m3u8
+
+#EXTINF:-1 tvg-id="CorazonTV.pa@SD" tvg-name="Corazon TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="PA" group-title="General",Corazon TV
+http://181.79.86.130:8000/play/a05d/index.m3u8
+

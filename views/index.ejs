@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <%
-    let pageTitle = "LiveTV — Watch 18,400+ Free Live TV Channels Worldwide";
-    let pageDesc = "Watch 18,400+ free live TV channels from 200+ countries directly in your browser. Fast HLS streaming with in-browser player and integrated TV guide schedules.";
+    let pageTitle = "LiveTV — Watch 20,500+ Free Live TV Channels Worldwide";
+    let pageDesc = "Watch 20,500+ free live TV channels from 250 countries and territories directly in your browser. Fast HLS streaming with in-browser player.";
     if (typeof initialView !== 'undefined') {
       if (initialView === 'player' && typeof defaultCountry !== 'undefined' && defaultCountry.name) {
         pageTitle = `Live TV Player — Watch ${defaultCountry.name} TV Channels Online | LiveTV`;
         pageDesc = `Stream live television channels from ${defaultCountry.name} free online with high-definition video playback on LiveTV.`;
       } else if (initialView === 'countries') {
-        pageTitle = "Explore 200+ Countries Live TV Catalog — LiveTV";
-        pageDesc = "Browse live television broadcasts from over 200 countries worldwide. Filter by region, language, and stream count.";
+        pageTitle = "Explore 250 Countries & Territories Live TV Catalog — LiveTV";
+        pageDesc = "Browse live television broadcasts from 250 countries and territories worldwide. Filter by region, language, and stream count.";
       } else if (initialView === 'channels') {
-        pageTitle = "Channels Directory — 18,400+ Live Television Feeds | LiveTV";
-        pageDesc = "Search and filter over 18,400+ live television channels by country, genre, news, sports, movies, and broadcast resolution.";
+        pageTitle = "Channels Directory — 20,500+ Live Television Feeds | LiveTV";
+        pageDesc = "Search and filter over 20,500+ live television channels by country, genre, news, sports, movies, and broadcast resolution.";
       }
     }
   %>
@@ -69,7 +69,7 @@
     "applicationCategory": "MultimediaApplication",
     "operatingSystem": "Any",
     "browserRequirements": "Requires JavaScript. Requires HTML5 Video / HLS support.",
-    "description": "Free, open-source live television streaming platform covering 18,400+ channels from 200+ countries with in-browser HLS playback and guide schedules.",
+    "description": "Free, open-source live television streaming platform covering 20,500+ channels from 250 countries and territories with in-browser HLS playback.",
     "screenshot": "/app_demo/dark.png",
     "offers": {
       "@type": "Offer",
@@ -77,10 +77,10 @@
       "priceCurrency": "USD"
     },
     "featureList": [
-      "18,400+ Free Live TV Channels",
-      "200+ Countries Worldwide",
+      "20,500+ Free Live TV Channels",
+      "250 Countries and Territories Worldwide",
       "In-Browser HLS Streaming Player",
-      "Real-time EPG Program Guide",
+      "Real-time Program Guide on Supported Channels",
       "Dark and Light Themes",
       "Multi-Language Support (8+ Languages & RTL)"
     ]
@@ -106,7 +106,7 @@
   <!-- TOP SUPPORT BANNER -->
   <div class="support-banner">
     <div class="page-shell">
-      <p data-i18n="banner_text">LiveTV — Worldwide Live TV Streaming & EPG Guide Platform</p>
+      <p data-i18n="banner_text">LiveTV — Worldwide Live TV Streaming Platform</p>
     </div>
   </div>
 
@@ -289,7 +289,7 @@
           <p class="section-kicker" data-i18n="hero_kicker">Global Live TV Streaming</p>
           <h1 class="hero-title" data-i18n="hero_title">Watch Live TV From Across The Globe</h1>
           <p class="hero-subhead" data-i18n="hero_subhead">
-            Stream over 18,400 live television channels directly in your browser across 200+ countries. Filter by genre, search instantly, and watch live broadcasts with integrated guide schedules.
+            Stream over <%= stats.totalChannels ? stats.totalChannels.toLocaleString() : '20,550' %> live television channels directly in your browser across 250 countries and territories. Filter by genre, search instantly, and watch live broadcasts with high-performance HLS streaming.
           </p>
 
           <div class="hero-cta-group">
@@ -301,15 +301,15 @@
           <dl class="stats-dl-row">
             <div class="stat-col">
               <p class="stat-label" data-i18n="stat_live_channels">Live Channels</p>
-              <p class="stat-val"><%= stats.totalChannels ? stats.totalChannels.toLocaleString() : '18,493' %></p>
+              <p class="stat-val count-up-val" data-target="<%= stats.totalChannels || 20550 %>"><%= stats.totalChannels ? stats.totalChannels.toLocaleString() : '20,550' %></p>
             </div>
             <div class="stat-col">
               <p class="stat-label" data-i18n="stat_countries_covered">Countries Covered</p>
-              <p class="stat-val"><%= stats.streamingCountries || 202 %></p>
+              <p class="stat-val count-up-val" data-target="<%= stats.streamingCountries || 188 %>"><%= stats.streamingCountries || 188 %></p>
             </div>
             <div class="stat-col">
               <p class="stat-label" data-i18n="stat_tv_genres">TV Genres</p>
-              <p class="stat-val">27</p>
+              <p class="stat-val count-up-val" data-target="27">27</p>
             </div>
           </dl>
         </div>
@@ -378,7 +378,7 @@
         <section>
           <div class="callout-card">
             <p class="callout-text" data-i18n="callout_text">
-              Over 18,400 live channels across 202 countries — all free, all streaming directly in your browser. No app, no subscription, no downloads required.
+              Over <%= stats.totalChannels ? stats.totalChannels.toLocaleString() : '20,550' %> live channels across 250 countries and territories — all free, all streaming directly in your browser. No app, no subscription, no downloads required.
             </p>
             <button type="button" class="btn-primary" data-nav="player" data-i18n="btn_start_watching">
               Start Watching Now &rarr;
@@ -454,10 +454,18 @@
               <!-- Country Select with Flag -->
               <div class="country-select-row">
                 <div class="country-flag-badge-box">
-                  <img src="https://flagcdn.com/w40/<%= (defaultCountry.flagCode || (defaultCountry.code.toLowerCase() === 'uk' ? 'gb' : defaultCountry.code.toLowerCase())) %>.png" alt="<%= defaultCountry.name %>" class="country-flag-img-mini" id="player-country-flag-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
-                  <span class="country-flag-fallback" id="player-country-flag-fallback" style="display:none;"><%= defaultCountry.code %></span>
+                  <% if (defaultCountry.code === 'ALL') { %>
+                    <img src="/globe.svg" alt="All Countries" class="country-flag-img-mini" id="player-country-flag-img" style="display:block;">
+                    <span class="country-flag-fallback" id="player-country-flag-fallback" style="display:none;">ALL</span>
+                  <% } else { %>
+                    <img src="https://flagcdn.com/w40/<%= (defaultCountry.flagCode || (defaultCountry.code.toLowerCase() === 'uk' ? 'gb' : defaultCountry.code.toLowerCase())) %>.png" alt="<%= defaultCountry.name %>" class="country-flag-img-mini" id="player-country-flag-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                    <span class="country-flag-fallback" id="player-country-flag-fallback" style="display:none;"><%= defaultCountry.code %></span>
+                  <% } %>
                 </div>
                 <select id="player-country-select" class="sidebar-country-select">
+                  <option value="ALL" data-flag="" data-flag-code="" data-name="All Countries" <%= defaultCountry.code === 'ALL' ? 'selected' : '' %>>
+                    All Countries (<%= stats.totalChannels.toLocaleString() %>)
+                  </option>
                   <% countries.forEach(function(c) { %>
                     <option value="<%= c.code %>" data-flag="<%= c.flag %>" data-flag-code="<%= c.flagCode || (c.code.toLowerCase() === 'uk' ? 'gb' : c.code.toLowerCase()) %>" data-name="<%= c.name %>" <%= c.code === defaultCountry.code ? 'selected' : '' %>>
                       <%= c.name %> (<%= c.channelCount %>)
@@ -491,6 +499,7 @@
                   <button type="button" class="cat-tag-btn active" data-category="all" data-i18n="cat_all">All</button>
                   <% categories.forEach(function(cat) { 
                      const catName = typeof cat === 'string' ? cat : (cat.name || cat);
+                     if (!catName || catName.toLowerCase() === 'undefined' || catName.toLowerCase() === 'null') return;
                      const catKey = 'cat_' + catName.toLowerCase().replace(/[^a-z0-9]/g, '');
                   %>
                     <button type="button" class="cat-tag-btn" data-category="<%= catName %>" data-i18n="<%= catKey %>"><%= catName %></button>
@@ -505,6 +514,9 @@
                  const url = ch.streamUrl || ch.url || '';
                  const quality = ch.resolution || ch.quality || 'HD';
                  const category = ch.category || (ch.categories && ch.categories[0]) || 'General';
+                 const chCountryCode = (ch.country || '').toUpperCase();
+                 const chFlagCode = chCountryCode === 'UK' ? 'gb' : chCountryCode.toLowerCase();
+                 const showChCountry = defaultCountry.code === 'ALL' && chCountryCode && chCountryCode !== 'ALL';
               %>
                 <div class="channel-item <%= idx === 0 ? 'active' : '' %>"
                      data-id="<%= ch.id %>"
@@ -524,7 +536,9 @@
                   </div>
                   <div class="ch-meta-mini">
                     <div class="ch-title-mini"><%= ch.name %></div>
-                    <div class="ch-sub-mini"><%= quality %> &middot; <%= category %></div>
+                    <div class="ch-sub-mini">
+                      <% if (showChCountry) { %><img src="https://flagcdn.com/w20/<%= chFlagCode %>.png" alt="<%= chCountryCode %>" style="width:13px;height:9px;vertical-align:middle;margin-right:3px;border-radius:1px;object-fit:cover;" onerror="this.style.display='none';"><%= chCountryCode %> &middot; <% } %><%= quality %> &middot; <%= category %>
+                    </div>
                   </div>
                 </div>
               <% }); %>
@@ -594,8 +608,19 @@
                   <div class="ch-now-meta">
                     <span id="current-ch-quality" class="epg-badge" style="background:var(--surface-muted); color:var(--foreground);"><%= firstCh ? (firstCh.resolution || firstCh.quality || 'HD') : 'HD' %></span>
                     <span id="current-ch-country">
-                      <img src="https://flagcdn.com/w40/<%= (defaultCountry.flagCode || (defaultCountry.code.toLowerCase() === 'uk' ? 'gb' : defaultCountry.code.toLowerCase())) %>.png" alt="" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:cover;">
-                      <span><%= defaultCountry.name %></span>
+                      <% 
+                        const initChCountryCode = (firstCh && firstCh.country && firstCh.country.toUpperCase() !== 'ALL') ? firstCh.country.toUpperCase() : null;
+                        const initChFlagCode = initChCountryCode ? (initChCountryCode === 'UK' ? 'gb' : initChCountryCode.toLowerCase()) : (defaultCountry.flagCode || (defaultCountry.code.toLowerCase() === 'uk' ? 'gb' : defaultCountry.code.toLowerCase()));
+                        const initChCountryName = initChCountryCode ? (countries.find(c => c.code.toUpperCase() === initChCountryCode) || {name: initChCountryCode}).name : defaultCountry.name;
+                        const initIsAll = !initChCountryCode && defaultCountry.code === 'ALL';
+                      %>
+                      <% if (initIsAll) { %>
+                        <img src="/globe.svg" alt="All Countries" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:contain;">
+                        <span>All Countries</span>
+                      <% } else { %>
+                        <img src="https://flagcdn.com/w40/<%= initChFlagCode %>.png" alt="" class="now-country-flag" style="width:16px; height:12px; vertical-align:middle; margin-right:4px; border-radius:1px; object-fit:cover;" onerror="this.style.display='none';">
+                        <span><%= initChCountryName %></span>
+                      <% } %>
                     </span>
                   </div>
                 </div>
@@ -663,7 +688,9 @@
           </select>
           <select id="channels-dir-category" class="ch-dir-select">
             <option value="">All Categories</option>
-            <% categories.forEach(function(cat) { %>
+            <% categories.forEach(function(cat) { 
+               if (!cat || cat.toLowerCase() === 'undefined' || cat.toLowerCase() === 'null') return;
+            %>
               <option value="<%= cat %>"><%= cat %></option>
             <% }); %>
           </select>
@@ -735,9 +762,27 @@
   <footer class="site-footer">
     <div class="page-shell footer-main">
       <div>
-        <p class="footer-brand">LiveTV</p>
-        <p class="footer-desc">
-          Free, open-source live TV streaming platform for 200+ countries.
+        <a class="brand-wrap footer-brand-wrap" href="/" data-nav="overview" aria-label="LiveTV Home" style="display:inline-block; margin-bottom:0.75rem;">
+          <svg class="brand-logo" width="92" height="34" viewBox="0 0 92 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="footer-ruby-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ff3366" />
+                <stop offset="60%" stop-color="#e11d48" />
+                <stop offset="100%" stop-color="#b91c1c" />
+              </linearGradient>
+              <filter id="footer-live-glow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#e11d48" flood-opacity="0.6"/>
+              </filter>
+            </defs>
+            <!-- "Live" Typography in Serif (adapts to Light/Dark) -->
+            <text x="2" y="24" font-family="'IBM Plex Serif', Georgia, serif" font-weight="700" font-size="22" fill="currentColor" letter-spacing="-0.02em">Live</text>
+            <!-- Glowing Ruby Pill Badge with "TV" -->
+            <rect x="52" y="7" width="36" height="20" rx="5" fill="url(#footer-ruby-grad)" filter="url(#footer-live-glow)"/>
+            <text x="70" y="21.5" font-family="'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="12" fill="#ffffff" text-anchor="middle" letter-spacing="0.05em">TV</text>
+          </svg>
+        </a>
+        <p class="footer-desc" data-i18n="footer_desc">
+          Free, open-source live TV streaming platform covering <%= stats.totalChannels ? stats.totalChannels.toLocaleString() : '20,550' %>+ channels across 250 countries and territories.
         </p>
       </div>
 
@@ -762,8 +807,8 @@
 
     <div class="footer-bottom">
       <div class="page-shell">
-        <p>&copy; <%= new Date().getFullYear() %> LiveTV &middot; Open Source TV Streaming & EPG Infrastructure</p>
-        <p>LiveTV v1.0 &middot; 18,493 Channels &middot; 202 Countries</p>
+        <p>&copy; <%= new Date().getFullYear() %> LiveTV &middot; <span data-i18n="footer_copyright">Worldwide Live TV Streaming Platform</span></p>
+        <p>LiveTV v1.0 &middot; <%= stats.totalChannels ? stats.totalChannels.toLocaleString() : '20,550' %> Channels &middot; 250 Countries (<%= stats.streamingCountries || 188 %> Active)</p>
       </div>
     </div>
   </footer>

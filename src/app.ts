@@ -47,10 +47,10 @@ const renderApp = (req: Request, res: Response, initialView = 'overview') => {
   const currentLang = SUPPORTED_LANGS.includes(langParam as any) ? langParam : 'en';
   const stats      = dataService.getStats();
   const countries  = dataService.getCountries();
-  const categories = dataService.getCategories();
 
   const queryCountry    = typeof req.query.country === 'string' ? req.query.country.toUpperCase() : null;
-  const matchedCountry  = queryCountry ? countries.find((c) => c.code === queryCountry) : null;
+  const isAllCountry    = queryCountry === 'ALL' || queryCountry === 'WORLD' || queryCountry === 'GLOBAL';
+  const matchedCountry  = isAllCountry ? dataService.getCountry('ALL') : (queryCountry ? countries.find((c) => c.code === queryCountry) : null);
 
   const defaultCountry = matchedCountry || countries[0] || {
     code: 'US',
@@ -63,6 +63,7 @@ const renderApp = (req: Request, res: Response, initialView = 'overview') => {
   };
 
   const queryCategory = typeof req.query.cat === 'string' ? req.query.cat : undefined;
+  const categories = dataService.getCategories(defaultCountry.code);
 
   const initialChannelsData = dataService.getChannels({
     country: defaultCountry.code,

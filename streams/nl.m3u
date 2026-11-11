@@ -1,537 +1,782 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="1AlmereTV.nl@SD",1Almere TV (720p)
+#EXTM3U url-tvg="https://epg.kanya.io/nl/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="1AlmereTV.nl@SD" tvg-name="1Almere TV" tvg-logo="https://i.imgur.com/XfkbTrU.png" tvg-country="NL" group-title="General",1Almere TV
 https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8
-#EXTINF:-1 tvg-id="1TwenteTV.nl@SD",1Twente TV (1080p)
+
+#EXTINF:-1 tvg-id="1TwenteTV.nl@SD" tvg-name="1Twente TV" tvg-logo="https://i.imgur.com/ftiuNK3.png" tvg-country="NL" group-title="General",1Twente TV
 https://ms7.mx-cd.net/dtv-11/198-989148/1Twente_TV.smil/chunklist_w954512639_b4292608_slNLD.m3u8
-#EXTINF:-1 tvg-id="360TuneBox.nl@SD",360TuneBox (1080p)
+
+#EXTINF:-1 tvg-id="360TuneBox.nl@SD" tvg-name="360TuneBox" tvg-logo="https://i.imgur.com/1Fyezng.png" tvg-country="NL" group-title="Music",360TuneBox
 https://dash3.antik.sk/live/test_360_tunebox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="A1TV.nl@SD",A1 TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="A1TV.nl@SD" tvg-name="A1 TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/JZ1oTM2.png" tvg-country="NL" group-title="General",A1 TV (1080p) [Not 24/7]
 https://stream.a1mediagroep.nl/hls/a1tv.m3u8
-#EXTINF:-1 tvg-id="A1TV.nl@SD",A1 TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="A1TV.nl@SD_2" tvg-name="A1 TV (1080p) [Not 24/7] (Feed 2)" tvg-logo="https://i.imgur.com/JZ1oTM2.png" tvg-country="NL" group-title="General",A1 TV (1080p) [Not 24/7] (Feed 2)
 https://www.a1mediagroep.nl/hls/a1tv.m3u8
-#EXTINF:-1 tvg-id="AltenaTV.nl@SD",Altena TV (720p)
+
+#EXTINF:-1 tvg-id="AltenaTV.nl@SD" tvg-name="Altena TV" tvg-logo="https://i.imgur.com/0wblu0I.png" tvg-country="NL" group-title="General",Altena TV
 https://dnx1f4sl30ba2.cloudfront.net/nlpo/clr-nlpo/altenatv/index.m3u8
-#EXTINF:-1 tvg-id="AssenTV.nl@SD",Assen TV (720p)
+
+#EXTINF:-1 tvg-id="AssenTV.nl@SD" tvg-name="Assen TV" tvg-logo="https://i.imgur.com/upik15D.png" tvg-country="NL" group-title="General",Assen TV
 https://takeoff.jetstre.am/?account=OmroepAssen&file=OmroepAssenTV/playlist.m3u8&output=playlist.m3u8&protocol=https&service=webdav&type=live
-#EXTINF:-1 tvg-id="AT5.nl@SD",AT5
+
+#EXTINF:-1 tvg-id="AT5.nl@SD" tvg-name="AT5" tvg-logo="https://i.imgur.com/iAiSlEL.png" tvg-country="NL" group-title="General",AT5
 https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-id="BEATTV.nl@SD",BE@TTV (1080p)
+
+#EXTINF:-1 tvg-id="BEATTV.nl@SD" tvg-name="BE@TTV" tvg-logo="https://i.imgur.com/egK33Dj.png" tvg-country="NL" group-title="Music",BE@TTV
 https://tv.beatfm.nl/live.m3u8
-#EXTINF:-1 tvg-id="BNRNieuwsradio.nl@SD",BNR Nieuwsradio (720p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="BNRNieuwsradio.nl@SD" tvg-name="BNR Nieuwsradio (720p) [Geo-blocked]" tvg-logo="https://i.imgur.com/d0KLwkj.png" tvg-country="NL" group-title="General",BNR Nieuwsradio (720p) [Geo-blocked]
 https://bnr-cache-cdp.triple-it.nl/studio/index.m3u8
-#EXTINF:-1 tvg-id="BR6TV.nl@SD",BR6 TV (720p)
+
+#EXTINF:-1 tvg-id="BR6TV.nl@SD" tvg-name="BR6 TV" tvg-logo="https://i.imgur.com/NKtAiXu.png" tvg-country="NL" group-title="General",BR6 TV
 https://58c04fb1d143f.streamlock.net/slob/slob/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Czechia",Canal+ Action Europe Czechia
+
+#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Czechia" tvg-name="Canal+ Action Europe Czechia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png" tvg-country="NL" group-title="Movies",Canal+ Action Europe Czechia
 http://46.149.191.219:9106/play/a01g
-#EXTINF:-1 tvg-id="DanceTelevision.nl@SD",Dance Television (1080p)
+
+#EXTINF:-1 tvg-id="DanceTelevision.nl@SD" tvg-name="Dance Television" tvg-logo="https://pbs.twimg.com/profile_images/1268129322730127364/OJlQBZpS_400x400.jpg" tvg-country="NL" group-title="Music",Dance Television
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
-#EXTINF:-1 tvg-id="DeepHouseDistrict.nl@SD",DeepHouse District (1080p)
+
+#EXTINF:-1 tvg-id="DeepHouseDistrict.nl@SD" tvg-name="DeepHouse District" tvg-logo="https://i.imgur.com/IV2Qvc0.png" tvg-country="NL" group-title="Music",DeepHouse District
 https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
-#EXTINF:-1 tvg-id="DenHaagTV.nl@SD",Den Haag TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="DenHaagTV.nl@SD" tvg-name="Den Haag TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/gkzlRED.jpg" tvg-country="NL" group-title="General",Den Haag TV (1080p) [Not 24/7]
 http://wowza5.video-streams.nl:1935/denhaag/denhaag/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.nl@SD",Disney Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="DisneyChannel.nl@SD" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" tvg-country="NL" group-title="Kids",Disney Channel
 http://86.87.15.10:8004/play/a02g/index.m3u8
-#EXTINF:-1 tvg-id="DitisHelmond.nl@SD",Dit is Helmond (480p)
+
+#EXTINF:-1 tvg-id="DitisHelmond.nl@SD" tvg-name="Dit is Helmond" tvg-logo="https://i.imgur.com/fGAaBAs.png" tvg-country="NL" group-title="General",Dit is Helmond
 http://ms2.mx-cd.net/tv/Omroep_Helmond.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="DitisHelmond.nl@SD",Dit is Helmond (480p)
+
+#EXTINF:-1 tvg-id="DitisHelmond.nl@SD_2" tvg-name="Dit is Helmond (Feed 2)" tvg-logo="https://i.imgur.com/fGAaBAs.png" tvg-country="NL" group-title="General",Dit is Helmond (Feed 2)
 https://ms2.mx-cd.net/tv/228-1864150/Omroep_Helmond.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="DocuBox.nl@SD",DocuBox
+
+#EXTINF:-1 tvg-id="DocuBox.nl@SD" tvg-name="DocuBox" tvg-logo="https://i.imgur.com/pX4U9OG.png" tvg-country="NL" group-title="Documentary",DocuBox
 https://dash3.antik.sk/live/test_docubox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="DTVDenBosch.nl@SD",DTV Den Bosch (1080p)
+
+#EXTINF:-1 tvg-id="DTVDenBosch.nl@SD" tvg-name="DTV Den Bosch" tvg-logo="https://i.imgur.com/aFBNbsy.png" tvg-country="NL" group-title="General",DTV Den Bosch
 https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv2&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-id="DTVMaashorst.nl@SD",DTV Maashorst (1080p)
+
+#EXTINF:-1 tvg-id="DTVMaashorst.nl@SD" tvg-name="DTV Maashorst" tvg-logo="https://i.imgur.com/5WaCCAC.png" tvg-country="NL" group-title="General",DTV Maashorst
 https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv3&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-id="DTVOssBernheze.nl@SD",DTV Oss & Bernheze (1080p)
+
+#EXTINF:-1 tvg-id="DTVOssBernheze.nl@SD" tvg-name="DTV Oss & Bernheze" tvg-logo="https://i.imgur.com/JL1f9Tx.png" tvg-country="NL" group-title="General",DTV Oss & Bernheze
 https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv1&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-id="FashionBox.nl@SD",FashionBox
+
+#EXTINF:-1 tvg-id="FashionBox.nl@SD" tvg-name="FashionBox" tvg-logo="https://i.imgur.com/Taqj4yi.png" tvg-country="NL" group-title="Lifestyle",FashionBox
 https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="FastFunBox.nl@SD",Fast&FunBox
+
+#EXTINF:-1 tvg-id="FastFunBox.nl@SD" tvg-name="Fast&FunBox" tvg-logo="https://i.imgur.com/a9ZtP17.png" tvg-country="NL" group-title="Sports",Fast&FunBox
 https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="FeelGoodTV.nl@SD",Feel Good TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="FeelGoodTV.nl@SD" tvg-name="Feel Good TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/qvs1BKr.png" tvg-country="NL" group-title="General",Feel Good TV (720p) [Not 24/7]
 https://58c04fb1d143f.streamlock.net/feel_good_radio_1/feel_good_radio_1/playlist.m3u8
-#EXTINF:-1 tvg-id="FightBox.nl@SD",FightBox
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FightBox.nl@SD" tvg-name="FightBox" tvg-logo="https://i.imgur.com/mRsnztA.png" tvg-country="NL" group-title="Sports",FightBox
 https://webtvstream.bhtelecom.ba/fightbox.m3u8
-#EXTINF:-1 tvg-id="Film1Action.nl@SD",Film1 Action
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Film1Action.nl@SD" tvg-name="Film1 Action" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Film1_Action_SVG.svg/960px-Film1_Action_SVG.svg.png" tvg-country="NL" group-title="Movies",Film1 Action
 http://86.87.15.10:8008/play/a01l/index.m3u8
-#EXTINF:-1 tvg-id="Film1Drama.nl@SD",Film1 Drama
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Film1Drama.nl@SD" tvg-name="Film1 Drama" tvg-logo="https://i.imgur.com/oqrnvib.png" tvg-country="NL" group-title="Movies",Film1 Drama
 http://86.87.15.10:8008/play/a01k/index.m3u8
-#EXTINF:-1 tvg-id="Film1Family.nl@SD",Film1 Family
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Film1Family.nl@SD" tvg-name="Film1 Family" tvg-logo="https://i.imgur.com/8XRfXIa.png" tvg-country="NL" group-title="Movies",Film1 Family
 http://86.87.15.10:8008/play/a01m/index.m3u8
-#EXTINF:-1 tvg-id="Film1Premiere.nl@SD",Film1 Premiere
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Film1Premiere.nl@SD" tvg-name="Film1 Premiere" tvg-logo="https://i.imgur.com/Kn9LX8i.png" tvg-country="NL" group-title="Movies",Film1 Premiere
 http://86.87.15.10:8008/play/a01n/index.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Nederland",FILMBOX+ One Nederland
+
+#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Nederland" tvg-name="FILMBOX+ One Nederland" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" tvg-country="NL" group-title="Movies",FILMBOX+ One Nederland
 http://46.149.191.219:9100/play/a015
-#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Czechia",FILMBOX+ Comedy Czechia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Czechia" tvg-name="FILMBOX+ Comedy Czechia" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bcomedy.png" tvg-country="NL" group-title="Movies",FILMBOX+ Comedy Czechia
 http://88.212.15.17/live/test_filmbox_family_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Magyar",FILMBOX+ Comedy Magyar (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Magyar" tvg-name="FILMBOX+ Comedy Magyar" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bcomedy.png" tvg-country="NL" group-title="Movies",FILMBOX+ Comedy Magyar
 http://88.212.15.17/live/test_filmbox_family_hun_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Adria",FILMBOX+ Emotion Adria
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Adria" tvg-name="FILMBOX+ Emotion Adria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" tvg-country="NL" group-title="Movies",FILMBOX+ Emotion Adria
 https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Bulgaria",FILMBOX+ Emotion Bulgaria
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Bulgaria" tvg-name="FILMBOX+ Emotion Bulgaria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" tvg-country="NL" group-title="Movies",FILMBOX+ Emotion Bulgaria
 http://213.91.179.28:8000/play/a04r
-#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Czechia",FILMBOX+ Emotion Czechia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Czechia" tvg-name="FILMBOX+ Emotion Czechia" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" tvg-country="NL" group-title="Movies",FILMBOX+ Emotion Czechia
 http://88.212.15.17/live/test_film_boxextra_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Hungary",FILMBOX+ Emotion Hungary (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Hungary" tvg-name="FILMBOX+ Emotion Hungary" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" tvg-country="NL" group-title="Movies",FILMBOX+ Emotion Hungary
 http://88.212.15.17/live/test_filmbox_extra_hd_hun_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@SD",FILMBOX+ Festival
+
+#EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@SD" tvg-name="FILMBOX+ Festival" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png" tvg-country="NL" group-title="Movies",FILMBOX+ Festival
 https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Adria",FILMBOX+ Hits Adria
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Adria" tvg-name="FILMBOX+ Hits Adria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png" tvg-country="NL" group-title="Movies",FILMBOX+ Hits Adria
 https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Czechia",FILMBOX+ Hits Czechia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Czechia" tvg-name="FILMBOX+ Hits Czechia" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png" tvg-country="NL" group-title="Movies",FILMBOX+ Hits Czechia
 http://88.212.15.17/live/test_film_boxpremium_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Czechia",FILMBOX+ Love & Crime
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Czechia" tvg-name="FILMBOX+ Love & Crime" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" tvg-country="NL" group-title="Movies",FILMBOX+ Love & Crime
 http://88.212.15.17/live/test_filmbox_plus_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Adria",FILMBOX+ Love & Crime Adria
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Adria" tvg-name="FILMBOX+ Love & Crime Adria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" tvg-country="NL" group-title="Movies",FILMBOX+ Love & Crime Adria
 https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Bulgaria",FILMBOX+ Love & Crime Bulgaria
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Bulgaria" tvg-name="FILMBOX+ Love & Crime Bulgaria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" tvg-country="NL" group-title="Movies",FILMBOX+ Love & Crime Bulgaria
 http://213.91.179.28:8000/play/a066
-#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Bulgaria",FILMBOX+ One Bulgaria
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Bulgaria" tvg-name="FILMBOX+ One Bulgaria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" tvg-country="NL" group-title="Movies",FILMBOX+ One Bulgaria
 http://213.91.179.28:8000/play/a06i
-#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Czechia",FILMBOX+ One Czechia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Czechia" tvg-name="FILMBOX+ One Czechia" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" tvg-country="NL" group-title="Movies",FILMBOX+ One Czechia
 http://88.212.15.17/live/test_filmbox/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@UkraineBaltics",FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@UkraineBaltics" tvg-name="FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" tvg-country="NL" group-title="Movies",FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]
 https://s70378.cdn.ngenix.net/filmbox/index.m3u8
-#EXTINF:-1 tvg-id="FomixTV.nl@HD",FomixTV (1080p)
-#EXTVLCOPT:http-referrer=https://www.fomix.nl
+
+#EXTINF:-1 tvg-id="FomixTV.nl@HD" tvg-name="FomixTV" tvg-logo="https://i.imgur.com/7SLYEMG.png" tvg-country="NL" group-title="Music",FomixTV
 https://stream.fomixmedia.nl/FomixTV/video.m3u8
-#EXTINF:-1 tvg-id="FunBoxUHD.nl@SD",FunBox UHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FunBoxUHD.nl@SD" tvg-name="FunBox UHD" tvg-logo="https://i.imgur.com/9FJct9o.png" tvg-country="NL" group-title="Relax",FunBox UHD
 https://webtvstream.bhtelecom.ba/funbox.m3u8
-#EXTINF:-1 tvg-id="Gametoon.nl@SD",Gametoon
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="Gametoon.nl@SD" tvg-name="Gametoon" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/b/b6/Gametoon_HD_logo.png" tvg-country="NL" group-title="Entertainment",Gametoon
 https://webtvstream.bhtelecom.ba/gametoon.m3u8
-#EXTINF:-1 tvg-id="GigantFM.nl@SD",Gigant FM (720p)
+
+#EXTINF:-1 tvg-id="GigantFM.nl@SD" tvg-name="Gigant FM" tvg-logo="https://i.imgur.com/LwEHfjD.png" tvg-country="NL" group-title="Music",Gigant FM
 https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
-#EXTINF:-1 tvg-id="Haarlem105TV.nl@SD",Haarlem105 RTV (720p)
+
+#EXTINF:-1 tvg-id="Haarlem105TV.nl@SD" tvg-name="Haarlem105 RTV" tvg-logo="https://i.imgur.com/xyOVVZ0.png" tvg-country="NL" group-title="General",Haarlem105 RTV
 https://d2qm50imcbcfqx.cloudfront.net/nlpo/clr-nlpo/haarlem105/index.m3u8
-#EXTINF:-1 tvg-id="HTRTV.nl@SD",HTR TV (720p)
+
+#EXTINF:-1 tvg-id="HTRTV.nl@SD" tvg-name="HTR TV" tvg-logo="https://i.imgur.com/IlwVHX0.png" tvg-country="NL" group-title="General",HTR TV
 https://ms7.mx-cd.net/tv/286-3043214/HTR_Media_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="HypeVisualRadio.nl@SD",Hype Visual Radio (1080p)
+
+#EXTINF:-1 tvg-id="HypeVisualRadio.nl@SD" tvg-name="Hype Visual Radio" tvg-logo="https://cdn.onlineradiobox.com/img/fblogo/1/97371.v21.png" tvg-country="NL" group-title="Music",Hype Visual Radio
 https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8
-#EXTINF:-1 tvg-id="IdeaalTV.nl@SD",Ideaal TV (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="IdeaalTV.nl@SD" tvg-name="Ideaal TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/JLYQFoX.png" tvg-country="NL" group-title="General",Ideaal TV (480p) [Not 24/7]
 https://ms2.mx-cd.net/dtv-09/236-2051366/Ideaal_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="INFAST.nl@SD",INFAST (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="INFAST.nl@SD_2" tvg-name="INFAST (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/VwAMqA7.png" tvg-country="NL" group-title="Lifestyle",INFAST (1080p) [Geo-blocked]
 https://amg00861-amg00861c5-firetv-us-4727.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="INFAST.nl@SD",INFAST (1080p)
+
+#EXTINF:-1 tvg-id="INFAST.nl@SD_3" tvg-name="INFAST" tvg-logo="https://i.imgur.com/VwAMqA7.png" tvg-country="NL" group-title="Lifestyle",INFAST
 https://amg00861-amg00861c11-rlaxx-uk-3950.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="INFAST.nl@SD",INFAST (1080p)
+
+#EXTINF:-1 tvg-id="INFAST.nl@SD_4" tvg-name="INFAST (Feed 4)" tvg-logo="https://i.imgur.com/VwAMqA7.png" tvg-country="NL" group-title="Lifestyle",INFAST (Feed 4)
 https://insighttv-samsung-canada.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="INFAST.nl@SD",INFAST (1080p)
+
+#EXTINF:-1 tvg-id="INFAST.nl@SD_5" tvg-name="INFAST (Feed 5)" tvg-logo="https://i.imgur.com/VwAMqA7.png" tvg-country="NL" group-title="Lifestyle",INFAST (Feed 5)
 https://insighttv-samsung-us.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="InTrouble.nl@SD",InTrouble (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="InTrouble.nl@SD" tvg-name="InTrouble (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/a40chFI.png" tvg-country="NL" group-title="Auto",InTrouble (1080p) [Geo-blocked]
 https://amg00861-amg00861c6-rlaxx-uk-3951.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="InWonder.nl@SD",InWonder (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="InWonder.nl@SD_3" tvg-name="InWonder (1080p) [Geo-blocked]" tvg-logo="https://cdn.uc.assets.prezly.com/f12e798d-6da4-46e1-8ec5-e391d6762659/InWonder_portrait-purple.png" tvg-country="NL" group-title="Science",InWonder (1080p) [Geo-blocked]
 https://amg00861-amg00861c14-rlaxx-uk-3954.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="JinTV.nl@SD",Jin TV
+
+#EXTINF:-1 tvg-id="JinTV.nl@SD" tvg-name="Jin TV" tvg-logo="https://i.imgur.com/37ajg2j.png" tvg-country="NL" group-title="Culture",Jin TV
 https://live.jintv.org/medialive/jintv.m3u8
-#EXTINF:-1 tvg-id="KempenTV.nl@SD",KempenTV (480p)
+
+#EXTINF:-1 tvg-id="KempenTV.nl@SD" tvg-name="KempenTV" tvg-logo="https://i.imgur.com/ZiPL9ar.png" tvg-country="NL" group-title="General",KempenTV
 http://ms7.mx-cd.net/tv/Omroep_de_Kempen.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="KempenTV.nl@SD",KempenTV (480p)
+
+#EXTINF:-1 tvg-id="KempenTV.nl@SD_2" tvg-name="KempenTV (Feed 2)" tvg-logo="https://i.imgur.com/ZiPL9ar.png" tvg-country="NL" group-title="General",KempenTV (Feed 2)
 https://ms2.mx-cd.net/tv/242-2079866/Omroep_de_Kempen.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="L1TV.nl@SD",L1mburg TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="L1TV.nl@SD" tvg-name="L1mburg TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/SDD5KS5.png" tvg-country="NL" group-title="General",L1mburg TV (720p) [Not 24/7]
 https://d34pj260kw1xmk.cloudfront.net/live/l1/tv/index.m3u8
-#EXTINF:-1 tvg-id="LangstraatTV.nl@SD",Langstraat TV (720p)
+
+#EXTINF:-1 tvg-id="LangstraatTV.nl@SD" tvg-name="Langstraat TV" tvg-logo="https://i.imgur.com/xchUfks.png" tvg-country="NL" group-title="General",Langstraat TV
 https://d1qpgfi3ivud4k.cloudfront.net/nlpo/clr-nlpo/langstraat/index.m3u8
-#EXTINF:-1 tvg-id="LansingerlandTV.nl@SD",Lansingerland TV (720p)
+
+#EXTINF:-1 tvg-id="LansingerlandTV.nl@SD" tvg-name="Lansingerland TV" tvg-logo="https://i.imgur.com/1r7IZ7Q.png" tvg-country="NL" group-title="General",Lansingerland TV
 https://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LEOMiddelseTV.nl@SD",LEO Middelsé TV (480p)
+
+#EXTINF:-1 tvg-id="LEOMiddelseTV.nl@SD" tvg-name="LEO Middelsé TV" tvg-logo="https://i.imgur.com/wF3FFZv.png" tvg-country="NL" group-title="General",LEO Middelsé TV
 https://ms7.mx-cd.net/tv/238-2061506/Omroep_LEO_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LINQTV.nl@SD",LINQ TV (480p)
+
+#EXTINF:-1 tvg-id="LINQTV.nl@SD" tvg-name="LINQ TV" tvg-logo="https://i.imgur.com/0DgP3vu.png" tvg-country="NL" group-title="General",LINQ TV
 https://ms7.mx-cd.net/dtv-09/246-2090022/Linq_Media_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LOETV.nl@SD",LOE TV (720p)
+
+#EXTINF:-1 tvg-id="LOETV.nl@SD" tvg-name="LOE TV" tvg-logo="https://i.imgur.com/8i6OwaS.png" tvg-country="NL" group-title="General",LOE TV
 https://58c04fb1d143f.streamlock.net/loemedia/loemedia/playlist.m3u8
-#EXTINF:-1 tvg-id="LONTV.nl@SD",LON TV (720p)
+
+#EXTINF:-1 tvg-id="LONTV.nl@SD" tvg-name="LON TV" tvg-logo="https://i.imgur.com/bH4XSGw.png" tvg-country="NL" group-title="General",LON TV
 https://streamingserver02.omroepnuenen.nl/lon/lonweb/chunklist_w1463772894.m3u8
-#EXTINF:-1 tvg-id="LokaleOmroepZeewolde.nl@SD",LOZ (Lokale Omroep Zeewolde) (720p)
+
+#EXTINF:-1 tvg-id="LokaleOmroepZeewolde.nl@SD" tvg-name="LOZ (Lokale Omroep Zeewolde)" tvg-logo="https://i.imgur.com/Dw4u9wT.png" tvg-country="NL" group-title="General",LOZ (Lokale Omroep Zeewolde)
 https://5e2b3e3114872.streamlock.net:1443/lozlive/smil:lozlive/playlist.m3u8
-#EXTINF:-1 tvg-id="MagicPowerRadio.nl@SD",Magic PowerRadio (288p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="MagicPowerRadio.nl@SD" tvg-name="Magic PowerRadio (288p) [Not 24/7]" tvg-logo="https://i.imgur.com/sWcwIte.png" tvg-country="NL" group-title="Entertainment",Magic PowerRadio (288p) [Not 24/7]
 https://server-23.stream-server.nl:1936/Magic-PowerRadio/Magic-PowerRadio/playlist.m3u8
-#EXTINF:-1 tvg-id="MeerTV.nl@SD",Meer TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="MeerTV.nl@SD" tvg-name="Meer TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/p4TXVkE.png" tvg-country="NL" group-title="General",Meer TV (720p) [Not 24/7]
 https://593aed234297b.streamlock.net/meervandaag/meervandaag/playlist.m3u8
-#EXTINF:-1 tvg-id="MerweTV.nl@SD",Merwe TV (720p)
+
+#EXTINF:-1 tvg-id="MerweTV.nl@SD" tvg-name="Merwe TV" tvg-logo="https://i.imgur.com/JjB7U1q.png" tvg-country="NL" group-title="General",Merwe TV
 https://d2ycaxub5x98iw.cloudfront.net/nlpo/clr-nlpo/merwetv/index.m3u8
-#EXTINF:-1 tvg-id="ML5TV.nl@SD",ML5 TV (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="ML5TV.nl@SD" tvg-name="ML5 TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/knjHdei.png" tvg-country="NL" group-title="General",ML5 TV (480p) [Not 24/7]
 https://ms2.mx-cd.net/dtv-02/204-1147034/3ML_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ML5TV.nl@SD",ML5 TV (480p)
+
+#EXTINF:-1 tvg-id="ML5TV.nl@SD_2" tvg-name="ML5 TV" tvg-logo="https://i.imgur.com/knjHdei.png" tvg-country="NL" group-title="General",ML5 TV
 https://ms7.mx-cd.net/dtv-02/204-1147034/3ML_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.nl@HD",National Geographic HD (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="NationalGeographic.nl@HD" tvg-name="National Geographic HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" tvg-country="NL" group-title="Documentary",National Geographic HD
 http://46.32.176.50/NationalGeographicHD/index.m3u8
-#EXTINF:-1 tvg-id="NH.nl@SD",NH Niews (1080p)
+
+#EXTINF:-1 tvg-id="NH.nl@SD" tvg-name="NH Niews" tvg-logo="https://i.imgur.com/SPkK4md.png" tvg-country="NL" group-title="General",NH Niews
 https://takeoff.jetstre.am/?account=nhnieuws&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-id="NOOSTV.nl@SD",NOOS TV (720p)
+
+#EXTINF:-1 tvg-id="NOOSTV.nl@SD" tvg-name="NOOS TV" tvg-logo="https://i.imgur.com/X8xLcpT.png" tvg-country="NL" group-title="General",NOOS TV
 https://ms2.mx-cd.net/tv/276-2860564/Omroep_NOOS.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepBrabant.nl@SD",Omroep Brabant (1080p)
+
+#EXTINF:-1 tvg-id="OmroepBrabant.nl@SD" tvg-name="Omroep Brabant" tvg-logo="https://i.imgur.com/KLYsKKC.png" tvg-country="NL" group-title="General",Omroep Brabant
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepBrabantRadio.nl@SD",Omroep Brabant Radio (1080p)
+
+#EXTINF:-1 tvg-id="OmroepBrabantRadio.nl@SD" tvg-name="Omroep Brabant Radio" tvg-country="NL" group-title="General",Omroep Brabant Radio
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/visualradio/index.m3u8
-#EXTINF:-1 tvg-id="OmroepCentraalTV.nl@SD",Omroep Centraal TV (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="OmroepCentraalTV.nl@SD" tvg-name="Omroep Centraal TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/YNUPWbL.png" tvg-country="NL" group-title="General",Omroep Centraal TV (480p) [Not 24/7]
 https://ms2.mx-cd.net/tv/208-1258878/Omroep_Centraal_GB.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepDommelland.nl@SD",Omroep Dommelland (720p)
+
+#EXTINF:-1 tvg-id="OmroepDommelland.nl@SD" tvg-name="Omroep Dommelland" tvg-logo="https://i.imgur.com/6Tkd9Pv.png" tvg-country="NL" group-title="General",Omroep Dommelland
 https://de68fck4398ez.cloudfront.net/nlpo/clr-nlpo/omroepdommelland/index.m3u8
-#EXTINF:-1 tvg-id="OmroepFlevoland.nl@SD",Omroep Flevoland (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="OmroepFlevoland.nl@SD" tvg-name="Omroep Flevoland (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/rF4MTYD.png" tvg-country="NL" group-title="General",Omroep Flevoland (720p) [Not 24/7]
 https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepGelderland.nl@HD",Omroep Gelderland HD (1080p)
+
+#EXTINF:-1 tvg-id="OmroepGelderland.nl@HD" tvg-name="Omroep Gelderland HD" tvg-logo="https://i.imgur.com/G08hKit.png" tvg-country="NL" group-title="General",Omroep Gelderland HD
 https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8
-#EXTINF:-1 tvg-id="OmroepHoekscheWaard.nl@SD",Omroep Hoeksche Waard (480p)
+
+#EXTINF:-1 tvg-id="OmroepHoekscheWaard.nl@SD" tvg-name="Omroep Hoeksche Waard" tvg-logo="https://i.imgur.com/pgMwNGV.png" tvg-country="NL" group-title="General",Omroep Hoeksche Waard
 https://ms2.mx-cd.net/tv/272-2641704/Hoeksche_Waard_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepHulst.nl@SD",Omroep Hulst TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="OmroepHulst.nl@SD" tvg-name="Omroep Hulst TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/RrQnqId.png" tvg-country="NL" group-title="General",Omroep Hulst TV (720p) [Not 24/7]
 https://ms7.mx-cd.net/tv/280-2963002/Omroep_Hulst_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepLandvanCuijk.nl@SD",Omroep Land van Cuijk (720p)
+
+#EXTINF:-1 tvg-id="OmroepLandvanCuijk.nl@SD" tvg-name="Omroep Land van Cuijk" tvg-logo="https://i.imgur.com/Pt2gXJ1.png" tvg-country="NL" group-title="General",Omroep Land van Cuijk
 https://d3go236bg358u.cloudfront.net/nlpo/clr-nlpo/omroeplandvancuijk/index.m3u8
-#EXTINF:-1 tvg-id="OmroepLingewaard.nl@SD",Omroep Lingewaard (720p)
+
+#EXTINF:-1 tvg-id="OmroepLingewaard.nl@SD" tvg-name="Omroep Lingewaard" tvg-logo="https://i.imgur.com/FqyTFVN.png" tvg-country="NL" group-title="General",Omroep Lingewaard
 https://highvolume02.streampartner.nl/omroeplingewaard_1/omroeplingewaard_1/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepMeierijstad.nl@SD",Omroep Meierijstad (480p)
+
+#EXTINF:-1 tvg-id="OmroepMeierijstad.nl@SD" tvg-name="Omroep Meierijstad" tvg-logo="https://i.imgur.com/sYzh01C.png" tvg-country="NL" group-title="General",Omroep Meierijstad
 https://ms2.mx-cd.net/dtv-09/186-793530/Omroep_Meierij_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepOnsWestBrabant.nl@SD",Omroep Ons West Brabant (480p)
+
+#EXTINF:-1 tvg-id="OmroepOnsWestBrabant.nl@SD" tvg-name="Omroep Ons West Brabant" tvg-logo="https://i.imgur.com/XlWTK7s.png" tvg-country="NL" group-title="General",Omroep Ons West Brabant
 https://ms2.mx-cd.net/tv/177-710139/Ons_West_Brabant_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepPeelrand.nl@SD",Omroep Peelrand (720p)
+
+#EXTINF:-1 tvg-id="OmroepPeelrand.nl@SD" tvg-name="Omroep Peelrand" tvg-logo="https://i.imgur.com/K4AhATP.png" tvg-country="NL" group-title="General",Omroep Peelrand
 https://ms7.mx-cd.net/dtv-11/208-1258878/Omroep_Peelrand_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepSudwest.nl@SD",Omroep Súdwest (720p)
+
+#EXTINF:-1 tvg-id="OmroepSudwest.nl@SD" tvg-name="Omroep Súdwest" tvg-logo="https://i.imgur.com/XtKLmQS.png" tvg-country="NL" group-title="General",Omroep Súdwest
 https://d2ecwd3cgy6wo0.cloudfront.net/nlpo/clr-nlpo/omroepsudwest/index.m3u8
-#EXTINF:-1 tvg-id="OmroepTilburg.nl@SD",Omroep Tilburg (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="OmroepTilburg.nl@SD" tvg-name="Omroep Tilburg (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/rhazkU7.png" tvg-country="NL" group-title="General",Omroep Tilburg (480p) [Not 24/7]
 https://ms2.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepTilburg.nl@SD",Omroep Tilburg TV (480p)
+
+#EXTINF:-1 tvg-id="OmroepTilburg.nl@SD_2" tvg-name="Omroep Tilburg TV" tvg-logo="https://i.imgur.com/rhazkU7.png" tvg-country="NL" group-title="General",Omroep Tilburg TV
 https://ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepVenlo.nl@SD",Omroep Venlo (720p)
+
+#EXTINF:-1 tvg-id="OmroepVenlo.nl@SD" tvg-name="Omroep Venlo" tvg-logo="https://i.imgur.com/zjDZdmM.png" tvg-country="NL" group-title="General",Omroep Venlo
 https://d2pqcu7r58rgg1.cloudfront.net/nlpo/clr-nlpo/omroepvenlo/index.m3u8
-#EXTINF:-1 tvg-id="OmroepVenray.nl@SD",Omroep Venray (720p)
+
+#EXTINF:-1 tvg-id="OmroepVenray.nl@SD" tvg-name="Omroep Venray" tvg-logo="https://i.imgur.com/uVqTbi2.png" tvg-country="NL" group-title="General",Omroep Venray
 https://d3j015sg8r68y.cloudfront.net/nlpo/clr-nlpo/omroepvenray/index.m3u8
-#EXTINF:-1 tvg-id="OmroepWest.nl@HD",Omroep West (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="OmroepWest.nl@HD" tvg-name="Omroep West (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/5IDb9fk.png" tvg-country="NL" group-title="General",Omroep West (1080p) [Not 24/7]
 https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepZeeland.nl@SD",Omroep Zeeland (1080p)
+
+#EXTINF:-1 tvg-id="OmroepZeeland.nl@SD" tvg-name="Omroep Zeeland" tvg-logo="https://i.imgur.com/3c3QUSn.png" tvg-country="NL" group-title="General",Omroep Zeeland
 https://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmropFryslan.nl@SD",Omrop Fryslân (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="OmropFryslan.nl@SD" tvg-name="Omrop Fryslân (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/khacDTU.png" tvg-country="NL" group-title="General",Omrop Fryslân (1080p) [Not 24/7]
 https://s-d15f8b0b.b.cdn.bluebillywig.com/live/omropfryslan/f8f68bd5/index.m3u8
-#EXTINF:-1 tvg-id="OOGTV.nl@SD",OOG TV (720p)
+
+#EXTINF:-1 tvg-id="OOGTV.nl@SD" tvg-name="OOG TV" tvg-logo="https://i.imgur.com/WzxY0PL.png" tvg-country="NL" group-title="General",OOG TV
 https://d1xcc1603wntzx.cloudfront.net/nlpo/clr-nlpo/oogtv/index.m3u8
-#EXTINF:-1 tvg-id="OPENRotterdamTV.nl@SD",Open Rotterdam (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="OPENRotterdamTV.nl@SD" tvg-name="Open Rotterdam (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/nWahRAb.png" tvg-country="NL" group-title="General",Open Rotterdam (480p) [Not 24/7]
 https://ms2.mx-cd.net/tv/141-573555/OPEN_Rotterdam.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ORTSTV.nl@SD",ORTS (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="ORTSTV.nl@SD" tvg-name="ORTS (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/RZM4Myo.png" tvg-country="NL" group-title="General",ORTS (480p) [Not 24/7]
 https://ms7.mx-cd.net/tv/200-1006554/ORTS_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PodiumTV.nl@SD",Podium.TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="PodiumTV.nl@SD" tvg-name="Podium.TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/bAhMhuz.jpg" tvg-country="NL" group-title="General",Podium.TV (1080p) [Not 24/7]
 https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC1&output=playlist.m3u8&service=wowza&type=live
-#EXTINF:-1 tvg-id="PodiumTV2.nl@SD",Podium.TV 2 (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="PodiumTV2.nl@SD" tvg-name="Podium.TV 2 (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/bAhMhuz.jpg" tvg-country="NL" group-title="General",Podium.TV 2 (1080p) [Not 24/7]
 https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC2&output=playlist.m3u8&service=wowza&type=live
-#EXTINF:-1 tvg-id="PodiumTV3.nl@SD",Podium.TV 3 (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="PodiumTV3.nl@SD" tvg-name="Podium.TV 3 (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/bAhMhuz.jpg" tvg-country="NL" group-title="General",Podium.TV 3 (1080p) [Not 24/7]
 https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC3&output=playlist.m3u8&service=wowza&type=live
-#EXTINF:-1 tvg-id="Qmusic.nl@SD",Qmusic (720p)
+
+#EXTINF:-1 tvg-id="Qmusic.nl@SD" tvg-name="Qmusic" tvg-logo="https://i.imgur.com/fMTuqDu.png" tvg-country="NL" group-title="Music",Qmusic
 https://stream.qmusic.nl/qmusic/videohls.m3u8
-#EXTINF:-1 tvg-id="Qmusic.nl@SD",Qmusic (Netherlands) (720p)
+
+#EXTINF:-1 tvg-id="Qmusic.nl@SD_2" tvg-name="Qmusic (Netherlands)" tvg-logo="https://i.imgur.com/fMTuqDu.png" tvg-country="NL" group-title="Music",Qmusic (Netherlands)
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8
-#EXTINF:-1 tvg-id="Radio10.nl@SD",Radio 10 (720p)
+
+#EXTINF:-1 tvg-id="Radio10.nl@SD" tvg-name="Radio 10" tvg-logo="https://i.imgur.com/2oGtj7r.png" tvg-country="NL" group-title="General",Radio 10
 https://radio10.prd1.talpatvcdn.nl/2b725bc7c93f477eaf0e43955ea8a6c1/index.m3u8
-#EXTINF:-1 tvg-id="Radio350.nl@SD",Radio 350 (360p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Radio350.nl@SD" tvg-name="Radio 350 (360p) [Not 24/7]" tvg-logo="https://i.imgur.com/3nkzXup.png" tvg-country="NL" group-title="General",Radio 350 (360p) [Not 24/7]
 https://stream.radio350.nl/hls/radio350.m3u8
-#EXTINF:-1 tvg-id="Radio538.nl@SD",Radio 538 (270p)
+
+#EXTINF:-1 tvg-id="Radio538.nl@SD" tvg-name="Radio 538" tvg-logo="https://i.imgur.com/sd7BX9H.png" tvg-country="NL" group-title="General",Radio 538
 https://radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index.m3u8
-#EXTINF:-1 tvg-id="RadioAalsmeerTV.nl@SD",Radio Aalsmeer TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RadioAalsmeerTV.nl@SD" tvg-name="Radio Aalsmeer TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/SYzjLlI.png" tvg-country="NL" group-title="General",Radio Aalsmeer TV (720p) [Not 24/7]
 https://radioaalsmeer.nl:4443/live/tv.m3u8
-#EXTINF:-1 tvg-id="RadioJND.nl@SD",Radio JND (1080p)
+
+#EXTINF:-1 tvg-id="RadioJND.nl@SD" tvg-name="Radio JND" tvg-logo="https://i.imgur.com/nyVlZeL.png" tvg-country="NL" group-title="Music",Radio JND
 https://radiojnd.cdn.hostin.cc/radiojnd/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioStaddenHaag.nl@SD",Radio Stad den Haag (720p)
+
+#EXTINF:-1 tvg-id="RadioStaddenHaag.nl@SD" tvg-name="Radio Stad den Haag" tvg-logo="https://i.imgur.com/ANK36EQ.png" tvg-country="NL" group-title="Music",Radio Stad den Haag
 https://rsdh.cloud-streams.com/rsdh/rsdh/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioNLTV.nl@SD",RadioNL TV (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RadioNLTV.nl@SD" tvg-name="RadioNL TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/TVaMJYB.png" tvg-country="NL" group-title="Music",RadioNL TV (1080p) [Not 24/7]
 https://stream.radionl.tv/radionltv/radionltv/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioToppers.nl@SD",RadioToppers (720p)
+
+#EXTINF:-1 tvg-id="RadioToppers.nl@SD" tvg-name="RadioToppers" tvg-logo="https://i.imgur.com/9OMsUd7.png" tvg-country="NL" group-title="Entertainment",RadioToppers
 https://server-67.stream-server.nl:1936/RadioToppers/RadioToppers/playlist.m3u8
-#EXTINF:-1 tvg-id="Rararadio.nl@SD",Rararadio (720p)
+
+#EXTINF:-1 tvg-id="Rararadio.nl@SD" tvg-name="Rararadio" tvg-logo="https://i.imgur.com/vTpfxUG.png" tvg-country="NL" group-title="Music",Rararadio
 https://58c04fb1d143f.streamlock.net/rararadio/rararadio/playlist.m3u8
-#EXTINF:-1 tvg-id="Regio90TV.nl@SD",Regio90 TV (720p)
+
+#EXTINF:-1 tvg-id="Regio90TV.nl@SD" tvg-name="Regio90 TV" tvg-logo="https://i.imgur.com/UGnm1jd.png" tvg-country="NL" group-title="General",Regio90 TV
 https://ms2.mx-cd.net/dtv-02/260-2403096/Regio90TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RegioTVDeBilt.nl@SD",Regio TV De Bilt (720p)
+
+#EXTINF:-1 tvg-id="RegioTVDeBilt.nl@SD" tvg-name="Regio TV De Bilt" tvg-logo="https://i.imgur.com/2jQbmyK.png" tvg-country="NL" group-title="General",Regio TV De Bilt
 https://d3ud9qm9b5yby9.cloudfront.net/nlpo/clr-nlpo/76ecd122/index.m3u8
-#EXTINF:-1 tvg-id="RegioTVNieuws.nl@SD",Regio TV Nieuws (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RegioTVNieuws.nl@SD" tvg-name="Regio TV Nieuws (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/BG7zrsC.png" tvg-country="NL" group-title="General",Regio TV Nieuws (1080p) [Not 24/7]
 http://highvolume04.streampartner.nl/regiomedia/regiomedia/playlist.m3u8
-#EXTINF:-1 tvg-id="RN7.nl@SD",RN7 TV (1080p)
+
+#EXTINF:-1 tvg-id="RN7.nl@SD" tvg-name="RN7 TV" tvg-logo="https://i.imgur.com/dYBTrLc.png" tvg-country="NL" group-title="General",RN7 TV
 https://streams.rn7.nl/memfs/49823eea-a17d-4e39-a435-75b6d60df96e.m3u8
-#EXTINF:-1 tvg-id="",Rotterdam Podium TV (480p)
+
+#EXTINF:-1 tvg-id="ch_959" tvg-name="Rotterdam Podium TV" tvg-country="NL" group-title="General",Rotterdam Podium TV
 http://ms10.mx-cd.net/tv/141-573565/Podium_Rotterdam.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RPLWoerden.nl@SD",RPL TV Woerden (720p)
+
+#EXTINF:-1 tvg-id="RPLWoerden.nl@SD" tvg-name="RPL TV Woerden" tvg-logo="https://i.imgur.com/UdYMXWQ.png" tvg-country="NL" group-title="General",RPL TV Woerden
 https://d1893oi5c6e5u0.cloudfront.net/nlpo/clr-nlpo/rpltvwoerden/index.m3u8
-#EXTINF:-1 tvg-id="RTV1.nl@SD",RTV 1 (720p)
+
+#EXTINF:-1 tvg-id="RTV1.nl@SD" tvg-name="RTV 1" tvg-logo="https://i.imgur.com/lRCsPWT.png" tvg-country="NL" group-title="General",RTV 1
 https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8
-#EXTINF:-1 tvg-id="RTVArnhemTV.nl@SD",RTV Arnhem (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVArnhemTV.nl@SD" tvg-name="RTV Arnhem (480p) [Not 24/7]" tvg-country="NL" group-title="General",RTV Arnhem (480p) [Not 24/7]
 https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVDrenthe.nl@SD",RTV Drenthe (1080p)
+
+#EXTINF:-1 tvg-id="RTVDrenthe.nl@SD" tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/UBQCjnG.png" tvg-country="NL" group-title="General",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVGO.nl@SD",RTV GO! (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVGO.nl@SD" tvg-name="RTV GO! (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/WUClFUJ.png" tvg-country="NL" group-title="General",RTV GO! (1080p) [Not 24/7]
 http://59132e529e3d1.streamlock.net:1935/Groningen1/Groningen1/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVHorizon.nl@SD",RTV Horizon (720p)
+
+#EXTINF:-1 tvg-id="RTVHorizon.nl@SD" tvg-name="RTV Horizon" tvg-logo="https://i.imgur.com/wnRsI8B.png" tvg-country="NL" group-title="General",RTV Horizon
 https://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8
-#EXTINF:-1 tvg-id="RTVLOVE.nl@SD",RTV LOVE (720p)
+
+#EXTINF:-1 tvg-id="RTVLOVE.nl@SD" tvg-name="RTV LOVE" tvg-logo="https://i.imgur.com/hucwX6v.png" tvg-country="NL" group-title="General",RTV LOVE
 https://d2o8iss0ldenh4.cloudfront.net/nlpo/clr-nlpo/rtvlove/index.m3u8
-#EXTINF:-1 tvg-id="RTVMaastricht.nl@SD",RTV Maastricht (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVMaastricht.nl@SD" tvg-name="RTV Maastricht (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/nYl8H2e.png" tvg-country="NL" group-title="General",RTV Maastricht (720p) [Not 24/7]
 http://stream.rtvmaastricht.nl:8081/rtvm_live/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVMeppel.nl@SD",RTV Meppel (720p)
+
+#EXTINF:-1 tvg-id="RTVMeppel.nl@SD" tvg-name="RTV Meppel" tvg-logo="https://i.imgur.com/RosyQkb.png" tvg-country="NL" group-title="General",RTV Meppel
 https://d2eanln3bsfb0d.cloudfront.net/nlpo/clr-nlpo/rtvmeppel/index.m3u8
-#EXTINF:-1 tvg-id="RTVNOFAchtkarspelenTytsjerksteradiel.nl@SD",RTV NOF Achtkarspelen & Tytsjerksteradiel (720p)
+
+#EXTINF:-1 tvg-id="RTVNOFAchtkarspelenTytsjerksteradiel.nl@SD" tvg-name="RTV NOF Achtkarspelen & Tytsjerksteradiel" tvg-logo="https://i.imgur.com/VO6wBcD.png" tvg-country="NL" group-title="General",RTV NOF Achtkarspelen & Tytsjerksteradiel
 https://5e6ab219de8f5.streamlock.net/rtvnof/rtvnof/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVNoord.nl@SD",RTV Noord (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVNoord.nl@SD" tvg-name="RTV Noord (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/l92Cb6H.png" tvg-country="NL" group-title="General",RTV Noord (720p) [Not 24/7]
 https://media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVNoordExtra.nl@SD",RTV Noord Extra (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVNoordExtra.nl@SD" tvg-name="RTV Noord Extra (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/T0UvltB.png" tvg-country="NL" group-title="General",RTV Noord Extra (1080p) [Not 24/7]
 https://media.rtvnoord.nl/live/rtvnoord/extra/index.m3u8
-#EXTINF:-1 tvg-id="RTVNoordoostFriesland.nl@SD",RTV Noordoost Friesland (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVNoordoostFriesland.nl@SD" tvg-name="RTV Noordoost Friesland (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/CpQIedo.png" tvg-country="NL" group-title="General",RTV Noordoost Friesland (720p) [Not 24/7]
 https://593aed234297b.streamlock.net/rtvnof2/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVNoordoostFriesland.nl@SD",RTV Noordoost Friesland (Achtkarspelen / Tytsjerksteradiel) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVNoordoostFriesland.nl@SD_2" tvg-name="RTV Noordoost Friesland (Achtkarspelen / Tytsjerksteradiel) [Not 24/7]" tvg-logo="https://i.imgur.com/CpQIedo.png" tvg-country="NL" group-title="General",RTV Noordoost Friesland (Achtkarspelen / Tytsjerksteradiel) [Not 24/7]
 https://5ebd833552d56.streamlock.net/rtvnof3/rtvnof3/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVOost.nl@SD",RTV Oost (720p)
+
+#EXTINF:-1 tvg-id="RTVOost.nl@SD" tvg-name="RTV Oost" tvg-logo="https://i.imgur.com/nTR6q9H.png" tvg-country="NL" group-title="General",RTV Oost
 https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVParkstad.nl@SD",RTV Parkstad (1080p)
+
+#EXTINF:-1 tvg-id="RTVParkstad.nl@SD" tvg-name="RTV Parkstad" tvg-logo="https://i.imgur.com/zsTuF9y.png" tvg-country="NL" group-title="General",RTV Parkstad
 https://live.streamteam.eu:8443/parkstad/parkstad/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVPurmerend.nl@SD",RTV Purmerend (720p)
+
+#EXTINF:-1 tvg-id="RTVPurmerend.nl@SD" tvg-name="RTV Purmerend" tvg-logo="https://i.imgur.com/dLKSpqz.png" tvg-country="NL" group-title="General",RTV Purmerend
 https://ms2.mx-cd.net/dtv-10/268-2641474/RTV_Purmerend_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVRijnmond.nl@SD",RTV Rijnmond (1080p)
+
+#EXTINF:-1 tvg-id="RTVRijnmond.nl@SD" tvg-name="RTV Rijnmond" tvg-logo="https://i.imgur.com/fJTs9xH.png" tvg-country="NL" group-title="General",RTV Rijnmond
 https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVRijnmondExtra.nl@SD",RTV Rijnmond Extra (1080p)
+
+#EXTINF:-1 tvg-id="RTVRijnmondExtra.nl@SD" tvg-name="RTV Rijnmond Extra" tvg-logo="https://i.imgur.com/mlrd5ia.png" tvg-country="NL" group-title="General",RTV Rijnmond Extra
 http://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv-extra/index.m3u8
-#EXTINF:-1 tvg-id="RTVRijnstreekTV.nl@SD",RTV Rijnstreek TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVRijnstreekTV.nl@SD" tvg-name="RTV Rijnstreek TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/uM5sJJs.png" tvg-country="NL" group-title="General",RTV Rijnstreek TV (720p) [Not 24/7]
 https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVSLOS.nl@SD",RTV SLOS (720p)
+
+#EXTINF:-1 tvg-id="RTVSLOS.nl@SD" tvg-name="RTV SLOS" tvg-logo="https://i.imgur.com/xdzrT9A.png" tvg-country="NL" group-title="General",RTV SLOS
 https://d3b6teev8t7bb2.cloudfront.net/nlpo/clr-nlpo/rtvslos/index.m3u8
-#EXTINF:-1 tvg-id="RTVUtrecht.nl@SD",RTV Utrecht (1080p)
+
+#EXTINF:-1 tvg-id="RTVUtrecht.nl@SD" tvg-name="RTV Utrecht" tvg-logo="https://i.imgur.com/nrvs30l.png" tvg-country="NL" group-title="General",RTV Utrecht
 https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/rtvutrecht/index.m3u8
-#EXTINF:-1 tvg-id="RTVVeluwezoomTV.nl@SD",RTV Veluwezoom (720p)
+
+#EXTINF:-1 tvg-id="RTVVeluwezoomTV.nl@SD" tvg-name="RTV Veluwezoom" tvg-logo="https://i.imgur.com/KeHbJTM.png" tvg-country="NL" group-title="General",RTV Veluwezoom
 https://dt4pogjgi3q8s.cloudfront.net/nlpo/clr-nlpo/rtvveluwezoom/index.m3u8
-#EXTINF:-1 tvg-id="RTVWesterwolde.nl@SD",RTV Westerwolde (432p)
+
+#EXTINF:-1 tvg-id="RTVWesterwolde.nl@SD" tvg-name="RTV Westerwolde" tvg-logo="https://i.imgur.com/002YXP6.png" tvg-country="NL" group-title="General",RTV Westerwolde
 https://media.rtvwesterwolde.nl/hls/live/index.m3u8
-#EXTINF:-1 tvg-id="RTVZulthe.nl@SD",RTV Zulthe (720p)
+
+#EXTINF:-1 tvg-id="RTVZulthe.nl@SD" tvg-name="RTV Zulthe" tvg-logo="https://i.imgur.com/Z3zUUsJ.png" tvg-country="NL" group-title="General",RTV Zulthe
 http://ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Salto1.nl@SD",Salto 1 (720p)
+
+#EXTINF:-1 tvg-id="Salto1.nl@SD" tvg-name="Salto 1" tvg-logo="https://i.imgur.com/hyubvS5.png" tvg-country="NL" group-title="Entertainment",Salto 1
 https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/2103d417/index.m3u8
-#EXTINF:-1 tvg-id="Salto2.nl@SD",Salto 2 (720p)
+
+#EXTINF:-1 tvg-id="Salto2.nl@SD" tvg-name="Salto 2" tvg-logo="https://i.imgur.com/6H3ycdL.png" tvg-country="NL" group-title="Culture",Salto 2
 https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/bad78523/index.m3u8
-#EXTINF:-1 tvg-id="Salto4.nl@SD",Salto 4 (720p)
+
+#EXTINF:-1 tvg-id="Salto4.nl@SD" tvg-name="Salto 4" tvg-logo="https://i.vimeocdn.com/portrait/31947989_640x640" tvg-country="NL" group-title="General",Salto 4
 https://salto-streams.nl/hls/sotv2.m3u8
-#EXTINF:-1 tvg-id="SaltoADE.nl@SD",Salto ADE (720p)
+
+#EXTINF:-1 tvg-id="SaltoADE.nl@SD" tvg-name="Salto ADE" tvg-logo="https://i.vimeocdn.com/portrait/31947989_640x640" tvg-country="NL" group-title="General",Salto ADE
 https://live.salto.nl/hls/at5.m3u8
-#EXTINF:-1 tvg-id="SaltoBrasaMusic.nl@SD",Salto Brasa Music (1080p)
+
+#EXTINF:-1 tvg-id="SaltoBrasaMusic.nl@SD" tvg-name="Salto Brasa Music" tvg-logo="https://i.vimeocdn.com/portrait/31947989_640x640" tvg-country="NL" group-title="Music",Salto Brasa Music
 https://salto-streams.nl/hls/sotv1.m3u8
-#EXTINF:-1 tvg-id="MaLive.nl@SD",Salto MaLive (1080p)
+
+#EXTINF:-1 tvg-id="MaLive.nl@SD" tvg-name="Salto MaLive" tvg-logo="https://i.imgur.com/0Vzg2OR.png" tvg-country="NL" group-title="Entertainment",Salto MaLive
 https://live.salto.nl/hls/malive_high.m3u8
-#EXTINF:-1 tvg-id="SBS6Classics.nl@HD",SBS6 Classics (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="SBS6Classics.nl@HD" tvg-name="SBS6 Classics (1080p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8d/SBS_6_logo_2013.png" tvg-country="NL" group-title="Entertainment",SBS6 Classics (1080p) [Geo-blocked]
 https://sbs6classic.prd1.talpatvcdn.nl/v1/master/8ada1ed2ae3b9c3db6fc5e604cfa78fc7d2d745e/sbs6classic_ssai/fea54560ba684701a2143f33a9cf4489/index.m3u8
-#EXTINF:-1 tvg-id="SchieTV.nl@SD",Schie TV (576i)
+
+#EXTINF:-1 tvg-id="SchieTV.nl@SD" tvg-name="Schie TV" tvg-logo="https://i.imgur.com/kt4Aqvq.png" tvg-country="NL" group-title="General",Schie TV
 https://d2n2i1jp4j20kw.cloudfront.net/nlpo/clr-nlpo/schietv/index.m3u8
-#EXTINF:-1 tvg-id="SirisTV.nl@SD",Siris TV (720p)
+
+#EXTINF:-1 tvg-id="SirisTV.nl@SD" tvg-name="Siris TV" tvg-logo="https://i.imgur.com/4qKe18X.png" tvg-country="NL" group-title="General",Siris TV
 https://cdn.streammy.events/siris/playout/playlist.m3u8
-#EXTINF:-1 tvg-id="SleutelstadTV.nl@SD",Sleutelstad TV (720p)
+
+#EXTINF:-1 tvg-id="SleutelstadTV.nl@SD" tvg-name="Sleutelstad TV" tvg-logo="https://i.imgur.com/ljVGMWV.png" tvg-country="NL" group-title="General",Sleutelstad TV
 https://video-eu1.streamerr.co/hls/s7fdeb27a49/live.m3u8
-#EXTINF:-1 tvg-id="SlotstadTV.nl@SD",Slotstad TV (720p)
+
+#EXTINF:-1 tvg-id="SlotstadTV.nl@SD" tvg-name="Slotstad TV" tvg-logo="https://i.imgur.com/NXCUiuF.png" tvg-country="NL" group-title="General",Slotstad TV
 https://d3eq9mufmyqgh4.cloudfront.net/nlpo/clr-nlpo/slotstadtv/index.m3u8
-#EXTINF:-1 tvg-id="SOL2.nl@SD",SOL 2 (1080p)
+
+#EXTINF:-1 tvg-id="SOL2.nl@SD" tvg-name="SOL 2" tvg-logo="https://i.imgur.com/VEbhJRA.png" tvg-country="NL" group-title="General",SOL 2
 https://live.streamteam.eu:8443/sol2playout/sol2/live/playlist.m3u8
-#EXTINF:-1 tvg-id="SRCTV.nl@SD",SRC TV (720p)
+
+#EXTINF:-1 tvg-id="SRCTV.nl@SD" tvg-name="SRC TV" tvg-logo="https://i.imgur.com/VSSbjrM.png" tvg-country="NL" group-title="General",SRC TV
 http://highvolume155.streampartner.nl/adminsrc/adminsrc/playlist.m3u8
-#EXTINF:-1 tvg-id="StreekTV.nl@SD",Streek TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="StreekTV.nl@SD" tvg-name="Streek TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/48lkh57.png" tvg-country="NL" group-title="General",Streek TV (720p) [Not 24/7]
 http://cdn22.streampartner.nl/streektv/streektv/playlist.m3u8
-#EXTINF:-1 tvg-id="StreekTV.nl@SD",Streek TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="StreekTV.nl@SD_2" tvg-name="Streek TV (720p) [Not 24/7] (Feed 2)" tvg-logo="https://i.imgur.com/48lkh57.png" tvg-country="NL" group-title="General",Streek TV (720p) [Not 24/7] (Feed 2)
 https://61ae39677a1ab.streamlock.net/streektv/streektv/playlist.m3u8
-#EXTINF:-1 tvg-id="StreekstadCentral.nl@SD",Streekstad Alkmaar Centraal (1080p)
+
+#EXTINF:-1 tvg-id="StreekstadCentral.nl@SD" tvg-name="Streekstad Alkmaar Centraal" tvg-logo="https://i.imgur.com/9gM6rPb.png" tvg-country="NL" group-title="General",Streekstad Alkmaar Centraal
 https://videostreams.streekstadcentraal.nl/hls/streekstad_alkmaar/streekstad_alkmaar.m3u8
-#EXTINF:-1 tvg-id="Studio040TV.nl@SD",Studio040 TV (720p)
+
+#EXTINF:-1 tvg-id="Studio040TV.nl@SD" tvg-name="Studio040 TV" tvg-logo="https://i.imgur.com/NBludRL.png" tvg-country="NL" group-title="General",Studio040 TV
 https://d591ovpa48r6h.cloudfront.net/nlpo/clr-nlpo/studio040tv/index.m3u8
-#EXTINF:-1 tvg-id="StudioRheden.nl@SD",Studio Rheden (1080p)
+
+#EXTINF:-1 tvg-id="StudioRheden.nl@SD" tvg-name="Studio Rheden" tvg-logo="https://i.imgur.com/swfxaac.png" tvg-country="NL" group-title="General",Studio Rheden
 https://stream.studiorhedenlive.nl/hlstv/stream.m3u8
-#EXTINF:-1 tvg-id="TVEllef.nl@SD",TV Ellef (1080p)
+
+#EXTINF:-1 tvg-id="TVEllef.nl@SD" tvg-name="TV Ellef" tvg-logo="https://i.imgur.com/FaCd2QY.png" tvg-country="NL" group-title="General",TV Ellef
 http://cdn22.streampartner.nl/tvellef/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVEllef.nl@SD",TV Ellef (540p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TVEllef.nl@SD_2" tvg-name="TV Ellef (540p) [Not 24/7]" tvg-logo="https://i.imgur.com/FaCd2QY.png" tvg-country="NL" group-title="General",TV Ellef (540p) [Not 24/7]
 https://61ae39677a1ab.streamlock.net/tvellef/tvellef/playlist.m3u8
-#EXTINF:-1 tvg-id="TweedeKamerActualiteitenkanaal.nl@SD",Tweede Kamer: Actualiteitenkanaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerActualiteitenkanaal.nl@SD" tvg-name="Tweede Kamer: Actualiteitenkanaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Actualiteitenkanaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/evenementenkanaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerAlettaJacobszaal.nl@SD",Tweede Kamer: Aletta Jacobszaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerAlettaJacobszaal.nl@SD" tvg-name="Tweede Kamer: Aletta Jacobszaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Aletta Jacobszaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/alettajacobszaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerAlettaJacobszaal.nl@SD",Tweede Kamer: Aletta Jacobszaal (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerAlettaJacobszaal.nl@SD_2" tvg-name="Tweede Kamer: Aletta Jacobszaal (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Aletta Jacobszaal (720p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/aletta_jacobszaal/index.m3u8?hd=1&subtitles=1
-#EXTINF:-1 tvg-id="TweedeKamerEnquetezaal.nl@SD",Tweede Kamer: Enquetezaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerEnquetezaal.nl@SD" tvg-name="Tweede Kamer: Enquetezaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Enquetezaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/enquetezaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerGroenvanPrinstererzaal.nl@SD",Tweede Kamer: Groen van Prinstererzaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerGroenvanPrinstererzaal.nl@SD" tvg-name="Tweede Kamer: Groen van Prinstererzaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Groen van Prinstererzaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/groenvanprinstererzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerKlompezaal.nl@SD",Tweede Kamer: Klompezaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerKlompezaal.nl@SD" tvg-name="Tweede Kamer: Klompezaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="General",Tweede Kamer: Klompezaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/klompezaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerMaxvanderStoelzaal.nl@SD",Tweede Kamer: Max van der Stoelzaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerMaxvanderStoelzaal.nl@SD" tvg-name="Tweede Kamer: Max van der Stoelzaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Max van der Stoelzaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/maxvanderstoelzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerPlenairezaal.nl@SD",Tweede Kamer: Plenaire zaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerPlenairezaal.nl@SD" tvg-name="Tweede Kamer: Plenaire zaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Plenaire zaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/plenairezaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerPlenairezaal.nl@SD",Tweede Kamer: Plenaire zaal (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerPlenairezaal.nl@SD_2" tvg-name="Tweede Kamer: Plenaire zaal (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Plenaire zaal (720p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/plenaire_zaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerSuzeGroenewegzaal.nl@SD",Tweede Kamer: Suze Groenewegzaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerSuzeGroenewegzaal.nl@SD" tvg-name="Tweede Kamer: Suze Groenewegzaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Suze Groenewegzaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/suzegroenewegzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerThorbeckezaal.nl@SD",Tweede Kamer: Thorbeckezaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerThorbeckezaal.nl@SD" tvg-name="Tweede Kamer: Thorbeckezaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Thorbeckezaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerThorbeckezaal.nl@SD",Tweede Kamer: Thorbeckezaal (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerThorbeckezaal.nl@SD_2" tvg-name="Tweede Kamer: Thorbeckezaal (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Thorbeckezaal (720p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerTilanuskamer.nl@SD",Tweede Kamer: Tilanuskamer (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerTilanuskamer.nl@SD" tvg-name="Tweede Kamer: Tilanuskamer (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Tilanuskamer (1080p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/tilanuskamer/73/prog_index.m3u8
-#EXTINF:-1 tvg-id="TweedeKamerTilanuskamer.nl@SD",Tweede Kamer: Tilanuskamer (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerTilanuskamer.nl@SD_2" tvg-name="Tweede Kamer: Tilanuskamer (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Tilanuskamer (720p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/tilanuskamer/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerTroelstrazaal.nl@SD",Tweede Kamer: Troelstrazaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerTroelstrazaal.nl@SD" tvg-name="Tweede Kamer: Troelstrazaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Troelstrazaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/troelstrazaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerWttewaallvanStoetwegenzaal.nl@SD",Tweede Kamer: Wttewaall van Stoetwegenzaal (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TweedeKamerWttewaallvanStoetwegenzaal.nl@SD" tvg-name="Tweede Kamer: Wttewaall van Stoetwegenzaal (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/X9fezZ8.png" tvg-country="NL" group-title="Legislative",Tweede Kamer: Wttewaall van Stoetwegenzaal (1080p) [Not 24/7]
 https://livestreaming.b67buv2.tweedekamer.nl/live/wttewaallvanstoetwegenzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="UStad.nl@SD",UStad (1080p)
+
+#EXTINF:-1 tvg-id="UStad.nl@SD" tvg-name="UStad" tvg-logo="https://i.imgur.com/9F8ieEz.png" tvg-country="NL" group-title="General",UStad
 http://media.rtvutrecht.nl/live/rtvutrecht/ustad/index.m3u8
-#EXTINF:-1 tvg-id="UStad.nl@SD",UStad (1080p)
+
+#EXTINF:-1 tvg-id="UStad.nl@SD_2" tvg-name="UStad (Feed 2)" tvg-logo="https://i.imgur.com/9F8ieEz.png" tvg-country="NL" group-title="General",UStad (Feed 2)
 https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/ustad/index.m3u8
-#EXTINF:-1 tvg-id="VechtdalTV.nl@SD",Vechtdal TV (480p)
+
+#EXTINF:-1 tvg-id="VechtdalTV.nl@SD" tvg-name="Vechtdal TV" tvg-logo="https://i.imgur.com/MhcKEwr.png" tvg-country="NL" group-title="General",Vechtdal TV
 https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="WeertFMTV.nl@SD",WeertFM TV (720p)
+
+#EXTINF:-1 tvg-id="WeertFMTV.nl@SD" tvg-name="WeertFM TV" tvg-logo="https://i.imgur.com/8bt6xt2.png" tvg-country="NL" group-title="General",WeertFM TV
 https://ms2.mx-cd.net/tv/151-573495/WeertFM_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="WOS.nl@SD",WOS TV (1080p)
+
+#EXTINF:-1 tvg-id="WOS.nl@SD" tvg-name="WOS TV" tvg-logo="https://i.imgur.com/L7MUBIo.png" tvg-country="NL" group-title="General",WOS TV
 https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="WOS.nl@SD",WOS TV (1080p)
+
+#EXTINF:-1 tvg-id="WOS.nl@SD_2" tvg-name="WOS TV (Feed 2)" tvg-logo="https://i.imgur.com/L7MUBIo.png" tvg-country="NL" group-title="General",WOS TV (Feed 2)
 https://ms7.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="WOS.nl@SD",WOS TV (1080p)
+
+#EXTINF:-1 tvg-id="WOS.nl@SD_3" tvg-name="WOS TV (Feed 3)" tvg-logo="https://i.imgur.com/L7MUBIo.png" tvg-country="NL" group-title="General",WOS TV (Feed 3)
 https://ms7.mx-cd.net/tv/99-660295/WOS.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XITE.nl@SD",XITE (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="XITE.nl@SD_2" tvg-name="XITE (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/jxuwGRi.png" tvg-country="NL" group-title="Music",XITE (720p) [Not 24/7]
 https://ms2.mx-cd.net/tv/226-1855782/XITE_NL.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XITE.nl@SD",XITE (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="XITE.nl@SD_3" tvg-name="XITE (720p) [Not 24/7] (Feed 3)" tvg-logo="https://i.imgur.com/jxuwGRi.png" tvg-country="NL" group-title="Music",XITE (720p) [Not 24/7] (Feed 3)
 https://ms7.mx-cd.net/tv/226-1855782/XITE_NL.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XITEHits.nl@Germany",XITE Hits Germany (1080p)
+
+#EXTINF:-1 tvg-id="XITEHits.nl@Germany" tvg-name="XITE Hits Germany" tvg-logo="https://provider-static.plex.tv/epg/cms/production/b79c1102-0a7d-4310-a0df-6cbe6fb660e2/xitehits_logo_WHITE_-_Arlette_FiranRDX2.png" tvg-country="NL" group-title="Music",XITE Hits Germany
 https://d726x48n2pd5h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-skxr1pazhltvp/XITE_Hits.m3u8
-#EXTINF:-1 tvg-id="XITEHits.nl@UK",XITE Hits UK (1080p)
+
+#EXTINF:-1 tvg-id="XITEHits.nl@UK" tvg-name="XITE Hits UK" tvg-logo="https://provider-static.plex.tv/epg/cms/production/b79c1102-0a7d-4310-a0df-6cbe6fb660e2/xitehits_logo_WHITE_-_Arlette_FiranRDX2.png" tvg-country="NL" group-title="Music",XITE Hits UK
 https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="XITERockxMetal.nl@US",XITE Rock x Metal (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="XITERockxMetal.nl@US" tvg-name="XITE Rock x Metal (1080p) [Geo-blocked]" tvg-logo="https://provider-static.plex.tv/epg/cms/production/40b11283-ff2c-4bf3-93a0-3448e10f2b2c/xiterockxmetal_logo_light_-_Arlette_FiranRDX.png" tvg-country="NL" group-title="Music",XITE Rock x Metal (1080p) [Geo-blocked]
 https://amg01243-xite-amg01243c21-tcl-us-6483.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XON.nl@SD",XON (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="XON.nl@SD" tvg-name="XON (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/xEUHgMj.png" tvg-country="NL" group-title="General",XON (480p) [Not 24/7]
 http://ms2.mx-cd.net/tv/EdeTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XON.nl@SD",XON (480p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="XON.nl@SD_2" tvg-name="XON (480p) [Not 24/7] (Feed 2)" tvg-logo="https://i.imgur.com/xEUHgMj.png" tvg-country="NL" group-title="General",XON (480p) [Not 24/7] (Feed 2)
 https://ms7.mx-cd.net/tv/113-474263/EdeTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ZFMZoetermeerTV.nl@SD",ZFM Zoetermeer (720p)
+
+#EXTINF:-1 tvg-id="ZFMZoetermeerTV.nl@SD" tvg-name="ZFM Zoetermeer" tvg-logo="https://i.imgur.com/vrjACvy.png" tvg-country="NL" group-title="Music",ZFM Zoetermeer
 https://zfmzoetermeer.nl/live/master.m3u8
-#EXTINF:-1 tvg-id="ZO34.nl@SD",ZO!34 (720p)
+
+#EXTINF:-1 tvg-id="ZO34.nl@SD" tvg-name="ZO!34" tvg-logo="https://i.imgur.com/yiihDg6.png" tvg-country="NL" group-title="General",ZO!34
 https://video.uitzending.tv:19360/zo34/zo34.m3u8
-#EXTINF:-1 tvg-id="TVRain.nl@SD",Дождь (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="TVRain.nl@SD" tvg-name="Дождь (1080p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tvrain.svg/960px-Tvrain.svg.png" tvg-country="NL" group-title="General",Дождь (1080p) [Geo-blocked]
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
-#EXTINF:-1 tvg-id="FightBox.nl@HD",FightBox HD
+
+#EXTINF:-1 tvg-id="FightBox.nl@HD" tvg-name="FightBox HD" tvg-logo="https://i.imgur.com/mRsnztA.png" tvg-country="NL" group-title="Sports",FightBox HD
 https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
-#EXTINF:-1 tvg-id="NPO1.nl@HD",NPO 1 HD (720p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="NPO1.nl@HD" tvg-name="NPO 1 HD (720p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/NPO_1_logo_2014.svg/960px-NPO_1_logo_2014.svg.png" tvg-country="NL" group-title="General",NPO 1 HD (720p) [Geo-blocked]
 https://bpm.tv.delta.nl/hls/combined/1/mobile.m3u8
-#EXTINF:-1 tvg-id="NPO2.nl@HD",NPO 2 HD (720p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="NPO2.nl@HD" tvg-name="NPO 2 HD (720p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NPO_2_logo_2014.svg/960px-NPO_2_logo_2014.svg.png" tvg-country="NL" group-title="General",NPO 2 HD (720p) [Geo-blocked]
 https://bpm.tv.delta.nl/hls/combined/2/mobile.m3u8
-#EXTINF:-1 tvg-id="NPO3.nl@HD",NPO 3 HD (720p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="NPO3.nl@HD" tvg-name="NPO 3 HD (720p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NPO_3_logo_2018.svg/960px-NPO_3_logo_2018.svg.png" tvg-country="NL" group-title="General",NPO 3 HD (720p) [Geo-blocked]
 https://bpm.tv.delta.nl/hls/combined/3/mobile.m3u8
-#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Slovakia",Canal+ Action Europe Slovakia (720p)
+
+#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Slovakia" tvg-name="Canal+ Action Europe Slovakia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png" tvg-country="NL" group-title="Movies",Canal+ Action Europe Slovakia
 http://151.80.18.177:86/Canal+_Family_HD/index.m3u8
-#EXTINF:-1 tvg-id="DocuBox.nl@Russia",DocuBox Russia
+
+#EXTINF:-1 tvg-id="DocuBox.nl@Russia" tvg-name="DocuBox Russia" tvg-logo="https://i.imgur.com/pX4U9OG.png" tvg-country="NL" group-title="Documentary",DocuBox Russia
 http://dtv.vol.net.ua/DOCUBOX-HD/index.m3u8
-#EXTINF:-1 tvg-id="NPO1.nl@SD",NPO 1 (360p)
+
+#EXTINF:-1 tvg-id="NPO1.nl@SD" tvg-name="NPO 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/NPO_1_logo_2014.svg/960px-NPO_1_logo_2014.svg.png" tvg-country="NL" group-title="General",NPO 1
 https://lb.iptvnetwork.net/ls28/10001/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Netherlands",Canal+ Action Europe (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Netherlands" tvg-name="Canal+ Action Europe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Canal%2B_Action_2024.svg/1920px-Canal%2B_Action_2024.svg.png" tvg-country="NL" group-title="Movies",Canal+ Action Europe
 https://lb.iptvnetwork.net/ls28/10020/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCNL.nl@HD",BBC NL (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="BBCNL.nl@HD" tvg-name="BBC NL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/BBC_NL_Logo_2025.svg/960px-BBC_NL_Logo_2025.svg.png" tvg-country="NL" group-title="Entertainment",BBC NL
 https://lb.iptvnetwork.net/ls28/10021/playlist.m3u8
-#EXTINF:-1 tvg-id="BVN.nl@SD",BVN (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="BVN.nl@SD" tvg-name="BVN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BVN_logo.svg/960px-BVN_logo.svg.png" tvg-country="NL" group-title="General",BVN
 https://lb.iptvnetwork.net/ls28/10025/playlist.m3u8
-#EXTINF:-1 tvg-id="ESPN.nl@HD",ESPN (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="ESPN.nl@HD" tvg-name="ESPN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" tvg-country="NL" group-title="Sports",ESPN
 https://lb.iptvnetwork.net/ls28/10041/playlist.m3u8
-#EXTINF:-1 tvg-id="ESPN2.nl@HD",ESPN 2 (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="ESPN2.nl@HD" tvg-name="ESPN 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" tvg-country="NL" group-title="Sports",ESPN 2
 https://lb.iptvnetwork.net/ls28/10042/playlist.m3u8
-#EXTINF:-1 tvg-id="ESPN4.nl@HD",ESPN 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="ESPN4.nl@HD" tvg-name="ESPN 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png" tvg-country="NL" group-title="Sports",ESPN 4
 https://lb.iptvnetwork.net/ls28/10044/playlist.m3u8
-#EXTINF:-1 tvg-id="ESPN3.nl@HD",ESPN 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="ESPN3.nl@HD" tvg-name="ESPN 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" tvg-country="NL" group-title="Sports",ESPN 3
 https://lb.iptvnetwork.net/ls28/10043/playlist.m3u8
-#EXTINF:-1 tvg-id="STARChannel.nl@SD",STAR Channel (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="STARChannel.nl@SD" tvg-name="STAR Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Star_Channel_2023.svg/960px-Star_Channel_2023.svg.png" tvg-country="NL" group-title="Entertainment",STAR Channel
 https://lb.iptvnetwork.net/ls28/10012/playlist.m3u8
-#EXTINF:-1 tvg-id="VeronicaDisneyJr.nl@SD",Veronica / Disney Jr. (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="VeronicaDisneyJr.nl@SD" tvg-name="Veronica / Disney Jr." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Veronica_TV_logo_2024.svg/960px-Veronica_TV_logo_2024.svg.png" tvg-country="NL" group-title="Entertainment",Veronica / Disney Jr.
 https://lb.iptvnetwork.net/ls28/10011/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.nl@SD",Disney Channel (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="DisneyChannel.nl@SD_2" tvg-name="Disney Channel (Feed 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" tvg-country="NL" group-title="Kids",Disney Channel (Feed 2)
 https://lb.iptvnetwork.net/ls28/10014/playlist.m3u8
-#EXTINF:-1 tvg-id="DiscoveryChannel.nl@SD",Discovery Channel (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="DiscoveryChannel.nl@SD" tvg-name="Discovery Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" tvg-country="NL" group-title="Entertainment",Discovery Channel
 https://lb.iptvnetwork.net/ls28/10015/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.nl@SD",National Geographic (360p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="NationalGeographic.nl@SD" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" tvg-country="NL" group-title="Documentary",National Geographic
 https://lb.iptvnetwork.net/ls28/10016/playlist.m3u8
-#EXTINF:-1 tvg-id="History.nl@SD",History (360p)
+
+#EXTINF:-1 tvg-id="History.nl@SD" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" tvg-country="NL" group-title="Documentary",History
 https://lb.iptvnetwork.net/ls28/10022/playlist.m3u8
-#EXTINF:-1 tvg-id="FightBox.nl@Poland",FightBox Poland (576i)
+
+#EXTINF:-1 tvg-id="FightBox.nl@Poland" tvg-name="FightBox Poland" tvg-logo="https://i.imgur.com/mRsnztA.png" tvg-country="NL" group-title="Sports",FightBox Poland
 http://92.114.85.87:8003/play/a00b/index.m3u8
-#EXTINF:-1 tvg-id="BVN.nl@SD",BVN (576p)
+
+#EXTINF:-1 tvg-id="BVN.nl@SD_2" tvg-name="BVN (Feed 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BVN_logo.svg/960px-BVN_logo.svg.png" tvg-country="NL" group-title="General",BVN (Feed 2)
 https://tv.ft.md.npox.nl/2D3RhEOhAQWhBE5ucG8tcHJvZC1jYXQtMVhtpQFubnBvLXBsYXllci1hcGkEGmrU6TAHUMoWYxpMO-JwSGbPSI_FUeUZATYBGQE4owChAGVodHRwcwGhAHB0di5mdC5tZC5ucG94Lm5sBaEBeBovTDIvYzA2MjBmYWYvMjdlYTIwODguaXNtbFggydhaqdtF_IHCX4a0VwNuBEfPoPT2H6JQxyZeZQoJUxk/L2/c0620faf/27ea2088.isml/dash.mpd
-#EXTINF:-1 tvg-id="TMF.nl@HDFAST",TMF (1080p)
+
+#EXTINF:-1 tvg-id="TMF.nl@HDFAST" tvg-name="TMF" tvg-logo="https://www.maxx-xs.nl/images/assets/3/c/3c123778ef66464786705dc4138303ec/COV/cover_l_01.png" tvg-country="NL" group-title="Classic",TMF
 https://tmf-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMzUzNGNiZTAtNWY4MS00ZmU4LWE1NGYtYjgyMjJmMTM3ZmZjIiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%3D%3D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8
-#EXTINF:-1 tvg-id="AreWeThereYet.us@SD",Are we there Yet? (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="AreWeThereYet.us@SD_2" tvg-name="Are we there Yet? (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/3BJQiHP.png" tvg-country="NL" group-title="Series",Are we there Yet? (1080p) [Geo-blocked]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD",Artflix Movie Classics (720p)
+
+#EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" tvg-name="Artflix Movie Classics" tvg-logo="https://i.imgur.com/5pOZQB4.png" tvg-country="NL" group-title="Movies",Artflix Movie Classics
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FailArmy.us@US",Failarmy International
+
+#EXTINF:-1 tvg-id="FailArmy.us@US_12" tvg-name="Failarmy International" tvg-logo="https://i.imgur.com/VIpQJxL.png" tvg-country="NL" group-title="Comedy",Failarmy International
 https://failarmy-international-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",Four in a Bed (720p)
+
+#EXTINF:-1 tvg-id="ch_960" tvg-name="Four in a Bed" tvg-country="NL" group-title="General",Four in a Bed
 https://all3media-four-in-a-bed-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="HellsKitchen.us@UK",Hell's Kitchen (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="HellsKitchen.us@UK_5" tvg-name="Hell's Kitchen (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/P9eT0O9.png" tvg-country="NL" group-title="Series",Hell's Kitchen (1080p) [Geo-blocked]
 https://amg00654-itvstudios-hellskitchennl-samsungnl-kvxhp.amagi.tv/playlist/amg00654-itvstudios-hellskitchennl-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="HomesUnderHammer.us@UK",Homes Under The Hammer (720p)
+
+#EXTINF:-1 tvg-id="HomesUnderHammer.us@UK_4" tvg-name="Homes Under The Hammer" tvg-logo="https://i.imgur.com/P5Haaln.png" tvg-country="NL" group-title="Series",Homes Under The Hammer
 https://all3media-homes-under-the-hammer-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="JustforLaughsGags.us@SD",Just For Laughs Gags (720p)
+
+#EXTINF:-1 tvg-id="JustforLaughsGags.us@SD_9" tvg-name="Just For Laughs Gags" tvg-logo="https://i.imgur.com/HjVEVMJ.png" tvg-country="NL" group-title="Comedy",Just For Laughs Gags
 https://distributionsjustepourrire-justforlaughsgags-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",Mechplus (720p)
+
+#EXTINF:-1 tvg-id="ch_961" tvg-name="Mechplus" tvg-country="NL" group-title="General",Mechplus
 https://mechtvltd-mechplus-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",Mojitv
+
+#EXTINF:-1 tvg-id="ch_962" tvg-name="Mojitv" tvg-country="NL" group-title="General",Mojitv
 https://odmedia-mojitv-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",MYZen Fit (1080p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="ch_963" tvg-name="MYZen Fit (1080p) [Geo-blocked]" tvg-country="NL" group-title="General",MYZen Fit (1080p) [Geo-blocked]
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD",People are Awesome (720p)
+
+#EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD_9" tvg-name="People are Awesome" tvg-logo="https://i.imgur.com/MsIx7Ax.png" tvg-country="NL" group-title="Entertainment",People are Awesome
 https://jukin-peopleareawesome-2-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="StrongmanChampionsLeague.uk@SD",Strongman Champions League
+
+#EXTINF:-1 tvg-id="StrongmanChampionsLeague.uk@SD_4" tvg-name="Strongman Champions League" tvg-logo="https://provider-static.plex.tv/epg/cms/production/80fb7204-c306-4759-a0d7-c4e829650c22/StrongmanChampionsLeague_Channel-Logo-Light-1500px.png" tvg-country="NL" group-title="Sports",Strongman Champions League
 https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TennisChannel.us@SD",Tennis Channel (1080p)
+
+#EXTINF:-1 tvg-id="TennisChannel.us@SD_2" tvg-name="Tennis Channel" tvg-logo="https://i.imgur.com/tsljAnY.png" tvg-country="NL" group-title="Sports",Tennis Channel
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="ThePetCollective.us@US",The Pet Collective
+
+#EXTINF:-1 tvg-id="ThePetCollective.us@US_5" tvg-name="The Pet Collective" tvg-logo="https://i.imgur.com/yH7n2dF.png" tvg-country="NL" group-title="Family",The Pet Collective
 https://the-pet-collective-international-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="",Waterbear (1080p)
+
+#EXTINF:-1 tvg-id="ch_964" tvg-name="Waterbear" tvg-country="NL" group-title="General",Waterbear
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="",Wicked Tuna (1080p)
+
+#EXTINF:-1 tvg-id="ch_965" tvg-name="Wicked Tuna" tvg-country="NL" group-title="General",Wicked Tuna
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-wickedtunanl-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="XploreTV.us@SD",Xplore (1080p)
+
+#EXTINF:-1 tvg-id="XploreTV.us@SD" tvg-name="Xplore" tvg-logo="https://i.imgur.com/WaGRlFO.png" tvg-country="NL" group-title="Entertainment",Xplore
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Czechia",FILMBOX+ Comedy Czechia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Czechia_2" tvg-name="FILMBOX+ Comedy Czechia (Feed 2)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bcomedy.png" tvg-country="NL" group-title="Movies",FILMBOX+ Comedy Czechia (Feed 2)
 http://88.212.15.50/live/test_filmbox_family_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Magyar",FILMBOX+ Comedy Magyar (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Magyar_2" tvg-name="FILMBOX+ Comedy Magyar (Feed 2)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bcomedy.png" tvg-country="NL" group-title="Movies",FILMBOX+ Comedy Magyar (Feed 2)
 http://88.212.15.50/live/test_filmbox_family_hun_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Czechia",FILMBOX+ Emotion Czechia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Czechia_2" tvg-name="FILMBOX+ Emotion Czechia (Feed 2)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" tvg-country="NL" group-title="Movies",FILMBOX+ Emotion Czechia (Feed 2)
 http://88.212.15.50/live/test_film_boxextra_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Hungary",FILMBOX+ Emotion Hungary (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Hungary_2" tvg-name="FILMBOX+ Emotion Hungary (Feed 2)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" tvg-country="NL" group-title="Movies",FILMBOX+ Emotion Hungary (Feed 2)
 http://88.212.15.50/live/test_filmbox_extra_hd_hun_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Czechia",FILMBOX+ Hits Czechia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Czechia_2" tvg-name="FILMBOX+ Hits Czechia (Feed 2)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png" tvg-country="NL" group-title="Movies",FILMBOX+ Hits Czechia (Feed 2)
 http://88.212.15.50/live/test_film_boxpremium_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Czechia",FILMBOX+ Love & Crime
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Czechia_2" tvg-name="FILMBOX+ Love & Crime (Feed 2)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" tvg-country="NL" group-title="Movies",FILMBOX+ Love & Crime (Feed 2)
 http://88.212.15.50/live/test_filmbox_plus_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Czechia",FILMBOX+ One Czechia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+
+#EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Czechia_2" tvg-name="FILMBOX+ One Czechia (Feed 2)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" tvg-country="NL" group-title="Movies",FILMBOX+ One Czechia (Feed 2)
 http://88.212.15.50/live/test_filmbox/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BVN.nl@SD" tvg-name="BVN" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NL" group-title="General",BVN
+http://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L2/c0620faf/27ea2088.isml/.mpd
+
+#EXTINF:-1 tvg-id="CanalPlusActionEurope.nl@Magyar" tvg-name="Canal+ Action Europe Magyar" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NL" group-title="General",Canal+ Action Europe Magyar
+http://193.33.39.108:9016/play/a02n
+
+#EXTINF:-1 tvg-id="DisneyChannel.nl@SD" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NL" group-title="General",Disney Channel
+http://185.77.12.179:9981/stream/channelid/2102298310?profile=pass
+
+#EXTINF:-1 tvg-id="Nickelodeon.nl@SD" tvg-name="Nickelodeon" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NL" group-title="General",Nickelodeon
+http://185.77.12.179:9981/stream/channelid/788918401?profile=pass
+
+#EXTINF:-1 tvg-id="BTLTV.nl@SD" tvg-name="BTL TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NL" group-title="General",BTL TV
+https://cdn.liveplustv.com/v1/live/btl-tv/master.m3u8
+
+#EXTINF:-1 tvg-id="FightBox.nl@Poland" tvg-name="FightBox Poland" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/logos/unknown.png" tvg-country="NL" group-title="General",FightBox Poland
+http://205.237.104.26:8080/stream/356/index.m3u8
+
+#EXTINF:-1 tvg-id="OmropFryslanTV.nl" tvg-name="Omrop Fryslân" tvg-logo="https://i.imgur.com/0VKJLAK.png" tvg-country="NL" group-title="General",Omrop Fryslân
+https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/f8f68bd5/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTVNoord.nl" tvg-name="RTV Noord" tvg-logo="https://i.imgur.com/pO5Mexa.png" tvg-country="NL" group-title="General",RTV Noord
+https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTVUtrecht.nl" tvg-name="RTV Utrecht" tvg-logo="https://i.imgur.com/c0I24N6.png" tvg-country="NL" group-title="General",RTV Utrecht
+http://media.rtvutrecht.nl/live/rtvutrecht/rtvutrecht/index.m3u8
+
+#EXTINF:-1 tvg-id="NH.nl" tvg-name="NH Nieuws" tvg-logo="https://i.imgur.com/SQPVOwn.png" tvg-country="NL" group-title="General",NH Nieuws
+https://rrr.sz.xlcdn.com/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8
+
+#EXTINF:-1 tvg-id="OmroepZeelandTV.nl" tvg-name="Omroep Zeeland" tvg-logo="https://i.imgur.com/8aLDyUI.png" tvg-country="NL" group-title="General",Omroep Zeeland
+http://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
+
+#EXTINF:-1 tvg-id="OmroepBrabantTV.nl" tvg-name="Omroep Brabant" tvg-logo="https://i.imgur.com/Jv7IjHJ.png" tvg-country="NL" group-title="General",Omroep Brabant
+http://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8
+
+#EXTINF:-1 tvg-id="L1TV.nl" tvg-name="L1 Ⓢ" tvg-logo="https://i.imgur.com/Jyhn1iP.png" tvg-country="NL" group-title="General",L1 Ⓢ
+http://d34pj260kw1xmk.cloudfront.net/live/l1/tv/index.m3u8
+

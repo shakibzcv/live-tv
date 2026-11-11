@@ -1,3 +1,5 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="YadahTV.zw@SD",Yadah TV (576p) [Not 24/7]
+#EXTM3U url-tvg="https://epg.kanya.io/zw/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="YadahTV.zw@SD" tvg-name="Yadah TV (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/4BNVhoC.png" tvg-country="ZW" group-title="Religious",Yadah TV (576p) [Not 24/7]
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_018/Stream/playlist.m3u8
+

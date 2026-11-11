@@ -30,8 +30,8 @@ router.get('/channels', (req: Request, res: Response) => {
     quality: ch.resolution || 'HD',
     resolution: ch.resolution || 'HD',
     country: ch.country,
-    categories: [ch.category || 'General'],
-    category: ch.category || 'General',
+    categories: [(!ch.category || ch.category.toLowerCase() === 'undefined') ? 'General' : ch.category],
+    category: (!ch.category || ch.category.toLowerCase() === 'undefined') ? 'General' : ch.category,
     tvgId: ch.id,
     isWorking: ch.isWorking !== false,
   }));
@@ -43,6 +43,17 @@ router.get('/channels', (req: Request, res: Response) => {
       page: result.page,
       totalPages: result.totalPages,
     }, 'Channels retrieved')
+  );
+});
+
+// ─── CATEGORIES (Internal: used by TV Player for dynamic category filtering) ──
+router.get('/categories', (req: Request, res: Response) => {
+  const { country } = req.query;
+  const categories = dataService.getCategories(country as string);
+  res.json(
+    new ApiResponse(200, {
+      categories,
+    }, 'Categories retrieved')
   );
 });
 

@@ -1,0 +1,5 @@
+#EXTM3U url-tvg="https://epg.kanya.io/bt/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-name="Nick Jr. (India)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_JUNIOR/images/LOGO_HD/image.png" tvg-country="BT" group-title="Kids",Nick Jr. (India)
+http://103.185.24.134:3001/NICK-JR/index.m3u8
+

@@ -1,3 +1,8 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="KringvarpForoya.fo@SD",KVF (720p) [Not 24/7]
+#EXTM3U url-tvg="https://epg.kanya.io/fo/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="KringvarpForoya.fo@SD" tvg-name="KVF (720p) [Not 24/7]" tvg-country="FO" group-title="General",KVF (720p) [Not 24/7]
 https://w-live-edge1.kringvarp.fo/uttanlands/_definst_/smil:uttanlands.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Tingvarp.fo" tvg-name="Tingvarp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_-_L%C3%B8gting.png" tvg-country="FO" group-title="General",Tingvarp
+https://play.kringvarp.fo/redirect/tingvarp/_definst_/smil:tingvarp.smil?type=m3u8
+

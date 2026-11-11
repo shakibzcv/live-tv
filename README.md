@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <strong>Worldwide Live TV Directory, Web Player & EPG Guide Platform</strong><br>
-  Watch 18,400+ free live TV channels from 200+ countries directly in your browser with fast HLS streaming, M3U playlists, and TV guide schedules.
+  <strong>Worldwide Live TV Streaming Platform & Web Player</strong><br>
+  Watch 20,550+ free live TV channels from 250 countries and territories directly in your browser with fast HLS streaming, M3U playlists, and integrated guide schedules.
 </p>
 
 <p align="center">
@@ -15,15 +15,15 @@
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%5E5.4.4-3178c6.svg" alt="TypeScript" /></a>
   <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/express-%5E5.3.0-000000.svg" alt="Express" /></a>
   <a href="https://github.com/video-dev/hls.js"><img src="https://img.shields.io/badge/streaming-HLS.js-ff3366.svg" alt="HLS.js" /></a>
-  <a href="#-key-features"><img src="https://img.shields.io/badge/streams-18%2C400%2B-e11d48.svg" alt="18,400+ Streams" /></a>
-  <a href="#-key-features"><img src="https://img.shields.io/badge/countries-200%2B-10b981.svg" alt="200+ Countries" /></a>
+  <a href="#-key-features"><img src="https://img.shields.io/badge/streams-20%2C550%2B-e11d48.svg" alt="20,550+ Streams" /></a>
+  <a href="#-key-features"><img src="https://img.shields.io/badge/countries-250%20(188%20Active)-10b981.svg" alt="250 Countries" /></a>
 </p>
 
 ---
 
 ## 📖 Overview
 
-**LiveTV** is a modern, high-performance live television directory, browser-based web player, and Electronic Program Guide (EPG) platform. Watch 18,400+ free live TV channels from 200+ countries directly in your browser with fast HLS streaming, M3U playlists, and TV guide schedules. It provides instant access to **18,400+ free-to-air live television streams from 200+ countries**, fully categorized by country, genre, and broadcast resolution.
+**LiveTV** is a modern, high-performance live television streaming platform and browser-based web player. Watch 20,550+ free live TV channels from 250 countries and territories directly in your browser with fast HLS streaming, M3U playlists, and integrated guide schedules. It provides instant access to **20,550+ free-to-air live television streams from 250 countries and territories (188 active streaming nations)**, fully categorized by country, genre, and broadcast resolution.
 
 Featuring a native HLS streaming player, custom audio and display controls, country-specific M3U playlists, XMLTV/Rytec feeds, multi-language internationalization (i18n) with RTL support, and a dual-theme dark/light UI, LiveTV is designed for desktop, tablet, and mobile viewing.
 
@@ -44,11 +44,11 @@ Featuring a native HLS streaming player, custom audio and display controls, coun
 
 ## 🌟 Key Features
 
-- 📺 **Global Live TV Directory**: Browse and search over 18,400+ television channels indexed by country, category (News, Sports, Movies, Animation, Music, Documentaries, General), and stream resolution (HD/SD).
+- 📺 **Global Live TV Directory**: Browse and search over 20,550+ television channels indexed by country, category (News, Sports, Movies, Animation, Music, Documentaries, General), and stream resolution (HD/SD).
 - ⚡ **Interactive In-Browser Player**: Low-latency live video streaming powered by [HLS.js](https://github.com/video-dev/hls.js) with native fallback for Safari (iOS & macOS).
 - 🎛️ **Custom Player Controls**: Smooth volume slider with mute toggle, stream reload, fullscreen toggle, Picture-in-Picture (PiP), Closed Captions (CC), and quick stream URL sharing.
-- 🗺️ **200+ Country M3U Playlists**: Every country has an organized, dedicated playlist in `streams/<country_code>.m3u` and dynamic API export (`/api/playlist/:code.m3u`).
-- 📅 **Integrated EPG Program Guide**: Channel-level broadcast schedules and live "Now Playing" program guide rendered in real time directly inside the TV player.
+- 🗺️ **250 Country M3U Playlists (188 Active)**: Every country has an organized playlist in `streams/<country_code>.m3u` and dynamic API export (`/api/playlist/:code.m3u`).
+- 📅 **Integrated Guide Schedules**: Channel-level broadcast schedules and live "Now Playing" program guide rendered in real time directly inside the TV player on supported channels.
 - 🌗 **Light & Dark Mode**: Sleek default matte dark theme (`#0e0f11`) with a ruby accent (`#e11d48`) alongside a crisp light mode. State is persisted in `localStorage` with zero-flash booting.
 - 🌐 **Multilingual & RTL Support**: Built-in instant language switcher supporting 8+ languages: English, Spanish, German, French, Arabic (with native RTL layout), Russian, Turkish, Hindi, and Bengali.
 - 📱 **Fully Responsive UI**: Mobile-first design engineered with CSS grid and flexbox, adapting effortlessly across smartphones (320px+), tablets, laptops, and ultra-wide 4K screens.
@@ -71,8 +71,8 @@ flowchart LR
     end
 
     subgraph Data ["📁 Local Catalogs"]
-        ChannelsDB["channels.json<br/>(18,400+ Channels)"]
-        Playlists["streams/*.m3u<br/>(200+ Country Feeds)"]
+        ChannelsDB["channels.json<br/>(20,550+ Channels)"]
+        Playlists["streams/*.m3u<br/>(188 Country Feeds)"]
     end
 
     subgraph Upstream ["📡 Live Broadcast Sources"]
@@ -162,7 +162,7 @@ live-tv/
 ├── api/                    # Serverless entrypoint (e.g., Vercel deployment)
 │   └── index.ts
 ├── data/                   # Channel and country databases
-│   ├── channels.json       # Master channel registry (18,400+ streams)
+│   ├── channels.json       # Master channel registry (20,550+ streams)
 │   └── countries.json      # Country metadata, flags, and codes
 ├── public/                 # Static web assets
 │   ├── css/
@@ -186,7 +186,7 @@ live-tv/
 │   ├── us.m3u
 │   ├── uk.m3u
 │   ├── bd.m3u
-│   └── ... (200+ country files)
+│   └── ... (188 country files)
 ├── views/                  # EJS page templates
 │   └── index.ejs           # Single-page UI template
 ├── CONTRIBUTING.md         # Contribution guidelines

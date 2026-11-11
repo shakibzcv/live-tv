@@ -13,7 +13,7 @@
       dir: 'ltr',
 
       // Banner
-      banner_text: 'LiveTV — Worldwide Live TV Streaming & EPG Guide Platform',
+      banner_text: 'LiveTV — Worldwide Live TV Streaming Platform',
 
       // Navigation
       nav_overview: 'Overview',
@@ -25,7 +25,7 @@
       // Hero
       hero_kicker: 'Global Live TV Streaming',
       hero_title: 'Watch Live TV From Across The Globe',
-      hero_subhead: 'Stream over 18,400 live television channels directly in your browser across 200+ countries. Filter by genre, search instantly, and watch live broadcasts with integrated guide schedules.',
+      hero_subhead: 'Stream over 20,500+ live television channels directly in your browser across 250 countries and territories. Filter by genre, search instantly, and watch live broadcasts with high-performance HLS streaming.',
       btn_launch_player: 'Launch TV Player',
       btn_explore_countries: 'Explore Countries',
 
@@ -41,7 +41,7 @@
       channels_available: 'channels available',
       btn_watch_live_tv: 'Watch Live TV',
       btn_details: 'Details',
-      callout_text: 'Over 18,400 live channels across 202 countries — all free, all streaming directly in your browser. No app, no subscription, no downloads required.',
+      callout_text: 'Over 20,500+ live channels across 250 countries and territories — all free, all streaming directly in your browser. No app, no subscription, no downloads required.',
       btn_start_watching: 'Start Watching Now →',
 
       // Countries
@@ -76,12 +76,12 @@
       toast_copied: 'Copied to clipboard',
 
       // Footer
-      footer_desc: 'Free, open-source live TV streaming platform for 200+ countries.',
+      footer_desc: 'Free, open-source live TV streaming platform covering 20,550+ channels across 250 countries and territories.',
       footer_col_resources: 'Resources',
       footer_col_project: 'Project',
       footer_api_stats: 'API Stats',
       footer_live_stats: 'Live Stats',
-      footer_copyright: 'Open Source TV Streaming & EPG Infrastructure',
+      footer_copyright: 'Worldwide Live TV Streaming Platform',
 
       // Categories
       cat_all: 'All',
@@ -108,7 +108,7 @@
       dir: 'ltr',
 
       // Banner
-      banner_text: 'LiveTV — বিশ্বব্যাপী সরাসরি টিভি স্ট্রিমিং ও ইপিজি গাইড প্ল্যাটফর্ম',
+      banner_text: 'LiveTV — বিশ্বব্যাপী সরাসরি লাইভ টিভি স্ট্রিমিং প্ল্যাটফর্ম',
 
       // Navigation
       nav_overview: 'ওভারভিউ',
@@ -120,7 +120,7 @@
       // Hero
       hero_kicker: 'গ্লোবাল লাইভ টিভি স্ট্রিমিং',
       hero_title: 'সারা বিশ্বের লাইভ টিভি উপভোগ করুন',
-      hero_subhead: 'আপনার ব্রাউজারেই সরাসরি ২০০+ দেশের ১৮,৪০০+ লাইভ টেলিভিশন চ্যানেল দেখুন। বিভাগ অনুসারে খুঁজুন এবং লাইভ শিডিউল সহ সরাসরি সম্প্রচার দেখুন।',
+      hero_subhead: 'আপনার ব্রাউজারেই সরাসরি ২৫০টি দেশ ও অঞ্চলের ২০,৫০০+ লাইভ টেলিভিশন চ্যানেল দেখুন। বিভাগ অনুসারে খুঁজুন এবং উচ্চগতির লাইভ স্ট্রিমিং সহ সরাসরি সম্প্রচার উপভোগ করুন।',
       btn_launch_player: 'টিভি প্লেয়ার চালু করুন',
       btn_explore_countries: 'দেশসমূহ দেখুন',
 
@@ -136,7 +136,7 @@
       channels_available: 'টি চ্যানেল উপলব্ধ',
       btn_watch_live_tv: 'লাইভ টিভি দেখুন',
       btn_details: 'বিবরণ',
-      callout_text: '২০২টি দেশের ১৮,৪০০+ লাইভ চ্যানেল — সম্পূর্ণ বিনামূল্যে, সরাসরি ব্রাউজারে। কোনো অ্যাপ বা সাবস্ক্রিপশন প্রয়োজন নেই।',
+      callout_text: '২৫০টি দেশ ও অঞ্চলের ২০,৫০০+ লাইভ চ্যানেল — সম্পূর্ণ বিনামূল্যে, সরাসরি ব্রাউজারে। কোনো অ্যাপ বা সাবস্ক্রিপশন প্রয়োজন নেই।',
       btn_start_watching: 'এখনই দেখা শুরু করুন →',
 
       // Countries
@@ -171,12 +171,12 @@
       toast_copied: 'ক্লিপবোর্ডে কপি করা হয়েছে',
 
       // Footer
-      footer_desc: '২০০+ দেশের জন্য বিনামূল্যে উন্মুক্ত লাইভ টিভি স্ট্রিমিং প্ল্যাটফর্ম।',
+      footer_desc: '২৫০টি দেশ ও অঞ্চলের ২০,৫৫০+ চ্যানেলের জন্য বিনামূল্যে উন্মুক্ত লাইভ টিভি স্ট্রিমিং প্ল্যাটফর্ম।',
       footer_col_resources: 'রিসোর্স',
       footer_col_project: 'প্রকল্প',
       footer_api_stats: 'এপিআই পরিসংখ্যান',
       footer_live_stats: 'লাইভ তথ্য',
-      footer_copyright: 'ওপেন সোর্স টিভি স্ট্রিমিং ও ইপিজি অবকাঠামো',
+      footer_copyright: 'বিশ্বব্যাপী সরাসরি লাইভ টিভি স্ট্রিমিং প্ল্যাটফর্ম',
 
       // Categories
       cat_all: 'সকল',
@@ -202,7 +202,7 @@
       lang_flag: '🇪🇸',
       dir: 'ltr',
 
-      banner_text: 'LiveTV — Plataforma global de transmisión de TV en vivo y guía EPG',
+      banner_text: 'LiveTV — Plataforma global de transmisión de TV en vivo',
       nav_overview: 'Inicio',
       nav_countries: 'Países',
       nav_player: 'Reproductor TV',
@@ -211,7 +211,7 @@
 
       hero_kicker: 'Transmisión Global de TV en Vivo',
       hero_title: 'Vea Televisión en Vivo de Todo el Mundo',
-      hero_subhead: 'Más de 18,400 canales de televisión en vivo directamente en su navegador en más de 200 países. Filtre por género y vea con programación integrada.',
+      hero_subhead: 'Más de 20,500 canales de televisión en vivo directamente en su navegador en 250 países y territorios. Filtre por género y disfrute de transmisión HLS de alto rendimiento.',
       btn_launch_player: 'Abrir Reproductor',
       btn_explore_countries: 'Explorar Países',
 
@@ -225,7 +225,7 @@
       channels_available: 'canales disponibles',
       btn_watch_live_tv: 'Ver TV en Vivo',
       btn_details: 'Detalles',
-      callout_text: 'Más de 18,400 canales en 202 países — gratis, directo en su navegador. Sin descargas ni registros.',
+      callout_text: 'Más de 20,500 canales en 250 países y territorios — gratis, directo en su navegador. Sin descargas ni registros.',
       btn_start_watching: 'Comenzar a Ver →',
 
       countries_title: 'Todos los Países',
@@ -255,12 +255,12 @@
       modal_btn_watch: 'Ver TV en Vivo →',
       toast_copied: 'Copiado al portapapeles',
 
-      footer_desc: 'Plataforma abierta y gratuita de streaming de televisión para más de 200 países.',
+      footer_desc: 'Plataforma abierta y gratuita de streaming de televisión con más de 20,550 canales en 250 países y territorios.',
       footer_col_resources: 'Recursos',
       footer_col_project: 'Proyecto',
       footer_api_stats: 'Estadísticas API',
       footer_live_stats: 'Estado en Vivo',
-      footer_copyright: 'Infraestructura de Streaming y EPG de Código Abierto',
+      footer_copyright: 'Plataforma Global de Transmisión de TV en Vivo',
 
       cat_all: 'Todos',
       cat_news: 'Noticias',
@@ -285,7 +285,7 @@
       lang_flag: '🇩🇪',
       dir: 'ltr',
 
-      banner_text: 'LiveTV — Weltweites Live-TV-Streaming & EPG-Plattform',
+      banner_text: 'LiveTV — Weltweite Live-TV-Streaming-Plattform',
       nav_overview: 'Übersicht',
       nav_countries: 'Länder',
       nav_player: 'TV-Player',
@@ -294,7 +294,7 @@
 
       hero_kicker: 'Globales Live-TV-Streaming',
       hero_title: 'Live-TV aus aller Welt ansehen',
-      hero_subhead: 'Über 18.400 Live-Fernsehsender direkt im Browser aus über 200 Ländern streamen. Nach Genre filtern, sofort suchen und mit Programmübersicht ansehen.',
+      hero_subhead: 'Über 20.500 Live-Fernsehsender direkt im Browser aus 250 Ländern und Territorien streamen. Nach Genre filtern, sofort suchen und mit hochleistungsfähigem HLS-Streaming ansehen.',
       btn_launch_player: 'TV-Player starten',
       btn_explore_countries: 'Länder erkunden',
 
@@ -308,7 +308,7 @@
       channels_available: 'Sender verfügbar',
       btn_watch_live_tv: 'Live-TV ansehen',
       btn_details: 'Details',
-      callout_text: 'Über 18.400 Live-Sender aus 202 Ländern — kostenlos direkt im Browser. Keine App, kein Abonnement erforderlich.',
+      callout_text: 'Über 20.500 Live-Sender aus 250 Ländern und Territorien — kostenlos direkt im Browser. Keine App, kein Abonnement erforderlich.',
       btn_start_watching: 'Jetzt ansehen →',
 
       countries_title: 'Alle Länder',
@@ -338,12 +338,12 @@
       modal_btn_watch: 'Live-TV ansehen →',
       toast_copied: 'In die Zwischenablage kopiert',
 
-      footer_desc: 'Kostenlose Open-Source-Plattform für Live-TV-Streaming in über 200 Ländern.',
+      footer_desc: 'Kostenlose Open-Source-Plattform für Live-TV-Streaming mit über 20.550 Sendern in 250 Ländern und Territorien.',
       footer_col_resources: 'Ressourcen',
       footer_col_project: 'Projekt',
       footer_api_stats: 'API-Statistiken',
       footer_live_stats: 'Live-Status',
-      footer_copyright: 'Open-Source-TV-Streaming und EPG-Infrastruktur',
+      footer_copyright: 'Weltweite Live-TV-Streaming-Plattform',
 
       cat_all: 'Alle',
       cat_news: 'Nachrichten',
@@ -368,7 +368,7 @@
       lang_flag: '🇫🇷',
       dir: 'ltr',
 
-      banner_text: 'LiveTV — Plateforme mondiale de diffusion TV en direct et guide EPG',
+      banner_text: 'LiveTV — Plateforme mondiale de diffusion TV en direct',
       nav_overview: 'Aperçu',
       nav_countries: 'Pays',
       nav_player: 'Lecteur TV',
@@ -377,7 +377,7 @@
 
       hero_kicker: 'Streaming TV en Direct Mondial',
       hero_title: 'Regardez la Télévision en Direct du Monde Entier',
-      hero_subhead: 'Diffusez plus de 18 400 chaînes de télévision en direct directement dans votre navigateur dans plus de 200 pays. Filtrez par genre et profitez du guide intégré.',
+      hero_subhead: 'Diffusez plus de 20 500 chaînes de télévision en direct directement dans votre navigateur dans 250 pays et territoires. Filtrez par genre et profitez du streaming HLS haute performance.',
       btn_launch_player: 'Lancer le Lecteur',
       btn_explore_countries: 'Explorer les Pays',
 
@@ -391,7 +391,7 @@
       channels_available: 'chaînes disponibles',
       btn_watch_live_tv: 'Regarder en Direct',
       btn_details: 'Détails',
-      callout_text: 'Plus de 18 400 chaînes dans 202 pays — gratuit, directement dans votre navigateur. Sans application ni abonnement.',
+      callout_text: 'Plus de 20 500 chaînes dans 250 pays et territoires — gratuit, directement dans votre navigateur. Sans application ni abonnement.',
       btn_start_watching: 'Commencer à Regarder →',
 
       countries_title: 'Tous les Pays',
@@ -421,12 +421,12 @@
       modal_btn_watch: 'Regarder en Direct →',
       toast_copied: 'Copié dans le presse-papier',
 
-      footer_desc: 'Plateforme open-source gratuite de streaming TV pour plus de 200 pays.',
+      footer_desc: 'Plateforme open-source gratuite de streaming TV couvrant plus de 20 550 chaînes dans 250 pays et territoires.',
       footer_col_resources: 'Ressources',
       footer_col_project: 'Projet',
       footer_api_stats: 'Statistiques API',
       footer_live_stats: 'État en Direct',
-      footer_copyright: 'Infrastructure Open Source de Diffusion TV & EPG',
+      footer_copyright: 'Plateforme Mondiale de Diffusion TV en Direct',
 
       cat_all: 'Tous',
       cat_news: 'Actualités',
@@ -451,7 +451,7 @@
       lang_flag: '🇮🇳',
       dir: 'ltr',
 
-      banner_text: 'LiveTV — दुनिया भर में लाइव टीवी स्ट्रीमिंग और ईपीजी गाइड प्लेटफॉर्म',
+      banner_text: 'LiveTV — दुनिया भर में लाइव टीवी स्ट्रीमिंग प्लेटफॉर्म',
       nav_overview: 'होम',
       nav_countries: 'देश',
       nav_player: 'टीवी प्लेयर',
@@ -460,7 +460,7 @@
 
       hero_kicker: 'वैश्विक लाइव टीवी स्ट्रीमिंग',
       hero_title: 'दुनिया भर से लाइव टीवी देखें',
-      hero_subhead: '200+ देशों से 18,400 से अधिक लाइव टेलीविजन चैनल सीधे अपने ब्राउज़र में देखें। शैली के अनुसार खोजें और लाइव शेड्यूल के साथ आनंद लें।',
+      hero_subhead: '250 देशों और क्षेत्रों से 20,500 से अधिक लाइव टेलीविजन चैनल सीधे अपने ब्राउज़र में देखें। शैली के अनुसार खोजें और उच्च-प्रदर्शन वाले HLS स्ट्रीमिंग का आनंद लें।',
       btn_launch_player: 'टीवी प्लेयर शुरू करें',
       btn_explore_countries: 'देश देखें',
 
@@ -474,7 +474,7 @@
       channels_available: 'चैनल उपलब्ध',
       btn_watch_live_tv: 'लाइव टीवी देखें',
       btn_details: 'विवरण',
-      callout_text: '202 देशों के 18,400+ लाइव चैनल — बिल्कुल मुफ़्त, सीधे ब्राउज़र में। किसी ऐप या सब्सक्रिप्शन की आवश्यकता नहीं।',
+      callout_text: '250 देशों और क्षेत्रों के 20,500+ लाइव चैनल — बिल्कुल मुफ़्त, सीधे ब्राउज़र में। किसी ऐप या सब्सक्रिप्शन की आवश्यकता नहीं।',
       btn_start_watching: 'अभी देखना शुरू करें →',
 
       countries_title: 'सभी देश',
@@ -504,12 +504,12 @@
       modal_btn_watch: 'लाइव टीवी देखें →',
       toast_copied: 'क्लिपबोर्ड पर कॉपी किया गया',
 
-      footer_desc: '200+ देशों के लिए मुफ़्त ओपन-सोर्स लाइव टीवी स्ट्रीमिंग प्लेटफॉर्म।',
+      footer_desc: '250 देशों और क्षेत्रों के 20,550+ चैनलों के लिए मुफ़्त ओपन-सोर्स लाइव टीवी स्ट्रीमिंग प्लेटफॉर्म।',
       footer_col_resources: 'संसाधन',
       footer_col_project: 'प्रोजेक्ट',
       footer_api_stats: 'एपीआई आंकड़े',
       footer_live_stats: 'लाइव स्थिति',
-      footer_copyright: 'ओपन सोर्स टीवी स्ट्रीमिंग और ईपीजी इन्फ्रास्ट्रक्चर',
+      footer_copyright: 'विश्वव्यापी लाइव टीवी स्ट्रीमिंग प्लेटफॉर्म',
 
       cat_all: 'सभी',
       cat_news: 'समाचार',
@@ -534,7 +534,7 @@
       lang_flag: '🇸🇦',
       dir: 'rtl',
 
-      banner_text: 'LiveTV — منصة عالمية للبث التلفزيوني المباشر ودليل البرامج الإلكتروني',
+      banner_text: 'LiveTV — منصة عالمية للبث التلفزيوني المباشر',
       nav_overview: 'الرئيسية',
       nav_countries: 'الدول',
       nav_player: 'مشغل التلفزيون',
@@ -543,7 +543,7 @@
 
       hero_kicker: 'بث تلفزيوني مباشر عالمي',
       hero_title: 'شاهد البث التلفزيوني المباشر من جميع أنحاء العالم',
-      hero_subhead: 'شاهد أكثر من 18,400 قناة تلفزيونية مباشرة في متصفحك عبر أكثر من 200 دولة. تصفح حسب الفئة وشاهد مع جدول البث المباشر المتكامل.',
+      hero_subhead: 'شاهد أكثر من 20,500 قناة تلفزيونية مباشرة في متصفحك عبر 250 دولة وإقليم. تصفح حسب الفئة وشاهد مع بث HLS عالي الأداء.',
       btn_launch_player: 'تشغيل مشغل التلفزيون',
       btn_explore_countries: 'استكشف الدول',
 
@@ -557,7 +557,7 @@
       channels_available: 'قناة متوفرة',
       btn_watch_live_tv: 'شاهد البث المباشر',
       btn_details: 'التفاصيل',
-      callout_text: 'أكثر من 18,400 قناة عبر 202 دولة — مجانًا بالكامل ومباشرة في المتصفح دون الحاجة لتطبيق أو اشتراك.',
+      callout_text: 'أكثر من 20,500 قناة عبر 250 دولة وإقليم — مجانًا بالكامل ومباشرة في المتصفح دون الحاجة لتطبيق أو اشتراك.',
       btn_start_watching: 'ابدأ المشاهدة الآن ←',
 
       countries_title: 'جميع الدول',
@@ -587,12 +587,12 @@
       modal_btn_watch: 'مشاهدة البث المباشر ←',
       toast_copied: 'تم النسخ إلى الحافظة',
 
-      footer_desc: 'منصة مجانية ومفتوحة المصدر لمشاهدة البث التلفزيوني المباشر في أكثر من 200 دولة.',
+      footer_desc: 'منصة مجانية ومفتوحة المصدر لمشاهدة البث التلفزيوني المباشر تغطي أكثر من 20,550 قناة في 250 دولة وإقليم.',
       footer_col_resources: 'المصادر',
       footer_col_project: 'المشروع',
       footer_api_stats: 'إحصائيات API',
       footer_live_stats: 'الحالة المباشرة',
-      footer_copyright: 'بنية تحتية مفتوحة المصدر للبث التلفزيوني و EPG',
+      footer_copyright: 'منصة عالمية للبث التلفزيوني المباشر',
 
       cat_all: 'الكل',
       cat_news: 'أخبار',

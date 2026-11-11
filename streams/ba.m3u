@@ -1,40 +1,83 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="BHRT.ba@SD",BHRT (720p) [Geo-blocked]
+#EXTM3U url-tvg="https://epg.kanya.io/ba/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="BHRT.ba@SD" tvg-name="BHRT (720p) [Geo-blocked]" tvg-logo="https://i.imgur.com/01bZ5rw.png" tvg-country="BA" group-title="General",BHRT (720p) [Geo-blocked]
 https://bhrtstream.bhtelecom.ba/bhrtportal.m3u8
-#EXTINF:-1 tvg-id="BHRT.ba@SD",BHRT (270p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="BHRT.ba@SD_2" tvg-name="BHRT (270p) [Geo-blocked]" tvg-logo="https://i.imgur.com/01bZ5rw.png" tvg-country="BA" group-title="General",BHRT (270p) [Geo-blocked]
 https://bhrtstream.bhtelecom.ba/hls15/bhrtportal.m3u8
-#EXTINF:-1 tvg-id="BHT1.ba@SD",BHT 1 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.1
+
+#EXTINF:-1 tvg-id="BHT1.ba@SD" tvg-name="BHT 1" tvg-logo="https://i.imgur.com/LEwlEEE.png" tvg-country="BA" group-title="General",BHT 1
 https://webtvstream.bhtelecom.ba/hls13/bhrtportal_hd_1200.m3u8
-#EXTINF:-1 tvg-id="Federalnatelevizija.ba@SD",Federalna televizija (720p)
+
+#EXTINF:-1 tvg-id="Federalnatelevizija.ba@SD" tvg-name="Federalna televizija" tvg-logo="https://i.imgur.com/astdRrE.png" tvg-country="BA" group-title="General",Federalna televizija
 http://185.81.240.65:15000/udp/233.233.233.39:12000
-#EXTINF:-1 tvg-id="Kanal6.ba@SD",Kanal 6 (288p)
+
+#EXTINF:-1 tvg-id="Kanal6.ba@SD" tvg-name="Kanal 6" tvg-logo="https://i.imgur.com/GGhvR0l.png" tvg-country="BA" group-title="General",Kanal 6
 https://restreamer1.tnt.ba/hls/kanal6.m3u8
-#EXTINF:-1 tvg-id="",Malta (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="ch_29" tvg-name="Malta (720p) [Not 24/7]" tvg-country="BA" group-title="General",Malta (720p) [Not 24/7]
 https://webtvstream.bhtelecom.ba/malta.m3u8
-#EXTINF:-1 tvg-id="MariaPlusVisionMedjugorje.ba@SD",María+Visión Medjugorje (720p)
+
+#EXTINF:-1 tvg-id="MariaPlusVisionMedjugorje.ba@SD" tvg-name="María+Visión Medjugorje" tvg-logo="https://i.imgur.com/xUOspBx.png" tvg-country="BA" group-title="Religious",María+Visión Medjugorje
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Italiasette/playlist.m3u8
-#EXTINF:-1 tvg-id="NewsmaxBalkans.ba@SD",Newsmax Balkans (1080p)
+
+#EXTINF:-1 tvg-id="NewsmaxBalkans.ba@SD" tvg-name="Newsmax Balkans" tvg-logo="https://iab.rs/wp-content/uploads/2026/01/newsmax_logo.png" tvg-country="BA" group-title="News",Newsmax Balkans
 https://newsmaxadria.mts-si.tv/newsmaxadria/index.m3u8
-#EXTINF:-1 tvg-id="RTRSplus.ba@SD",RTRS Plus (576p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTRSplus.ba@SD" tvg-name="RTRS Plus (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/k06WvYl.png" tvg-country="BA" group-title="General",RTRS Plus (576p) [Not 24/7]
 https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
-#EXTINF:-1 tvg-id="RTRSTV.ba@SD",RTRS TV (576p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTRSTV.ba@SD" tvg-name="RTRS TV (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/2Sgs5gM.png" tvg-country="BA" group-title="General",RTRS TV (576p) [Not 24/7]
 https://uzivo.rtrs.tv/tv/live/index.m3u8
-#EXTINF:-1 tvg-id="RTVGlasDrine.ba@SD",RTV Glas Drine (404p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVGlasDrine.ba@SD" tvg-name="RTV Glas Drine (404p) [Not 24/7]" tvg-logo="https://i.imgur.com/9NgxOdb.png" tvg-country="BA" group-title="General",RTV Glas Drine (404p) [Not 24/7]
 http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVHB.ba@SD",RTV Herceg-Bosne (576p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RTVHB.ba@SD" tvg-name="RTV Herceg-Bosne (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/6FNL8Iv.png" tvg-country="BA" group-title="General",RTV Herceg-Bosne (576p) [Not 24/7]
 https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVZenica.ba@SD",RTV Zenica (720p)
+
+#EXTINF:-1 tvg-id="RTVZenica.ba@SD" tvg-name="RTV Zenica" tvg-logo="https://i.imgur.com/TKUaflB.png" tvg-country="BA" group-title="General",RTV Zenica
 https://stream.rtvze.ba/live/123/123.m3u8
-#EXTINF:-1 tvg-id="SuperTV.ba@SD",Super TV Media (720p)
+
+#EXTINF:-1 tvg-id="SuperTV.ba@SD" tvg-name="Super TV Media" tvg-logo="https://i.imgur.com/XYWgd3E.png" tvg-country="BA" group-title="General",Super TV Media
 https://mirtv.club/live/mirtv/index.m3u8
-#EXTINF:-1 tvg-id="Televizija5.ba@SD",Televizija 5 (576p)
+
+#EXTINF:-1 tvg-id="Televizija5.ba@SD" tvg-name="Televizija 5" tvg-logo="https://i.imgur.com/znpvJys.png" tvg-country="BA" group-title="General",Televizija 5
 https://balkanmedia.dynu.net/hls/tv5web.m3u8
-#EXTINF:-1 tvg-id="TelevizijaM.ba@SD",Televizija M (1080p)
+
+#EXTINF:-1 tvg-id="TelevizijaM.ba@SD" tvg-name="Televizija M" tvg-logo="https://i.imgur.com/jT95ZEI.png" tvg-country="BA" group-title="General",Televizija M
 https://live.tv-m.net/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TNTKidsTV.ba@SD",TNT Kids (288p)
+
+#EXTINF:-1 tvg-id="TNTKidsTV.ba@SD" tvg-name="TNT Kids" tvg-logo="https://i.imgur.com/irTDbpn.png" tvg-country="BA" group-title="Kids",TNT Kids
 https://restreamer1.tnt.ba/hls/tntkids.m3u8
-#EXTINF:-1 tvg-id="TVSlonExtra.ba@SD",TV Slon Extra (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TVSlonExtra.ba@SD" tvg-name="TV Slon Extra (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/AohYgH1.png" tvg-country="BA" group-title="General",TV Slon Extra (1080p) [Not 24/7]
 http://31.47.0.130:8082
-#EXTINF:-1 tvg-id="SenatoTV.it@SD",Senato TV (1080p)
+
+#EXTINF:-1 tvg-id="SenatoTV.it@SD" tvg-name="Senato TV" tvg-logo="https://i.imgur.com/h4NyN5d.png" tvg-country="BA" group-title="Legislative",Senato TV
 https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BHT1.ba" tvg-name="BHT 1" tvg-logo="https://i.imgur.com/LEwlEEE.png" tvg-country="BA" group-title="General",BHT 1
+https://bhrtstream.bhtelecom.ba/bhrtportal_hd.m3u8
+
+#EXTINF:-1 tvg-id="FederalnaTV.ba" tvg-name="Federalna televizija (FTV) Ⓢ" tvg-logo="https://i.imgur.com/Jpvs4u3.png" tvg-country="BA" group-title="General",Federalna televizija (FTV) Ⓢ
+http://94.250.2.6:7374/play/a02s/index.m3u8
+
+#EXTINF:-1 tvg-id="RTRSTV.ba" tvg-name="Televizija Republike Srpske (RTRS)" tvg-logo="https://i.imgur.com/2Sgs5gM.png" tvg-country="BA" group-title="General",Televizija Republike Srpske (RTRS)
+https://parh.rtrs.tv/tv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="N1BosniaHerzegovina.ba" tvg-name="N1 Bosna i Hercegovina" tvg-logo="https://i.imgur.com/72oMSWz.png" tvg-country="BA" group-title="General",N1 Bosna i Hercegovina
+https://best-str.umn.cdn.united.cloud/stream?channel=n1bos&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info
+
+#EXTINF:-1 tvg-id="BNTV.ba" tvg-name="RTV BN" tvg-logo="https://i.imgur.com/DUBvfWb.png" tvg-country="BA" group-title="General",RTV BN
+https://stream2.rtvbn.tv:8080/live_1935/bnstream/index.m3u8
+
+#EXTINF:-1 tvg-id="ntv.ba" tvg-name="Neon TV" tvg-logo="https://i.imgur.com/thC9NFp.png" tvg-country="BA" group-title="General",Neon TV
+rtsp://185.50.56.16:554/neontelvizija
+
+#EXTINF:-1 tvg-id="RTVUSK.ba" tvg-name="RTV USK Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/ff/Logo_of_RTVUSK.png" tvg-country="BA" group-title="General",RTV USK Ⓨ
+https://www.youtube.com/@rtvusk/live
+
+#EXTINF:-1 tvg-id="RTVBPK.ba" tvg-name="TV BPK Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Logo_of_RTV_BPK_Gora%C5%BEde.jpg" tvg-country="BA" group-title="General",TV BPK Ⓢ
+http://94.250.2.6:7374/play/a02u/index.m3u8
+

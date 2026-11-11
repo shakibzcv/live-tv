@@ -1,49 +1,74 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="Canal6.ni@SD",Canal 6 Nicaragüense (480p) [Not 24/7]
+#EXTM3U url-tvg="https://epg.kanya.io/ni/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="Canal6.ni@SD" tvg-name="Canal 6 Nicaragüense (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/6BWAZdq.png" tvg-country="NI" group-title="General",Canal 6 Nicaragüense (480p) [Not 24/7]
 http://138.117.4.70:8075/Canal06_CooTel/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal7Boaco.ni@SD",Canal 7 Boaco (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Canal7Boaco.ni@SD" tvg-name="Canal 7 Boaco (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/chXNX9k.jpeg" tvg-country="NI" group-title="General",Canal 7 Boaco (1080p) [Not 24/7]
 https://cdn.amixtv.com/c7boaco/index.m3u8
-#EXTINF:-1 tvg-id="Canal10.ni@SD",Canal 10 (360p) [Geo-blocked]
+
+#EXTINF:-1 tvg-id="Canal10.ni@SD" tvg-name="Canal 10 (360p) [Geo-blocked]" tvg-logo="https://i.imgur.com/ztp781b.png" tvg-country="NI" group-title="General",Canal 10 (360p) [Geo-blocked]
 https://www.canal10.com.ni/envivo
-#EXTINF:-1 tvg-id="Canal15.ni@SD",Canal 15 Nicaragüense (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="Canal15.ni@SD" tvg-name="Canal 15 Nicaragüense (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/DGBMuEs.png" tvg-country="NI" group-title="Education",Canal 15 Nicaragüense (1080p) [Not 24/7]
 https://cootv.cootel.com.ni:8095/Canal15_CooTel/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalCvision.ni@SD",Canal Cvisión (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="CanalCvision.ni@SD" tvg-name="Canal Cvisión (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/WUq3NlG.png" tvg-country="NI" group-title="General",Canal Cvisión (720p) [Not 24/7]
 https://stream.cvision.live/cvision_stream.m3u8
-#EXTINF:-1 tvg-id="CDNN23.ni@SD",CDNN 23 (1080p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="CDNN23.ni@SD" tvg-name="CDNN 23 (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/7CNzlB6.png" tvg-country="NI" group-title="News",CDNN 23 (1080p) [Not 24/7]
 https://cootv.cootel.com.ni:8095/Canal23_CooTel/playlist.m3u8
-#EXTINF:-1 tvg-id="",CooTel Nicaragua (1080p)
+
+#EXTINF:-1 tvg-id="ch_958" tvg-name="CooTel Nicaragua" tvg-country="NI" group-title="General",CooTel Nicaragua
 http://138.117.4.70:8075/channel9/playlist.m3u8
-#EXTINF:-1 tvg-id="EscuchameRadioTV.ni@SD",Escúchame Radio TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="EscuchameRadioTV.ni@SD" tvg-name="Escúchame Radio TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/gt6UvG8.png" tvg-country="NI" group-title="Religious",Escúchame Radio TV (720p) [Not 24/7]
 https://stmv1.transmissaodigital.com/pedro9800/pedro9800/playlist.m3u8
-#EXTINF:-1 tvg-id="JBN.ni@SD",JBN Canal 39 (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="JBN.ni@SD" tvg-name="JBN Canal 39 (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/vFi0FMZ.png" tvg-country="NI" group-title="Religious",JBN Canal 39 (720p) [Not 24/7]
 https://hdbox.chunklistv.com/live?stream=jbn39
-#EXTINF:-1 tvg-id="MegaBox.ni@SD",MegaBox (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="MegaBox.ni@SD" tvg-name="MegaBox (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/JqaW7Ei.png" tvg-country="NI" group-title="Music",MegaBox (720p) [Not 24/7]
 https://hdbox.chunklistv.com/live?stream=megabox
-#EXTINF:-1 tvg-id="MTVChontales.ni@SD",MTV Chontales (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="MTVChontales.ni@SD" tvg-name="MTV Chontales (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/zgUPYdv.png" tvg-country="NI" group-title="General",MTV Chontales (720p) [Not 24/7]
 https://altair.hostingnica.net/hls/mtv_stream/index.m3u8
-#EXTINF:-1 tvg-id="OlamMetroTV.ni@SD",Olam Metro TV (720p)
+
+#EXTINF:-1 tvg-id="OlamMetroTV.ni@SD" tvg-name="Olam Metro TV" tvg-logo="https://i.imgur.com/dDZnyUA.jpeg" tvg-country="NI" group-title="Religious",Olam Metro TV
 https://netzerstreaming.com:4433/hls/olammetro/index.m3u8
-#EXTINF:-1 tvg-id="RadioVisiondeDiosStereo.ni@SD",Radio Visión de Dios Stereo (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="RadioVisiondeDiosStereo.ni@SD" tvg-name="Radio Visión de Dios Stereo (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/ckY8DRW.jpg" tvg-country="NI" group-title="Religious",Radio Visión de Dios Stereo (720p) [Not 24/7]
 https://live.tvcontrolcp.com:1936/8286/8286/playlist.m3u8
-#EXTINF:-1 tvg-id="TN8.ni@SD",TN8 (1080p)
+
+#EXTINF:-1 tvg-id="TN8.ni@SD" tvg-name="TN8" tvg-logo="https://i.imgur.com/m0Zdxiz.png" tvg-country="NI" group-title="General",TN8
 https://streamingcws30.com/tn8/videotn8/playlist.m3u8
-#EXTINF:-1 tvg-id="TN8.ni@SD",TN8 (576p)
+
+#EXTINF:-1 tvg-id="TN8.ni@SD_2" tvg-name="TN8 (Feed 2)" tvg-logo="https://i.imgur.com/m0Zdxiz.png" tvg-country="NI" group-title="General",TN8 (Feed 2)
 http://190.61.101.11:7050/play/a07j/index.m3u8
-#EXTINF:-1 tvg-id="TV45.ni@SD",TV45-3ABN Nicaragua (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TV45.ni@SD" tvg-name="TV45-3ABN Nicaragua (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/sI0msrn.png" tvg-country="NI" group-title="Religious",TV45-3ABN Nicaragua (720p) [Not 24/7]
 https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
-#EXTINF:-1 tvg-id="TVONENicaragua.ni@SD",TVONE Nicaragua (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="TVONENicaragua.ni@SD" tvg-name="TVONE Nicaragua (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/FNk6rdz.png" tvg-country="NI" group-title="Music",TVONE Nicaragua (720p) [Not 24/7]
 https://hdbox.chunklistv.com/live?stream=tvone
-#EXTINF:-1 tvg-id="VivaNicaraguaCanal13.ni@SD",Viva Nicaragua Canal 13 (720p)
+
+#EXTINF:-1 tvg-id="VivaNicaraguaCanal13.ni@SD" tvg-name="Viva Nicaragua Canal 13" tvg-logo="https://i.imgur.com/9q7Ajz4.png" tvg-country="NI" group-title="General",Viva Nicaragua Canal 13
 https://cdn.vivamediosni.com/viva_720p/index.m3u8
-#EXTINF:-1 tvg-id="VivaTV.ni@SD",Viva TV Canal 30 San Juan de Río Coco [Not 24/7]
+
+#EXTINF:-1 tvg-id="VivaTV.ni@SD" tvg-name="Viva TV Canal 30 San Juan de Río Coco [Not 24/7]" tvg-logo="https://i.imgur.com/n0buXRa.jpeg" tvg-country="NI" group-title="General",Viva TV Canal 30 San Juan de Río Coco [Not 24/7]
 https://cdn.amixtv.com/vivatv/index.m3u8
-#EXTINF:-1 tvg-id="VosTV.ni@SD",Vos TV (720p) [Not 24/7]
+
+#EXTINF:-1 tvg-id="VosTV.ni@SD" tvg-name="Vos TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/Lbi87xv.png" tvg-country="NI" group-title="General",Vos TV (720p) [Not 24/7]
 http://ott.streann.com:8080/loadbalancer/services/public/channels/59e60c4997381ef50d15c041/playlist.m3u8
-#EXTINF:-1 tvg-id="WTVCanal20.ni@SD",WTV Canal 20 (1080p)
+
+#EXTINF:-1 tvg-id="WTVCanal20.ni@SD" tvg-name="WTV Canal 20" tvg-logo="https://i.imgur.com/nb81xeU.png" tvg-country="NI" group-title="Entertainment",WTV Canal 20
 https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
-#EXTINF:-1 tvg-id="WTVCanal20.ni@SD",WTV Canal 20 (720p)
+
+#EXTINF:-1 tvg-id="WTVCanal20.ni@SD_2" tvg-name="WTV Canal 20 (Feed 2)" tvg-logo="https://i.imgur.com/nb81xeU.png" tvg-country="NI" group-title="Entertainment",WTV Canal 20 (Feed 2)
 https://cloudvideo.servers10.com:8081/8130/index.m3u8
-#EXTINF:-1 tvg-id="Canal10.ni@SD",Canal 10
+
+#EXTINF:-1 tvg-id="Canal10.ni@SD_2" tvg-name="Canal 10" tvg-logo="https://i.imgur.com/ztp781b.png" tvg-country="NI" group-title="General",Canal 10
 https://ddycmnicl95kp.cloudfront.net/live/ja5k3h31wv9r/master.m3u8
-#EXTINF:-1 tvg-id="Canal12.ni@SD",Canal 12 (576p)
+
+#EXTINF:-1 tvg-id="Canal12.ni@SD" tvg-name="Canal 12" tvg-logo="https://i.imgur.com/UhEW8cj.png" tvg-country="NI" group-title="General",Canal 12
 http://45.228.234.9:8000/play/a06s/index.m3u8
+

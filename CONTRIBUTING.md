@@ -2,7 +2,7 @@
 
 First off, thank you for considering contributing to **LiveTV**! 🎉
 
-LiveTV is a free, open-source project dedicated to aggregating over 18,400+ public live television broadcasts across 200+ countries with an interactive web player, country M3U playlists, and real-time EPG program schedules. Community contributions keep the channel catalog fresh, accurate, and accessible to viewers worldwide.
+LiveTV is a free, open-source project dedicated to aggregating over 20,550+ public live television broadcasts across 250 countries and territories (188 active streaming nations) with an interactive web player, country M3U playlists, and integrated guide schedules. Community contributions keep the channel catalog fresh, accurate, and accessible to viewers worldwide.
 
 ---
 

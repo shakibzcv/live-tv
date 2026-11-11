@@ -1,3 +1,5 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="TVCidade.cv@SD",TV Cidade
+#EXTM3U url-tvg="https://epg.kanya.io/cv/guide.xml.gz"
+
+#EXTINF:-1 tvg-id="TVCidade.cv@SD" tvg-name="TV Cidade" tvg-logo="https://i.imgur.com/gmSu21X.jpg" tvg-country="CV" group-title="Music",TV Cidade
 https://stmv1.srvif.com/tvcidade/tvcidade/playlist.m3u8
+
